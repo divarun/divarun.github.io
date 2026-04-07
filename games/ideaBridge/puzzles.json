@@ -1,0 +1,22 @@
+[
+  { "start": "Shark", "target": "Beatles", "hints": ["Think about where sharks live","Oceans relate to pressure and sound","Sound travels in waves — radio waves?"], "minHops": 5 },
+  { "start": "Moon", "target": "Pizza", "hints": ["The moon affects tides","Water and grain...","Wheat is milled into flour"], "minHops": 4 },
+  { "start": "Library", "target": "Volcano", "hints": ["Books preserve knowledge","Ancient civilizations had libraries","Romans built cities near volcanoes"], "minHops": 4 },
+  { "start": "Bicycle", "target": "Internet", "hints": ["Bikes need gears and chains","Engineering led to vehicles","Vehicles need communication networks"], "minHops": 4 },
+  { "start": "Chess", "target": "DNA", "hints": ["Chess involves strategy and patterns","Patterns repeat in many systems","Biology uses code-like patterns"], "minHops": 4 },
+  { "start": "Coffee", "target": "Satellite", "hints": ["Coffee stimulates the brain","Brain power drives science","Science launched the space age"], "minHops": 4 },
+  { "start": "Shakespeare", "target": "Submarine", "hints": ["Shakespeare wrote about the sea","Sailors explored uncharted depths","Deep exploration required new technology"], "minHops": 4 },
+  { "start": "Rain", "target": "Democracy", "hints": ["Rain feeds rivers","Rivers enabled ancient civilizations","Ancient Greece had early democracy"], "minHops": 4 },
+  { "start": "Violin", "target": "Computer", "hints": ["Violin strings vibrate at frequencies","Frequencies can be measured mathematically","Mathematics is the basis of computing"], "minHops": 4 },
+  { "start": "Penguin", "target": "Pyramid", "hints": ["Penguins live in extreme cold","Cold climates have ice and frozen water","Ancient engineers moved massive stones like ice"], "minHops": 5 },
+  { "start": "Bread", "target": "Revolution", "hints": ["Bread shortages caused social unrest","Unrest often precedes political upheaval","Upheaval can lead to revolution"], "minHops": 3 },
+  { "start": "Clock", "target": "Ocean", "hints": ["Clocks measure longitude","Longitude is critical for navigation","Navigation crosses the ocean"], "minHops": 3 },
+  { "start": "Firefly", "target": "Morse Code", "hints": ["Fireflies produce light signals","Light can carry information","Information was transmitted by dots and dashes"], "minHops": 3 },
+  { "start": "Apple", "target": "Gravity", "hints": ["A falling apple inspired Newton","Newton studied motion of objects","Objects attract each other through gravity"], "minHops": 2 },
+  { "start": "Newspaper", "target": "Television", "hints": ["Newspapers report news","News moved from print to broadcast"], "minHops": 2 },
+  { "start": "Glacier", "target": "Civilization", "hints": ["Glaciers melt into rivers","Rivers enabled early settlements"], "minHops": 2 },
+  { "start": "Soap", "target": "Chemistry", "hints": ["Making soap involves combining fats with alkali","Alkali reactions are studied in chemistry"], "minHops": 2 },
+  { "start": "Compass", "target": "Trade", "hints": ["Compasses enabled navigation","Navigation opened new trade routes"], "minHops": 2 },
+  { "start": "Football", "target": "Physics", "hints": ["A football follows a curved trajectory","Trajectory is explained by laws of physics"], "minHops": 2 },
+  { "start": "Camera", "target": "Memory", "hints": ["Cameras capture moments in time","Captured moments preserve memories"], "minHops": 2 }
+]

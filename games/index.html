@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Lab — Divya Arunachalam</title>
+  <meta name="description" content="Small, sharp browser games by Divya Arunachalam. No installs, no accounts.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<nav class="top-nav" aria-label="Site navigation">
+  <div class="nav-inner">
+    <a href="../index.html" class="back-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+      divarun.github.io
+    </a>
+  </div>
+</nav>
+
+<header>
+  <div class="header-inner">
+    <div class="header-left">
+      <p class="eyebrow">Divya Arunachalam</p>
+      <h1 class="site-logo">Game<em>Lab</em></h1>
+      <p class="site-tagline">Small, sharp browser games — no installs, no accounts.</p>
+    </div>
+    <div class="header-right" aria-label="Game count">
+      <span class="games-count-pill">3 games</span>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+  <section aria-labelledby="games-heading">
+    <div class="section-header">
+      <h2 id="games-heading" class="section-label">All games</h2>
+    </div>
+
+    <ul class="games-grid" role="list">
+
+      <li>
+        <a class="game-card" href="atlasRush/index.html" aria-label="Play AtlasRush — Geography puzzle game">
+          <div class="card-header">
+            <span class="card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </span>
+            <span class="card-badge geography">Geography</span>
+          </div>
+          <h3 class="card-name">AtlasRush</h3>
+          <p class="card-desc">Guess the mystery country in as few hints as possible.</p>
+          <div class="card-tags" aria-label="Tags">
+            <span class="tag">Daily</span>
+            <span class="tag">Educational</span>
+          </div>
+          <span class="card-cta" aria-hidden="true">Play →</span>
+        </a>
+      </li>
+
+      <li>
+        <a class="game-card" href="ideaBridge/index.html" aria-label="Play IdeaBridge — Word association chain game">
+          <div class="card-header">
+            <span class="card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            </span>
+            <span class="card-badge word">Word</span>
+          </div>
+          <h3 class="card-name">IdeaBridge</h3>
+          <p class="card-desc">Connect two unrelated concepts through a chain of logical associations. Fewer hops wins.</p>
+          <div class="card-tags" aria-label="Tags">
+            <span class="tag">Logic</span>
+            <span class="tag">Creative</span>
+          </div>
+          <span class="card-cta" aria-hidden="true">Play →</span>
+        </a>
+      </li>
+
+      <li>
+        <a class="game-card" href="letterDrop/index.html" aria-label="Play LetterDrop — Fast-paced word unscramble arcade game">
+          <div class="card-header">
+            <span class="card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
+            </span>
+            <span class="card-badge arcade">Arcade</span>
+          </div>
+          <h3 class="card-name">LetterDrop</h3>
+          <p class="card-desc">Scrambled letters fall from above — unscramble them into a word before they hit the ground.</p>
+          <div class="card-tags" aria-label="Tags">
+            <span class="tag">Speed</span>
+            <span class="tag">Word</span>
+          </div>
+          <span class="card-cta" aria-hidden="true">Play →</span>
+        </a>
+      </li>
+
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-copy">© <span id="year"></span> Divya Arunachalam</span>
+    <span class="footer-divider" aria-hidden="true">·</span>
+    <a href="https://github.com/divarun" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+    <span class="footer-note">No tracking, no ads.</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
