@@ -70,10 +70,10 @@
     "code": "kn",
     "flag": "🇰🇳",
     "continent": "North America",
-    "pop": "~47 Thousand",
+    "pop": "~47,000",
     "borders": "",
     "capital": "Basseterre",
-    "landmark": "",
+    "landmark": "Brimstone Hill Fortress",
     "hint": "Two words — starts with 'Saint'"
   },
   {
@@ -81,7 +81,7 @@
     "code": "gf",
     "flag": "🇬🇫",
     "continent": "South America",
-    "pop": "~298 Thousand",
+    "pop": "~298,000",
     "borders": "BRA, SUR",
     "capital": "Cayenne",
     "landmark": "Îles du Salut (Salvation Islands)",
@@ -213,7 +213,7 @@
     "code": "je",
     "flag": "🇯🇪",
     "continent": "Europe",
-    "pop": "~97 Thousand",
+    "pop": "~97,000",
     "borders": "",
     "capital": "Saint Helier",
     "landmark": "Mont Orgueil Castle",
@@ -224,7 +224,7 @@
     "code": "tv",
     "flag": "🇹🇻",
     "continent": "Oceania",
-    "pop": "~10 Thousand",
+    "pop": "~10,000",
     "borders": "",
     "capital": "Funafuti",
     "landmark": "Funafuti Atoll",
@@ -268,7 +268,7 @@
     "code": "mf",
     "flag": "🇲🇫",
     "continent": "North America",
-    "pop": "~36 Thousand",
+    "pop": "~36,000",
     "borders": "SXM",
     "capital": "Marigot",
     "landmark": "Maho Beach",
@@ -279,7 +279,7 @@
     "code": "yt",
     "flag": "🇾🇹",
     "continent": "Africa",
-    "pop": "~320 Thousand",
+    "pop": "~320,000",
     "borders": "",
     "capital": "Mamoudzou",
     "landmark": "Lake Dziani",
@@ -389,7 +389,7 @@
     "code": "gi",
     "flag": "🇬🇮",
     "continent": "Europe",
-    "pop": "~39 Thousand",
+    "pop": "~39,000",
     "borders": "ESP",
     "capital": "Gibraltar",
     "landmark": "The Rock of Gibraltar",
@@ -411,7 +411,7 @@
     "code": "ad",
     "flag": "🇦🇩",
     "continent": "Europe",
-    "pop": "~77 Thousand",
+    "pop": "~77,000",
     "borders": "FRA, ESP",
     "capital": "Andorra la Vella",
     "landmark": "Sant Joan de Caselles Church",
@@ -422,7 +422,7 @@
     "code": "pw",
     "flag": "🇵🇼",
     "continent": "Oceania",
-    "pop": "~18 Thousand",
+    "pop": "~18,000",
     "borders": "",
     "capital": "Ngerulmud",
     "landmark": "Rock Islands",
@@ -444,7 +444,7 @@
     "code": "tc",
     "flag": "🇹🇨",
     "continent": "North America",
-    "pop": "~44 Thousand",
+    "pop": "~44,000",
     "borders": "",
     "capital": "Cockburn Town",
     "landmark": "Grace Bay Beach",
@@ -480,7 +480,7 @@
     "pop": "~1 million",
     "borders": "",
     "capital": "Moroni",
-    "landmark": "",
+    "landmark": "Mount Karthala",
     "hint": "Starts with 'C' — 7 letters"
   },
   {
@@ -488,7 +488,7 @@
     "code": "bz",
     "flag": "🇧🇿",
     "continent": "Americas / Central America",
-    "pop": "~441 Thousand",
+    "pop": "~441,000",
     "borders": "GTM, MEX",
     "capital": "Belmopan",
     "landmark": "Great Blue Hole",
@@ -502,7 +502,7 @@
     "pop": "~18 million",
     "borders": "LAO, THA, VNM",
     "capital": "Phnom Penh",
-    "landmark": "",
+    "landmark": "Angkor Wat",
     "hint": "Starts with 'C' — 8 letters"
   },
   {
@@ -510,7 +510,7 @@
     "code": "lc",
     "flag": "🇱🇨",
     "continent": "North America",
-    "pop": "~184 Thousand",
+    "pop": "~184,000",
     "borders": "",
     "capital": "Castries",
     "landmark": "The Pitons",
@@ -524,7 +524,7 @@
     "pop": "~5 million",
     "borders": "DZA, MLI, SEN, ESH",
     "capital": "Nouakchott",
-    "landmark": "",
+    "landmark": "Chinguetti Mosque",
     "hint": "Starts with 'M' — 10 letters"
   },
   {
@@ -535,7 +535,7 @@
     "pop": "~3 million",
     "borders": "",
     "capital": "Kingston",
-    "landmark": "",
+    "landmark": "Dunn's River Falls",
     "hint": "Starts with 'J' — 7 letters"
   },
   {
@@ -543,7 +543,7 @@
     "code": "cv",
     "flag": "🇨🇻",
     "continent": "Africa",
-    "pop": "~560 Thousand",
+    "pop": "~560,000",
     "borders": "",
     "capital": "Praia",
     "landmark": "Fogo Volcano",
@@ -554,7 +554,7 @@
     "code": "mh",
     "flag": "🇲🇭",
     "continent": "Oceania",
-    "pop": "~42 Thousand",
+    "pop": "~42,000",
     "borders": "",
     "capital": "Majuro",
     "landmark": "Bikini Atoll",
@@ -568,18 +568,18 @@
     "pop": "~3 million",
     "borders": "AGO, BWA, ZAF, ZMB",
     "capital": "Windhoek",
-    "landmark": "",
+    "landmark": "Sossusvlei",
     "hint": "Starts with 'N' — 7 letters"
   },
   {
     "name": "Iran",
     "code": "ir",
     "flag": "🇮🇷",
-    "continent": "Asia / Southern Asia",
+    "continent": "Asia",
     "pop": "~86 million",
     "borders": "AFG, ARM, AZE, IRQ, PAK, TUR, TKM",
     "capital": "Tehran",
-    "landmark": "",
+    "landmark": "Persepolis",
     "hint": "Starts with 'I' — 4 letters"
   },
   {
@@ -587,7 +587,7 @@
     "code": "wf",
     "flag": "🇼🇫",
     "continent": "Oceania",
-    "pop": "~11 Thousand",
+    "pop": "~11,000",
     "borders": "",
     "capital": "Mata-Utu",
     "landmark": "Lake Lalolalo",
@@ -601,7 +601,7 @@
     "pop": "~10 million",
     "borders": "ARM, GEO, IRN, RUS, TUR",
     "capital": "Baku",
-    "landmark": "",
+    "landmark": "Maiden Tower (Baku)",
     "hint": "Starts with 'A' — 10 letters"
   },
   {
@@ -612,7 +612,7 @@
     "pop": "~26 million",
     "borders": "DZA, BEN, BFA, TCD, LBY, MLI, NGA",
     "capital": "Niamey",
-    "landmark": "",
+    "landmark": "Agadez Mosque",
     "hint": "Starts with 'N' — 5 letters"
   },
   {
@@ -633,7 +633,7 @@
     "pop": "~8 million",
     "borders": "MMR, KHM, CHN, THA, VNM",
     "capital": "Vientiane",
-    "landmark": "",
+    "landmark": "Pha That Luang",
     "hint": "Starts with 'L' — 4 letters"
   },
   {
@@ -644,7 +644,7 @@
     "pop": "~24 million",
     "borders": "BEN, CIV, GHA, MLI, NER, TGO",
     "capital": "Ouagadougou",
-    "landmark": "",
+    "landmark": "Grand Mosque of Bobo-Dioulasso",
     "hint": "Two words — starts with 'Burkina'"
   },
   {
@@ -688,7 +688,7 @@
     "pop": "~5 million",
     "borders": "ISR, SYR",
     "capital": "Beirut",
-    "landmark": "",
+    "landmark": "Baalbek Temples",
     "hint": "Starts with 'L' — 7 letters"
   },
   {
@@ -699,7 +699,7 @@
     "pop": "~86 million",
     "borders": "ARM, AZE, BGR, GEO, GRC, IRN, IRQ, SYR",
     "capital": "Ankara",
-    "landmark": "",
+    "landmark": "Hagia Sophia",
     "hint": "Starts with 'T' — 6 letters"
   },
   {
@@ -710,7 +710,7 @@
     "pop": "~1 million",
     "borders": "IDN",
     "capital": "Dili",
-    "landmark": "",
+    "landmark": "Jesus Christ Statue (Cristo Rei)",
     "hint": "Starts with 'T' — 11 letters"
   },
   {
@@ -721,7 +721,7 @@
     "pop": "~17 million",
     "borders": "BWA, MOZ, ZAF, ZMB",
     "capital": "Harare",
-    "landmark": "",
+    "landmark": "Victoria Falls",
     "hint": "Starts with 'Z' — 8 letters"
   },
   {
@@ -743,7 +743,7 @@
     "pop": "~3 million",
     "borders": "AZE, GEO, IRN, TUR",
     "capital": "Yerevan",
-    "landmark": "",
+    "landmark": "Geghard Monastery",
     "hint": "Starts with 'A' — 7 letters"
   },
   {
@@ -754,7 +754,7 @@
     "pop": "~5 million",
     "borders": "GBR",
     "capital": "Dublin",
-    "landmark": "",
+    "landmark": "Cliffs of Moher",
     "hint": "Starts with 'I' — 7 letters"
   },
   {
@@ -765,7 +765,7 @@
     "pop": "~6 million",
     "borders": "FIN, SWE, RUS",
     "capital": "Oslo",
-    "landmark": "",
+    "landmark": "Geirangerfjord",
     "hint": "Starts with 'N' — 6 letters"
   },
   {
@@ -776,7 +776,7 @@
     "pop": "~53 million",
     "borders": "ETH, SOM, SSD, TZA, UGA",
     "capital": "Nairobi",
-    "landmark": "",
+    "landmark": "Maasai Mara National Reserve",
     "hint": "Starts with 'K' — 5 letters"
   },
   {
@@ -787,18 +787,18 @@
     "pop": "~26 million",
     "borders": "CHN, KOR, RUS",
     "capital": "Pyongyang",
-    "landmark": "",
+    "landmark": "Kumsusan Palace of the Sun",
     "hint": "Two words — starts with 'North'"
   },
   {
     "name": "Afghanistan",
     "code": "af",
     "flag": "🇦🇫",
-    "continent": "Asia / Southern Asia",
+    "continent": "Asia",
     "pop": "~44 million",
     "borders": "IRN, PAK, TKM, UZB, TJK, CHN",
     "capital": "Kabul",
-    "landmark": "",
+    "landmark": "Minaret of Jam",
     "hint": "Starts with 'A' — 11 letters"
   },
   {
@@ -806,7 +806,7 @@
     "code": "bm",
     "flag": "🇧🇲",
     "continent": "North America",
-    "pop": "~64 Thousand",
+    "pop": "~64,000",
     "borders": "",
     "capital": "Hamilton",
     "landmark": "Horseshoe Bay Beach",
@@ -831,7 +831,7 @@
     "pop": "~18 million",
     "borders": "BEL, DEU",
     "capital": "Amsterdam",
-    "landmark": "",
+    "landmark": "Kinderdijk Windmills",
     "hint": "Starts with 'N' — 11 letters"
   },
   {
@@ -842,7 +842,7 @@
     "pop": "~7 million",
     "borders": "CRI, HND",
     "capital": "Managua",
-    "landmark": "",
+    "landmark": "Masaya Volcano",
     "hint": "Starts with 'N' — 9 letters"
   },
   {
@@ -853,7 +853,7 @@
     "pop": "~2 million",
     "borders": "ZAF",
     "capital": "Maseru",
-    "landmark": "",
+    "landmark": "Maletsunyane Falls",
     "hint": "Starts with 'L' — 7 letters"
   },
   {
@@ -875,7 +875,7 @@
     "pop": "~2 million",
     "borders": "SEN",
     "capital": "Banjul",
-    "landmark": "",
+    "landmark": "Kachikally Crocodile Pool",
     "hint": "Starts with 'G' — 6 letters"
   },
   {
@@ -893,7 +893,7 @@
     "name": "Australia",
     "code": "au",
     "flag": "🇦🇺",
-    "continent": "Oceania / Australia and New Zealand",
+    "continent": "Oceania",
     "pop": "~28 million",
     "borders": "",
     "capital": "Canberra",
@@ -905,9 +905,9 @@
     "code": "bv",
     "flag": "🇧🇻",
     "continent": "Antarctica",
-    "pop": "~0 million",
+    "pop": "0",
     "borders": "",
-    "landmark": "",
+    "landmark": "Olav Peak",
     "hint": "Two words — starts with 'Bouvet'"
   },
   {
@@ -915,10 +915,10 @@
     "code": "pn",
     "flag": "🇵🇳",
     "continent": "Oceania",
-    "pop": "~0 million",
+    "pop": "~50",
     "borders": "",
     "capital": "Adamstown",
-    "landmark": "",
+    "landmark": "Bounty Bay",
     "hint": "Two words — starts with 'Pitcairn'"
   },
   {
@@ -926,10 +926,10 @@
     "code": "bb",
     "flag": "🇧🇧",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~287,000",
     "borders": "",
     "capital": "Bridgetown",
-    "landmark": "",
+    "landmark": "Harrison's Cave",
     "hint": "Starts with 'B' — 8 letters"
   },
   {
@@ -940,7 +940,7 @@
     "pop": "~32 million",
     "borders": "",
     "capital": "Antananarivo",
-    "landmark": "",
+    "landmark": "Avenue of the Baobabs",
     "hint": "Starts with 'M' — 10 letters"
   },
   {
@@ -962,7 +962,7 @@
     "pop": "~11 million",
     "borders": "ESP",
     "capital": "Lisbon",
-    "landmark": "",
+    "landmark": "Belém Tower",
     "hint": "Starts with 'P' — 8 letters"
   },
   {
@@ -970,10 +970,10 @@
     "code": "gl",
     "flag": "🇬🇱",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~56,500",
     "borders": "",
     "capital": "Nuuk",
-    "landmark": "",
+    "landmark": "Ilulissat Icefjord",
     "hint": "Starts with 'G' — 9 letters"
   },
   {
@@ -981,10 +981,10 @@
     "code": "as",
     "flag": "🇦🇸",
     "continent": "Oceania",
-    "pop": "~0 million",
+    "pop": "~47,400",
     "borders": "",
     "capital": "Pago Pago",
-    "landmark": "",
+    "landmark": "Pago Pago Harbo",
     "hint": "Two words — starts with 'American'"
   },
   {
@@ -992,10 +992,10 @@
     "code": "gs",
     "flag": "🇬🇸",
     "continent": "Antarctica",
-    "pop": "~0 million",
+    "pop": "0",
     "borders": "",
     "capital": "King Edward Point",
-    "landmark": "",
+    "landmark": "Mount Paget",
     "hint": "Two words — starts with 'South'"
   },
   {
@@ -1006,7 +1006,7 @@
     "pop": "~7 million",
     "borders": "AFG, IRN, KAZ, UZB",
     "capital": "Ashgabat",
-    "landmark": "",
+    "landmark": "Darvaza Gas Crater (\"Door to Hell\")",
     "hint": "Starts with 'T' — 12 letters"
   },
   {
@@ -1014,10 +1014,10 @@
     "code": "gp",
     "flag": "🇬🇵",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~400,000",
     "borders": "",
     "capital": "Basse-Terre",
-    "landmark": "",
+    "landmark": "La Soufrière",
     "hint": "Starts with 'G' — 10 letters"
   },
   {
@@ -1025,10 +1025,10 @@
     "code": "dm",
     "flag": "🇩🇲",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~72,000",
     "borders": "",
     "capital": "Roseau",
-    "landmark": "",
+    "landmark": "Boiling Lake",
     "hint": "Starts with 'D' — 8 letters"
   },
   {
@@ -1039,7 +1039,7 @@
     "pop": "~1 million",
     "borders": "",
     "capital": "Honiara",
-    "landmark": "",
+    "landmark": "Honiara Memorial",
     "hint": "Two words — starts with 'Solomon'"
   },
   {
@@ -1047,10 +1047,10 @@
     "code": "pm",
     "flag": "🇵🇲",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~5800",
     "borders": "",
     "capital": "Saint-Pierre",
-    "landmark": "",
+    "landmark": "Fort Saint-Pierre",
     "hint": "Two words — starts with 'Saint'"
   },
   {
@@ -1061,18 +1061,18 @@
     "pop": "~14 million",
     "borders": "BDI, COD, TZA, UGA",
     "capital": "Kigali",
-    "landmark": "",
+    "landmark": "Volcanoes National Park",
     "hint": "Starts with 'R' — 6 letters"
   },
   {
     "name": "Norfolk Island",
     "code": "nf",
     "flag": "🇳🇫",
-    "continent": "Oceania / Australia and New Zealand",
-    "pop": "~0 million",
+    "continent": "Oceania",
+    "pop": "~1700",
     "borders": "",
     "capital": "Kingston",
-    "landmark": "",
+    "landmark": "Kingston and Arthur’s Vale Historic Area (KAVHA)",
     "hint": "Two words — starts with 'Norfolk'"
   },
   {
@@ -1083,7 +1083,7 @@
     "pop": "~4 million",
     "borders": "COL, CRI",
     "capital": "Panama City",
-    "landmark": "",
+    "landmark": "Panama Canal",
     "hint": "Starts with 'P' — 6 letters"
   },
   {
@@ -1091,10 +1091,10 @@
     "code": "bs",
     "flag": "🇧🇸",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~400,000",
     "borders": "",
     "capital": "Nassau",
-    "landmark": "",
+    "landmark": "Atlantis Paradise Island",
     "hint": "Starts with 'B' — 7 letters"
   },
   {
@@ -1102,21 +1102,21 @@
     "code": "tk",
     "flag": "🇹🇰",
     "continent": "Oceania",
-    "pop": "~0 million",
+    "pop": "~1500",
     "borders": "",
     "capital": "Fakaofo",
-    "landmark": "",
+    "landmark": "Atafu Atoll",
     "hint": "Starts with 'T' — 7 letters"
   },
   {
     "name": "Montenegro",
     "code": "me",
     "flag": "🇲🇪",
-"continent": "Europe",
+  "continent": "Europe",
     "pop": "~1 million",
     "borders": "ALB, BIH, HRV, UNK, SRB",
     "capital": "Podgorica",
-    "landmark": "",
+    "landmark": "Durmitor National Park",
     "hint": "Starts with 'M' — 10 letters"
   },
   {
@@ -1124,10 +1124,10 @@
     "code": "ax",
     "flag": "🇦🇽",
     "continent": "Europe",
-    "pop": "~0 million",
+    "pop": "~30,000",
     "borders": "",
     "capital": "Mariehamn",
-    "landmark": "",
+    "landmark": "Kastelholm Castle",
     "hint": "Two words — starts with 'Åland'"
   },
   {
@@ -1135,10 +1135,10 @@
     "code": "nu",
     "flag": "🇳🇺",
     "continent": "Oceania",
-    "pop": "~0 million",
+    "pop": "~1600",
     "borders": "",
     "capital": "Alofi",
-    "landmark": "",
+    "landmark": "Alofi Lagoon",
     "hint": "Starts with 'N' — 4 letters"
   },
   {
@@ -1149,7 +1149,7 @@
     "pop": "~47 million",
     "borders": "BOL, BRA, CHL, PRY, URY",
     "capital": "Buenos Aires",
-    "landmark": "",
+    "landmark": "Perito Moreno Glacier",
     "hint": "Starts with 'A' — 9 letters"
   },
   {
@@ -1160,7 +1160,7 @@
     "pop": "~10 million",
     "borders": "",
     "capital": "Havana",
-    "landmark": "",
+    "landmark": "El Morro Castle",
     "hint": "Starts with 'C' — 4 letters"
   },
   {
@@ -1168,10 +1168,10 @@
     "code": "ky",
     "flag": "🇰🇾",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~71,000",
     "borders": "",
     "capital": "George Town",
-    "landmark": "",
+    "landmark": "Seven Mile Beach",
     "hint": "Two words — starts with 'Cayman'"
   },
   {
@@ -1182,7 +1182,7 @@
     "pop": "~20 million",
     "borders": "CHN, KGZ, RUS, TKM, UZB",
     "capital": "Astana",
-    "landmark": "",
+    "landmark": "Bayterek Tower",
     "hint": "Starts with 'K' — 10 letters"
   },
   {
@@ -1200,7 +1200,7 @@
     "name": "India",
     "code": "in",
     "flag": "🇮🇳",
-    "continent": "Asia / Southern Asia",
+    "continent": "Asia",
     "pop": "~1417 million",
     "borders": "BGD, BTN, MMR, CHN, NPL, PAK",
     "capital": "New Delhi",
@@ -1212,10 +1212,10 @@
     "code": "vg",
     "flag": "🇻🇬",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~30,000",
     "borders": "",
     "capital": "Road Town",
-    "landmark": "",
+    "landmark": "The Baths",
     "hint": "Two words — starts with 'British'"
   },
   {
@@ -1223,10 +1223,10 @@
     "code": "gu",
     "flag": "🇬🇺",
     "continent": "Oceania",
-    "pop": "~0 million",
+    "pop": "~168,000",
     "borders": "",
     "capital": "Hagåtña",
-    "landmark": "",
+    "landmark": "Two Lovers Point",
     "hint": "Starts with 'G' — 4 letters"
   },
   {
@@ -1237,18 +1237,18 @@
     "pop": "~51 million",
     "borders": "BGD, CHN, IND, LAO, THA",
     "capital": "Naypyidaw",
-    "landmark": "",
+    "landmark": "Shwedagon Pagoda",
     "hint": "Starts with 'M' — 7 letters"
   },
   {
-    "name": "DR Congo",
+    "name": "Democratic Republic of the Congo (DR Congo)",
     "code": "cd",
     "flag": "🇨🇩",
     "continent": "Africa",
     "pop": "~113 million",
     "borders": "AGO, BDI, CAF, COG, RWA, SSD, TZA, UGA, ZMB",
     "capital": "Kinshasa",
-    "landmark": "",
+    "landmark": "Virunga National Park",
     "hint": "Two words — starts with 'DR'"
   },
   {
@@ -1259,7 +1259,7 @@
     "pop": "~1 million",
     "borders": "",
     "capital": "Port Louis",
-    "landmark": "",
+    "landmark": "Le Morne Brabant",
     "hint": "Starts with 'M' — 9 letters"
   },
   {
@@ -1267,10 +1267,10 @@
     "code": "fk",
     "flag": "🇫🇰",
     "continent": "South America",
-    "pop": "~0 million",
+    "pop": "~3500",
     "borders": "",
     "capital": "Stanley",
-    "landmark": "",
+    "landmark": "Volunteer Point",
     "hint": "Two words — starts with 'Falkland'"
   },
   {
@@ -1278,10 +1278,10 @@
     "code": "mp",
     "flag": "🇲🇵",
     "continent": "Oceania",
-    "pop": "~0 million",
+    "pop": "~57,000",
     "borders": "",
     "capital": "Saipan",
-    "landmark": "",
+    "landmark": "Saipan Island Beaches",
     "hint": "Two words — starts with 'Northern'"
   },
   {
@@ -1292,7 +1292,7 @@
     "pop": "~33 million",
     "borders": "BLR, HUN, MDA, POL, ROU, RUS, SVK",
     "capital": "Kyiv",
-    "landmark": "",
+    "landmark": "Saint Sophia Cathedral",
     "hint": "Starts with 'U' — 7 letters"
   },
   {
@@ -1300,10 +1300,10 @@
     "code": "mc",
     "flag": "🇲🇨",
     "continent": "Europe / Western Europe",
-    "pop": "~0 million",
+    "pop": "~39,000",
     "borders": "FRA",
     "capital": "Monaco",
-    "landmark": "",
+    "landmark": "Monte Carlo Casino",
     "hint": "Starts with 'M' — 6 letters"
   },
   {
@@ -1314,7 +1314,7 @@
     "pop": "~10 million",
     "borders": "AFG, CHN, KGZ, UZB",
     "capital": "Dushanbe",
-    "landmark": "",
+    "landmark": "Iskanderkul Lake",
     "hint": "Starts with 'T' — 10 letters"
   },
   {
@@ -1325,7 +1325,7 @@
     "pop": "~34 million",
     "borders": "BRN, IDN, THA",
     "capital": "Kuala Lumpur",
-    "landmark": "",
+    "landmark": "Petronas Twin Towers",
     "hint": "Starts with 'M' — 8 letters"
   },
   {
@@ -1336,7 +1336,7 @@
     "pop": "~20 million",
     "borders": "DJI, ETH, KEN",
     "capital": "Mogadishu",
-    "landmark": "",
+    "landmark": "Laas Geel rock paintings",
     "hint": "Starts with 'S' — 7 letters"
   },
   {
@@ -1344,10 +1344,10 @@
     "code": "ag",
     "flag": "🇦🇬",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~98,000",
     "borders": "",
     "capital": "Saint John's",
-    "landmark": "",
+    "landmark": "Nelson’s Dockyard",
     "hint": "Two words — starts with 'Antigua'"
   },
   {
@@ -1358,7 +1358,7 @@
     "pop": "~6 million",
     "borders": "CMR, TCD, COD, COG, SSD, SDN",
     "capital": "Bangui",
-    "landmark": "",
+    "landmark": "Boali Waterfalls",
     "hint": "Two words — starts with 'Central'"
   },
   {
@@ -1368,7 +1368,7 @@
   "continent": "Asia",
     "pop": "~1 million",
     "borders": "CHN",
-    "landmark": "",
+    "landmark": "Ruins of St. Paul's",
     "hint": "Starts with 'M' — 5 letters"
   },
   {
@@ -1379,7 +1379,7 @@
     "pop": "~10 million",
     "borders": "EGY, JOR, LBN, PSE, SYR",
     "capital": "Jerusalem",
-    "landmark": "",
+    "landmark": "Western Wall (Kotel)",
     "hint": "Starts with 'I' — 6 letters"
   },
   {
@@ -1390,7 +1390,7 @@
     "pop": "~224 million",
     "borders": "BEN, CMR, TCD, NER",
     "capital": "Abuja",
-    "landmark": "",
+    "landmark": "Zuma Rock",
     "hint": "Starts with 'N' — 7 letters"
   },
   {
@@ -1401,7 +1401,7 @@
     "pop": "~10 million",
     "borders": "GTM, SLV, NIC",
     "capital": "Tegucigalpa",
-    "landmark": "",
+    "landmark": "Copán Ruins",
     "hint": "Starts with 'H' — 8 letters"
   },
   {
@@ -1412,7 +1412,7 @@
     "pop": "~9 million",
     "borders": "GIN, LBR",
     "capital": "Freetown",
-    "landmark": "",
+    "landmark": "Tacugama Chimpanzee Sanctuary",
     "hint": "Two words — starts with 'Sierra'"
   },
   {
@@ -1423,7 +1423,7 @@
     "pop": "~12 million",
     "borders": "DZA, LBY",
     "capital": "Tunis",
-    "landmark": "",
+    "landmark": "El Djem Amphitheatre",
     "hint": "Starts with 'T' — 7 letters"
   },
   {
@@ -1434,7 +1434,7 @@
     "pop": "~3 million",
     "borders": "BLR, LVA, POL, RUS",
     "capital": "Vilnius",
-    "landmark": "",
+    "landmark": "Vilnius Old Town",
     "hint": "Starts with 'L' — 9 letters"
   },
   {
@@ -1445,7 +1445,7 @@
     "pop": "~46 million",
     "borders": "IRN, JOR, KWT, SAU, SYR, TUR",
     "capital": "Baghdad",
-    "landmark": "",
+    "landmark": "Ziggurat of Ur",
     "hint": "Starts with 'I' — 4 letters"
   },
   {
@@ -1456,7 +1456,7 @@
     "pop": "~9 million",
     "borders": "AUT, FRA, ITA, LIE, DEU",
     "capital": "Bern",
-    "landmark": "",
+    "landmark": "Matterhorn",
     "hint": "Starts with 'S' — 11 letters"
   },
   {
@@ -1467,7 +1467,7 @@
     "pop": "~20 million",
     "borders": "ARG, BOL, PER",
     "capital": "Santiago",
-    "landmark": "",
+    "landmark": "Easter Island Moai Statues",
     "hint": "Starts with 'C' — 5 letters"
   },
   {
@@ -1478,7 +1478,7 @@
     "pop": "~23 million",
     "borders": "",
     "capital": "Taipei",
-    "landmark": "",
+    "landmark": "Taipei 101",
     "hint": "Starts with 'T' — 6 letters"
   },
   {
@@ -1489,18 +1489,18 @@
     "pop": "~101 million",
     "borders": "KHM, CHN, LAO",
     "capital": "Hanoi",
-    "landmark": "",
+    "landmark": "Ha Long Bay",
     "hint": "Starts with 'V' — 7 letters"
   },
   {
     "name": "Bangladesh",
     "code": "bd",
     "flag": "🇧🇩",
-    "continent": "Asia / Southern Asia",
+    "continent": "Asia",
     "pop": "~170 million",
     "borders": "MMR, IND",
     "capital": "Dhaka",
-    "landmark": "",
+    "landmark": "Sundarbans Mangrove Forest",
     "hint": "Starts with 'B' — 10 letters"
   },
   {
@@ -1508,21 +1508,21 @@
     "code": "vu",
     "flag": "🇻🇺",
     "continent": "Oceania / Melanesia",
-    "pop": "~0 million",
+    "pop": "~323,000",
     "borders": "",
     "capital": "Port Vila",
-    "landmark": "",
+    "landmark": "Mount Yasur",
     "hint": "Starts with 'V' — 7 letters"
   },
   {
     "name": "Pakistan",
     "code": "pk",
     "flag": "🇵🇰",
-    "continent": "Asia / Southern Asia",
+    "continent": "Asia",
     "pop": "~241 million",
     "borders": "AFG, CHN, IND, IRN",
     "capital": "Islamabad",
-    "landmark": "",
+    "landmark": "Badshahi Mosque",
     "hint": "Starts with 'P' — 8 letters"
   },
   {
@@ -1533,7 +1533,7 @@
     "pop": "~2 million",
     "borders": "BLR, EST, LTU, RUS",
     "capital": "Riga",
-    "landmark": "",
+    "landmark": "Ħal Saflieni Hypogeum",
     "hint": "Starts with 'L' — 6 letters"
   },
   {
@@ -1544,7 +1544,7 @@
     "pop": "~1 million",
     "borders": "",
     "capital": "Valletta",
-    "landmark": "",
+    "landmark": "Ħal Saflieni Hypogeum",
     "hint": "Starts with 'M' — 5 letters"
   },
   {
@@ -1552,10 +1552,10 @@
     "code": "sc",
     "flag": "🇸🇨",
     "continent": "Africa",
-    "pop": "~0 million",
+    "pop": "~99,000",
     "borders": "",
     "capital": "Victoria",
-    "landmark": "",
+    "landmark": "Vallée de Mai",
     "hint": "Starts with 'S' — 10 letters"
   },
   {
@@ -1563,10 +1563,10 @@
     "code": "ms",
     "flag": "🇲🇸",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~5000",
     "borders": "",
     "capital": "Plymouth",
-    "landmark": "",
+    "landmark": "Soufrière Hills Volcano",
     "hint": "Starts with 'M' — 10 letters"
   },
   {
@@ -1574,10 +1574,10 @@
     "code": "ai",
     "flag": "🇦🇮",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~15,000",
     "borders": "",
     "capital": "The Valley",
-    "landmark": "",
+    "landmark": "Shoal Bay Beach",
     "hint": "Starts with 'A' — 8 letters"
   },
   {
@@ -1588,7 +1588,7 @@
     "pop": "~10 million",
     "borders": "ALB, BGR, TUR, MKD",
     "capital": "Athens",
-    "landmark": "",
+    "landmark": "Acropolis of Athens",
     "hint": "Starts with 'G' — 6 letters"
   },
   {
@@ -1599,7 +1599,7 @@
     "pop": "~11 million",
     "borders": "AUT, DEU, POL, SVK",
     "capital": "Prague",
-    "landmark": "",
+    "landmark": "Prague Castle",
     "hint": "Starts with 'C' — 7 letters"
   },
   {
@@ -1610,7 +1610,7 @@
     "pop": "~20 million",
     "borders": "AGO, BWA, COD, MWI, MOZ, NAM, TZA, ZWE",
     "capital": "Lusaka",
-    "landmark": "",
+    "landmark": "Victoria Falls",
     "hint": "Starts with 'Z' — 6 letters"
   },
   {
@@ -1621,7 +1621,7 @@
     "pop": "~8 million",
     "borders": "CHN",
     "capital": "City of Victoria",
-    "landmark": "",
+    "landmark": "Victoria Peak",
     "hint": "Two words — starts with 'Hong'"
   },
   {
@@ -1643,7 +1643,7 @@
     "pop": "~1 million",
     "borders": "MOZ, ZAF",
     "capital": "Mbabane",
-    "landmark": "",
+    "landmark": "Mlilwane Wildlife Sanctuary",
     "hint": "Starts with 'E' — 8 letters"
   },
   {
@@ -1654,7 +1654,7 @@
     "pop": "~2 million",
     "borders": "AUT, HRV, ITA, HUN",
     "capital": "Ljubljana",
-    "landmark": "",
+    "landmark": "Lake Bled and Bled Castle",
     "hint": "Starts with 'S' — 8 letters"
   },
   {
@@ -1662,21 +1662,21 @@
     "code": "bq",
     "flag": "🇧🇶",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~25,000",
     "borders": "",
     "capital": "Kralendijk",
-    "landmark": "",
+    "landmark": "Mount Scenery (on Saba)",
     "hint": "Two words — starts with 'Caribbean'"
   },
   {
     "name": "Maldives",
     "code": "mv",
     "flag": "🇲🇻",
-    "continent": "Asia / Southern Asia",
+    "continent": "Asia",
     "pop": "~1 million",
     "borders": "",
     "capital": "Malé",
-    "landmark": "",
+    "landmark": "Malé Friday Mosque (Hukuru Miskiy)",
     "hint": "Starts with 'M' — 8 letters"
   },
   {
@@ -1687,7 +1687,7 @@
     "pop": "~34 million",
     "borders": "BFA, CIV, TGO",
     "capital": "Accra",
-    "landmark": "",
+    "landmark": "Cape Coast Castle",
     "hint": "Starts with 'G' — 5 letters"
   },
   {
@@ -1698,7 +1698,7 @@
     "pop": "~6 million",
     "borders": "ARG, BOL, BRA",
     "capital": "Asunción",
-    "landmark": "",
+    "landmark": "Jesuit Missions of La Santísima Trinidad de Paraná",
     "hint": "Starts with 'P' — 8 letters"
   },
   {
@@ -1709,7 +1709,7 @@
     "pop": "~34 million",
     "borders": "MWI, ZAF, SWZ, TZA, ZMB, ZWE",
     "capital": "Maputo",
-    "landmark": "",
+    "landmark": "Island of Mozambique",
     "hint": "Starts with 'M' — 10 letters"
   },
   {
@@ -1720,7 +1720,7 @@
     "pop": "~5 million",
     "borders": "ISR, EGY, JOR",
     "capital": "Ramallah",
-    "landmark": "",
+    "landmark": "Church of the Nativity (Bethlehem)",
     "hint": "Starts with 'P' — 9 letters"
   },
   {
@@ -1731,7 +1731,7 @@
     "pop": "~3 million",
     "borders": "ROU, UKR",
     "capital": "Chișinău",
-    "landmark": "",
+    "landmark": "Orheiul Vechi",
     "hint": "Starts with 'M' — 7 letters"
   },
   {
@@ -1742,7 +1742,7 @@
     "pop": "~5 million",
     "borders": "GIN, CIV, SLE",
     "capital": "Monrovia",
-    "landmark": "",
+    "landmark": "Providence Island",
     "hint": "Starts with 'L' — 7 letters"
   },
   {
@@ -1750,10 +1750,10 @@
     "code": "li",
     "flag": "🇱🇮",
     "continent": "Europe / Western Europe",
-    "pop": "~0 million",
+    "pop": "~39,000",
     "borders": "AUT, CHE",
     "capital": "Vaduz",
-    "landmark": "",
+    "landmark": "Vaduz Castle",
     "hint": "Starts with 'L' — 13 letters"
   },
   {
@@ -1764,7 +1764,7 @@
     "pop": "~34 million",
     "borders": "BOL, BRA, CHL, COL, ECU",
     "capital": "Lima",
-    "landmark": "",
+    "landmark": "Machu Picchu",
     "hint": "Starts with 'P' — 4 letters"
   },
   {
@@ -1775,18 +1775,18 @@
     "pop": "~3 million",
     "borders": "SAU",
     "capital": "Doha",
-    "landmark": "",
+    "landmark": "Museum of Islamic Art",
     "hint": "Starts with 'Q' — 5 letters"
   },
   {
     "name": "Christmas Island",
     "code": "cx",
     "flag": "🇨🇽",
-    "continent": "Oceania / Australia and New Zealand",
-    "pop": "~0 million",
+    "continent": "Oceania",
+    "pop": "~2,200",
     "borders": "",
     "capital": "Flying Fish Cove",
-    "landmark": "",
+    "landmark": "Christmas Island National Park",
     "hint": "Two words — starts with 'Christmas'"
   },
   {
@@ -1797,7 +1797,7 @@
     "pop": "~4 million",
     "borders": "ARM, AZE, RUS, TUR",
     "capital": "Tbilisi",
-    "landmark": "",
+    "landmark": "Galápagos Islands",
     "hint": "Starts with 'G' — 7 letters"
   },
   {
@@ -1808,7 +1808,7 @@
     "pop": "~18 million",
     "borders": "COL, PER",
     "capital": "Quito",
-    "landmark": "",
+    "landmark": "Galápagos Islands",
     "hint": "Starts with 'E' — 7 letters"
   },
   {
@@ -1819,7 +1819,7 @@
     "pop": "~114 million",
     "borders": "",
     "capital": "Manila",
-    "landmark": "",
+    "landmark": "Chocolate Hills",
     "hint": "Starts with 'P' — 11 letters"
   },
   {
@@ -1830,7 +1830,7 @@
     "pop": "~112 million",
     "borders": "DJI, ERI, KEN, SOM, SSD, SDN",
     "capital": "Addis Ababa",
-    "landmark": "",
+    "landmark": "Lalibela Rock-Hewn Churches",
     "hint": "Starts with 'E' — 8 letters"
   },
   {
@@ -1838,10 +1838,10 @@
     "code": "vi",
     "flag": "🇻🇮",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~104,000",
     "borders": "",
     "capital": "Charlotte Amalie",
-    "landmark": "",
+    "landmark": "Buck Island Reef National Monument",
     "hint": "Two words — starts with 'United'"
   },
   {
@@ -1852,18 +1852,18 @@
     "pop": "~26 million",
     "borders": "IRQ, ISR, JOR, LBN, TUR",
     "capital": "Damascus",
-    "landmark": "",
+    "landmark": "Ancient City of Palmyra",
     "hint": "Starts with 'S' — 5 letters"
   },
   {
     "name": "Romania",
     "code": "ro",
     "flag": "🇷🇴",
-"continent": "Europe",
+    "continent": "Europe",
     "pop": "~19 million",
     "borders": "BGR, HUN, MDA, SRB, UKR",
     "capital": "Bucharest",
-    "landmark": "",
+    "landmark": "Bran Castle",
     "hint": "Starts with 'R' — 7 letters"
   },
   {
@@ -1874,18 +1874,18 @@
     "pop": "~18 million",
     "borders": "BLZ, SLV, HND, MEX",
     "capital": "Guatemala City",
-    "landmark": "",
+    "landmark": "Tikal",
     "hint": "Starts with 'G' — 9 letters"
   },
   {
     "name": "Nepal",
     "code": "np",
     "flag": "🇳🇵",
-    "continent": "Asia / Southern Asia",
+    "continent": "Asia",
     "pop": "~30 million",
     "borders": "CHN, IND",
     "capital": "Kathmandu",
-    "landmark": "",
+    "landmark": "Mount Everest",
     "hint": "Starts with 'N' — 5 letters"
   },
   {
@@ -1896,7 +1896,7 @@
     "pop": "~1 million",
     "borders": "",
     "capital": "Saint-Denis",
-    "landmark": "",
+    "landmark": "Piton de la Fournaise",
     "hint": "Starts with 'R' — 7 letters"
   },
   {
@@ -1907,7 +1907,7 @@
     "pop": "~13 million",
     "borders": "BFA, NER, NGA, TGO",
     "capital": "Porto-Novo",
-    "landmark": "",
+    "landmark": "Royal Palaces of Abomey",
     "hint": "Starts with 'B' — 5 letters"
   },
   {
@@ -1918,7 +1918,7 @@
     "pop": "~5 million",
     "borders": "IRQ, SAU",
     "capital": "Kuwait City",
-    "landmark": "",
+    "landmark": "Kuwait Towers",
     "hint": "Starts with 'K' — 6 letters"
   },
   {
@@ -1929,7 +1929,7 @@
     "pop": "~1 million",
     "borders": "BRA, GUF, GUY",
     "capital": "Paramaribo",
-    "landmark": "",
+    "landmark": "Saint Peter and Paul Cathedral, Paramaribo",
     "hint": "Starts with 'S' — 8 letters"
   },
   {
@@ -1937,10 +1937,10 @@
     "code": "nc",
     "flag": "🇳🇨",
     "continent": "Oceania / Melanesia",
-    "pop": "~0 million",
+    "pop": "~271,000",
     "borders": "",
     "capital": "Nouméa",
-    "landmark": "",
+    "landmark": "Nouméa Lagoon",
     "hint": "Two words — starts with 'New'"
   },
   {
@@ -1951,7 +1951,7 @@
     "pop": "~52 million",
     "borders": "CAF, TCD, EGY, ERI, ETH, LBY, SSD",
     "capital": "Khartoum",
-    "landmark": "",
+    "landmark": "Pyramids of Meroë",
     "hint": "Starts with 'S' — 5 letters"
   },
   {
@@ -1959,10 +1959,10 @@
     "code": "um",
     "flag": "🇺🇲",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "0",
     "borders": "",
     "capital": "Washington DC",
-    "landmark": "",
+    "landmark": "Wake Island",
     "hint": "Two words — starts with 'United'"
   },
   {
@@ -1973,7 +1973,7 @@
     "pop": "~19 million",
     "borders": "CMR, CAF, LBY, NER, NGA, SDN",
     "capital": "N'Djamena",
-    "landmark": "",
+    "landmark": "Zakouma National Park",
     "hint": "Starts with 'C' — 4 letters"
   },
   {
@@ -1984,7 +1984,7 @@
     "pop": "~3 million",
     "borders": "ARG, BRA",
     "capital": "Montevideo",
-    "landmark": "",
+    "landmark": "Casapueblo",
     "hint": "Starts with 'U' — 7 letters"
   },
   {
@@ -1995,7 +1995,7 @@
     "pop": "~3 million",
     "borders": "HRV, MNE, SRB",
     "capital": "Sarajevo",
-    "landmark": "",
+    "landmark": "Stari Most (Old Bridge), Mostar",
     "hint": "Two words — starts with 'Bosnia'"
   },
   {
@@ -2006,7 +2006,7 @@
     "pop": "~1 million",
     "borders": "",
     "capital": "Port of Spain",
-    "landmark": "",
+    "landmark": "Pitch Lake",
     "hint": "Two words — starts with 'Trinidad'"
   },
   {
@@ -2017,7 +2017,7 @@
     "pop": "~11 million",
     "borders": "FIN, NOR",
     "capital": "Stockholm",
-    "landmark": "",
+    "landmark": "Drottningholm Palace",
     "hint": "Starts with 'S' — 6 letters"
   },
   {
@@ -2025,10 +2025,10 @@
     "code": "is",
     "flag": "🇮🇸",
     "continent": "Europe",
-    "pop": "~0 million",
+    "pop": "~376,000",
     "borders": "",
     "capital": "Reykjavik",
-    "landmark": "",
+    "landmark": "Blue Lagoon",
     "hint": "Starts with 'I' — 7 letters"
   },
   {
@@ -2039,7 +2039,7 @@
     "pop": "~12 million",
     "borders": "DOM",
     "capital": "Port-au-Prince",
-    "landmark": "",
+    "landmark": "Citadelle Laferrière",
     "hint": "Starts with 'H' — 5 letters"
   },
   {
@@ -2047,10 +2047,10 @@
     "code": "bn",
     "flag": "🇧🇳",
     "continent": "Asia",
-    "pop": "~0 million",
+    "pop": "~460,000",
     "borders": "MYS",
     "capital": "Bandar Seri Begawan",
-    "landmark": "",
+    "landmark": "Sultan Omar Ali Saifuddien Mosque",
     "hint": "Starts with 'B' — 6 letters"
   },
   {
@@ -2069,7 +2069,7 @@
     "code": "gg",
     "flag": "🇬🇬",
     "continent": "Europe",
-    "pop": "~64 Thousand",
+    "pop": "~64,000",
     "borders": "",
     "capital": "St. Peter Port",
     "landmark": "Castle Cornet",
@@ -2083,7 +2083,7 @@
     "pop": "~4 million",
     "borders": "BIH, HUN, MNE, SRB, SVN",
     "capital": "Zagreb",
-    "landmark": "",
+    "landmark": "Diocletian's Palace",
     "hint": "Starts with 'C' — 7 letters"
   },
   {
@@ -2091,7 +2091,7 @@
     "code": "bl",
     "flag": "🇧🇱",
     "continent": "North America",
-    "pop": "~11 Thousand",
+    "pop": "~11,000",
     "borders": "",
     "capital": "Gustavia",
     "landmark": "Gustavia Harbor",
@@ -2105,7 +2105,7 @@
     "pop": "~4 million",
     "borders": "CHN, RUS",
     "capital": "Ulan Bator",
-    "landmark": "",
+    "landmark": "Gobi Desert",
     "hint": "Starts with 'M' — 8 letters"
   },
   {
@@ -2113,10 +2113,10 @@
     "code": "aw",
     "flag": "🇦🇼",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~107,000",
     "borders": "",
     "capital": "Oranjestad",
-    "landmark": "",
+    "landmark": "Natural Pool (Conchi)",
     "hint": "Starts with 'A' — 5 letters"
   },
   {
@@ -2127,7 +2127,7 @@
     "pop": "~6 million",
     "borders": "AGO, CMR, CAF, COD, GAB",
     "capital": "Brazzaville",
-    "landmark": "",
+    "landmark": "Odzala-Kokoua National Park",
     "hint": "Two words — starts with 'Republic'"
   },
   {
@@ -2135,10 +2135,10 @@
     "code": "st",
     "flag": "🇸🇹",
     "continent": "Africa",
-    "pop": "~0 million",
+    "pop": "~230,000",
     "borders": "",
     "capital": "São Tomé",
-    "landmark": "",
+    "landmark": "Pico Cão Grande",
     "hint": "Two words — starts with 'São'"
   },
   {
@@ -2149,7 +2149,7 @@
     "pop": "~33 million",
     "borders": "OMN, SAU",
     "capital": "Sana'a",
-    "landmark": "",
+    "landmark": "Old City of Sana'a",
     "hint": "Starts with 'Y' — 5 letters"
   },
   {
@@ -2160,7 +2160,7 @@
     "pop": "~2 million",
     "borders": "CMR, GAB",
     "capital": "Ciudad de la Paz",
-    "landmark": "",
+    "landmark": "Malabo Cathedral",
     "hint": "Two words — starts with 'Equatorial'"
   },
   {
@@ -2168,10 +2168,10 @@
     "code": "sj",
     "flag": "🇸🇯",
     "continent": "Europe",
-    "pop": "~0 million",
+    "pop": "~2500",
     "borders": "",
     "capital": "Longyearbyen",
-    "landmark": "",
+    "landmark": "Svalbard Global Seed Vault",
     "hint": "Two words — starts with 'Svalbard'"
   },
   {
@@ -2182,7 +2182,7 @@
     "pop": "~53 million",
     "borders": "BRA, ECU, PAN, PER, VEN",
     "capital": "Bogotá",
-    "landmark": "",
+    "landmark": "Ciudad Perdida (Lost City)",
     "hint": "Starts with 'C' — 8 letters"
   },
   {
@@ -2193,7 +2193,7 @@
     "pop": "~2 million",
     "borders": "GIN, SEN",
     "capital": "Bissau",
-    "landmark": "",
+    "landmark": "Orango Islands National Park",
     "hint": "Starts with 'G' — 13 letters"
   },
   {
@@ -2201,10 +2201,10 @@
     "code": "ki",
     "flag": "🇰🇮",
     "continent": "Oceania",
-    "pop": "~0 million",
+    "pop": "~135,000",
     "borders": "",
     "capital": "South Tarawa",
-    "landmark": "",
+    "landmark": "Christmas Island (Kiritimati)",
     "hint": "Starts with 'K' — 8 letters"
   },
   {
@@ -2226,7 +2226,7 @@
     "pop": "~66 million",
     "borders": "MMR, KHM, LAO, MYS",
     "capital": "Bangkok",
-    "landmark": "",
+    "landmark": "Grand Palace",
     "hint": "Starts with 'T' — 8 letters"
   },
   {
@@ -2234,21 +2234,21 @@
     "code": "im",
     "flag": "🇮🇲",
     "continent": "Europe",
-    "pop": "~0 million",
+    "pop": "~85,000",
     "borders": "",
     "capital": "Douglas",
-    "landmark": "",
+    "landmark": "Castle Rushen",
     "hint": "Two words — starts with 'Isle'"
   },
   {
     "name": "Bhutan",
     "code": "bt",
     "flag": "🇧🇹",
-    "continent": "Asia / Southern Asia",
+    "continent": "Asia",
     "pop": "~1 million",
     "borders": "CHN, IND",
     "capital": "Thimphu",
-    "landmark": "",
+    "landmark": "Paro Taktsang (Tiger’s Nest Monastery)",
     "hint": "Starts with 'B' — 6 letters"
   },
   {
@@ -2259,7 +2259,7 @@
     "pop": "~2 million",
     "borders": "CMR, COG, GNQ",
     "capital": "Libreville",
-    "landmark": "",
+    "landmark": "Lope National Park",
     "hint": "Starts with 'G' — 5 letters"
   },
   {
@@ -2267,43 +2267,43 @@
     "code": "sx",
     "flag": "🇸🇽",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~44,000",
     "borders": "MAF",
     "capital": "Philipsburg",
-    "landmark": "",
+    "landmark": "Maho Beach",
     "hint": "Two words — starts with 'Sint'"
   },
   {
     "name": "Sri Lanka",
     "code": "lk",
     "flag": "🇱🇰",
-    "continent": "Asia / Southern Asia",
+    "continent": "Asia",
     "pop": "~22 million",
     "borders": "",
     "capital": "Sri Jayawardenepura Kotte",
-    "landmark": "",
+    "landmark": "Sigiriya Rock Fortress",
     "hint": "Two words — starts with 'Sri'"
   },
   {
     "name": "Albania",
     "code": "al",
     "flag": "🇦🇱",
-"continent": "Europe",
+    "continent": "Europe",
     "pop": "~2 million",
     "borders": "MNE, GRC, MKD, UNK",
     "capital": "Tirana",
-    "landmark": "",
+    "landmark": "Rozafa Castle",
     "hint": "Starts with 'A' — 7 letters"
   },
   {
     "name": "New Zealand",
     "code": "nz",
     "flag": "🇳🇿",
-    "continent": "Oceania / Australia and New Zealand",
+    "continent": "Oceania",
     "pop": "~5 million",
     "borders": "",
     "capital": "Wellington",
-    "landmark": "",
+    "landmark": "Milford Sound",
     "hint": "Two words — starts with 'New'"
   },
   {
@@ -2314,7 +2314,7 @@
     "pop": "~47 million",
     "borders": "TUN, LBY, NER, ESH, MRT, MLI, MAR",
     "capital": "Algiers",
-    "landmark": "",
+    "landmark": "Casbah of Algiers",
     "hint": "Starts with 'A' — 7 letters"
   },
   {
@@ -2322,10 +2322,10 @@
     "code": "sm",
     "flag": "🇸🇲",
     "continent": "Europe",
-    "pop": "~0 million",
+    "pop": "~34,000",
     "borders": "ITA",
     "capital": "City of San Marino",
-    "landmark": "",
+    "landmark": "Guaita Tower",
     "hint": "Two words — starts with 'San'"
   },
   {
@@ -2333,10 +2333,10 @@
     "code": "fm",
     "flag": "🇫🇲",
     "continent": "Oceania",
-    "pop": "~0 million",
+    "pop": "~115,000",
     "borders": "",
     "capital": "Palikir",
-    "landmark": "",
+    "landmark": "Nan Madol",
     "hint": "Starts with 'M' — 10 letters"
   },
   {
@@ -2344,10 +2344,10 @@
     "code": "sh",
     "flag": "🇸🇭",
     "continent": "Africa",
-    "pop": "~0 million",
+    "pop": "~6000",
     "borders": "",
     "capital": "Jamestown",
-    "landmark": "",
+    "landmark": "Jamestown Historic Sites",
     "hint": "Two words — starts with 'Saint'"
   },
   {
@@ -2355,10 +2355,10 @@
     "code": "cw",
     "flag": "🇨🇼",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~160,000",
     "borders": "",
     "capital": "Willemstad",
-    "landmark": "",
+    "landmark": "Queen Emma Bridge",
     "hint": "Starts with 'C' — 7 letters"
   },
   {
@@ -2369,7 +2369,7 @@
     "pop": "~6 million",
     "borders": "GTM, HND",
     "capital": "San Salvador",
-    "landmark": "",
+    "landmark": "Santa Ana Volcano",
     "hint": "Two words — starts with 'El'"
   },
   {
@@ -2377,10 +2377,10 @@
     "code": "mq",
     "flag": "🇲🇶",
     "continent": "North America",
-    "pop": "~0 million",
+    "pop": "~375,000",
     "borders": "",
     "capital": "Fort-de-France",
-    "landmark": "",
+    "landmark": "Mount Pelée",
     "hint": "Starts with 'M' — 10 letters"
   },
   {
@@ -2388,10 +2388,10 @@
     "code": "nr",
     "flag": "🇳🇷",
     "continent": "Oceania",
-    "pop": "~0 million",
+    "pop": "~10,000",
     "borders": "",
     "capital": "Yaren",
-    "landmark": "",
+    "landmark": "Moqua Caves",
     "hint": "Starts with 'N' — 5 letters"
   },
   {
@@ -2410,7 +2410,7 @@
     "code": "gd",
     "flag": "🇬🇩",
     "continent": "North America",
-    "pop": "~121 Thousand",
+    "pop": "~121,000",
     "borders": "",
     "capital": "St. George's",
     "landmark": "Grand Anse Beach",
@@ -2421,7 +2421,7 @@
     "code": "to",
     "flag": "🇹🇴",
     "continent": "Oceania",
-    "pop": "~107 Thousand",
+    "pop": "~107,000",
     "borders": "",
     "capital": "Nuku'alofa",
     "landmark": "Haʻamonga ʻa Maui",
@@ -2443,7 +2443,7 @@
     "code": "ws",
     "flag": "🇼🇸",
     "continent": "Oceania",
-    "pop": "~220 Thousand",
+    "pop": "~220,000",
     "borders": "",
     "capital": "Apia",
     "landmark": "To‑Sua Ocean Trench",
@@ -2520,7 +2520,7 @@
     "code": "pf",
     "flag": "🇵🇫",
     "continent": "Oceania",
-    "pop": "~280 Thousand",
+    "pop": "~280,000",
     "borders": "",
     "capital": "Papeetē",
     "landmark": "Bora Bora Lagoon",
@@ -2574,7 +2574,7 @@
     "code": "ck",
     "flag": "🇨🇰",
     "continent": "Oceania",
-    "pop": "~18 Thousand",
+    "pop": "~18,000",
     "borders": "",
     "capital": "Avarua",
     "landmark": "Aitutaki Lagoon",
@@ -2607,7 +2607,7 @@
     "code": "fo",
     "flag": "🇫🇴",
     "continent": "Europe",
-    "pop": "~53 Thousand",
+    "pop": "~53,000",
     "borders": "",
     "capital": "Tórshavn",
     "landmark": "Saksun Village",
@@ -2618,7 +2618,7 @@
     "code": "vc",
     "flag": "🇻🇨",
     "continent": "North America",
-    "pop": "~110 Thousand",
+    "pop": "~110,000",
     "borders": "",
     "capital": "Kingstown",
     "landmark": "La Soufrière Volcano",
