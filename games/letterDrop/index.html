@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LetterDrop — Unscramble Before It Falls</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<header>
+  <div class="logo">Letter<span>Drop</span></div>
+  <a class="back-link" href="../index.html">← All Games</a>
+</header>
+
+<div class="game-wrap">
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('play')">Play</button>
+    <button class="tab-btn" onclick="switchTab('how')">How to Play</button>
+    <button class="tab-btn" onclick="switchTab('scores')">Best Scores</button>
+  </div>
+
+  <!-- PLAY TAB -->
+  <div class="tab-pane active" id="tab-play">
+
+    <!-- Top stats -->
+    <div class="top-bar">
+      <div class="stat-chip">
+        <div class="stat-n" id="stat-score">0</div>
+        <div class="stat-l">Score</div>
+      </div>
+      <div class="stat-chip">
+        <div class="stat-n green" id="stat-words">0</div>
+        <div class="stat-l">Words</div>
+      </div>
+      <div class="stat-chip">
+        <div class="stat-n" id="stat-level">1</div>
+        <div class="stat-l">Level</div>
+      </div>
+      <div class="stat-chip">
+        <div class="stat-n" id="stat-combo">x1</div>
+        <div class="stat-l">Combo</div>
+      </div>
+    </div>
+
+    <!-- Arena -->
+    <div class="arena-wrap" id="arena-wrap">
+      <div class="arena" id="arena"></div>
+      <div class="ground" id="ground"></div>
+
+      <!-- Start screen inside arena -->
+      <div class="start-screen" id="start-screen" style="position:absolute;inset:0;background:var(--surface);border-radius:var(--radius);z-index:10;">
+        <div style="font-size:48px;">🔤</div>
+        <div class="start-title">Unscramble Before It Lands</div>
+        <div class="start-sub">Scrambled words fall from above. Type the correct word before it hits the danger zone. Earn combos for quick answers.</div>
+        <button class="btn-start" onclick="startGame()">Start Playing</button>
+      </div>
+    </div>
+
+    <div class="bottom-row">
+      <div class="lives-row" id="lives-row"></div>
+      <div class="level-badge" id="level-badge">Level 1</div>
+      <button class="btn-pause" id="pause-btn" onclick="togglePause()">⏸ Pause</button>
+    </div>
+
+    <!-- Input -->
+    <div class="input-section">
+      <div class="input-prompt">Type the unscrambled word and press <strong>Enter</strong></div>
+      <div class="input-row">
+        <input type="text" id="answer-input" placeholder="UNSCRAMBLE..." autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false" disabled />
+        <button class="btn-submit" id="submit-btn" onclick="submitAnswer()" disabled>→</button>
+      </div>
+    </div>
+    <div class="feedback" id="feedback"></div>
+
+    <!-- Word definition strip -->
+    <div class="def-strip hidden" id="def-strip">Solve a word to see its definition here.</div>
+
+  </div>
+
+  <!-- HOW TO TAB -->
+  <div class="tab-pane" id="tab-how">
+    <ul class="how-list">
+      <li class="how-item"><div class="how-num">1</div><div class="how-text">Scrambled words fall from the top of the screen. Each tile shows jumbled letters.</div></li>
+      <li class="how-item"><div class="how-num">2</div><div class="how-text">Type the <strong>unscrambled word</strong> in the input box and hit Enter before it crosses the danger zone.</div></li>
+      <li class="how-item"><div class="how-num">3</div><div class="how-text">If a word hits the <strong>bottom ground</strong>, you lose a life (❤️). Lose all 3 and it's game over.</div></li>
+      <li class="how-item"><div class="how-num">4</div><div class="how-text">Answer words quickly back-to-back to build a <strong>combo multiplier</strong> (x1 → x2 → x3 → x4). Combos boost your score.</div></li>
+      <li class="how-item"><div class="how-num">5</div><div class="how-text">Every 5 correct words, you <strong>level up</strong> — words fall faster, but score multipliers increase too.</div></li>
+      <li class="how-item"><div class="how-num">6</div><div class="how-text">A <strong>definition</strong> of each solved word appears below, so you learn as you play!</div></li>
+    </ul>
+  </div>
+
+  <!-- SCORES TAB -->
+  <div class="tab-pane" id="tab-scores">
+    <div class="score-rows" id="score-rows">
+      <div style="color:var(--muted);font-size:14px;text-align:center;padding:24px 0;">No scores yet — play a round!</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- GAME OVER OVERLAY -->
+<div class="overlay" id="game-over-overlay">
+  <div class="modal">
+    <div class="modal-icon">💀</div>
+    <div class="modal-title">Game Over</div>
+    <div class="modal-sub" id="go-sub">The letters got the better of you.</div>
+    <div class="modal-stats">
+      <div class="ms-box"><div class="ms-n" id="go-score">0</div><div class="ms-l">Score</div></div>
+      <div class="ms-box"><div class="ms-n" id="go-words">0</div><div class="ms-l">Words</div></div>
+      <div class="ms-box"><div class="ms-n" id="go-level">1</div><div class="ms-l">Level</div></div>
+    </div>
+    <div class="share-box" id="go-share"></div>
+    <button class="btn-share" onclick="copyShare()">Copy & Share 🔤</button>
+    <div class="copied-msg" id="copied-msg"></div>
+    <button class="btn-restart" onclick="restartGame()">Play Again →</button>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-left">
+    © <span id="year"></span> Divya Arunachalam
+    &nbsp;·&nbsp;
+    <a href="https://github.com/divarun" target="_blank">GitHub</a>
+  </div>
+  <div class="footer-right">Built for fun. No tracking, no ads.</div>
+</footer>
+
+<script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IdeaBridge — Connect the Concepts</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="masthead">
+    <div class="logo">Idea<span>Bridge</span></div>
+    <div class="tagline">Connect the concepts</div>
+  </div>
+  <a class="back-link" href="../index.html">← All Games</a>
+</header>
+
+<div class="puzzle-wrap">
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('play')">Play</button>
+    <button class="tab-btn" onclick="switchTab('how')">How to Play</button>
+    <button class="tab-btn" onclick="switchTab('history')">History</button>
+  </div>
+
+  <!-- PLAY -->
+  <div class="tab-pane active" id="tab-play">
+
+    <div class="endpoints">
+      <div class="endpoint-card">
+        <div class="ep-label">Start</div>
+        <div class="ep-word" id="ep-start">—</div>
+      </div>
+      <div class="arrow-connector">
+        <span>⟶</span>
+        <div class="arrow-hops" id="hop-count">0 hops</div>
+      </div>
+      <div class="endpoint-card target">
+        <div class="ep-label">Target</div>
+        <div class="ep-word" id="ep-target">—</div>
+      </div>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-chip"><div class="stat-n" id="stat-hops">0</div><div class="stat-l">Hops</div></div>
+      <div class="stat-chip"><div class="stat-n" id="stat-score">1000</div><div class="stat-l">Score</div></div>
+      <div class="stat-chip"><div class="stat-n" id="stat-time">0s</div><div class="stat-l">Time</div></div>
+      <div class="stat-chip"><div class="stat-n" id="stat-streak">0</div><div class="stat-l">Streak</div></div>
+    </div>
+
+    <div class="chain-section">
+      <div class="chain-title">Your Chain</div>
+      <div class="chain-visual" id="chain-visual">
+        <span class="chain-empty">Start by entering a word below ↓</span>
+      </div>
+      <div class="reason-row" id="reason-row"></div>
+    </div>
+
+    <div class="input-section">
+      <div class="input-prompt" id="input-prompt">
+        Connect from <strong id="from-word">—</strong> toward <strong id="to-word">—</strong>
+      </div>
+      <div class="input-row">
+        <input type="text" id="word-input" placeholder="Enter a word or concept..." autocomplete="off" autocorrect="off" spellcheck="false" />
+        <button class="btn-submit" id="submit-btn" onclick="submitWord()">→ Add</button>
+      </div>
+      <div class="suggestions" id="suggestions"></div>
+    </div>
+
+    <div class="feedback" id="feedback"></div>
+
+    <div class="hint-strip">
+      <div class="hint-left">
+        <button class="btn-small btn-undo" onclick="undoLast()">↩ Undo <span class="penalty-note">−50pts</span></button>
+        <button class="btn-small" id="hint-btn" onclick="useHint()">💡 Hint <span class="penalty-note">−100pts</span></button>
+      </div>
+      <button class="btn-small" onclick="skipPuzzle()">Skip puzzle</button>
+    </div>
+
+    <div class="rules-bar">
+      <strong>Rules:</strong> Each word must <strong>logically connect</strong> to the previous one — shared category, cause/effect, part/whole, or clear association. Reach the <strong>Target</strong> word in as few hops as possible. You validate your own reasoning!
+    </div>
+
+  </div>
+
+  <!-- HOW TO -->
+  <div class="tab-pane" id="tab-how">
+    <div class="how-grid">
+      <div class="how-card"><div class="how-num">1</div><div class="how-body">You're given a <strong>Start</strong> word and a <strong>Target</strong> word — completely unrelated concepts.</div></div>
+      <div class="how-card"><div class="how-num">2</div><div class="how-body">Build a chain by entering words that <strong>logically connect</strong> step by step — each new word must relate to the previous one.</div></div>
+      <div class="how-card"><div class="how-num">3</div><div class="how-body">Connections can be: same category, cause/effect, part-of-whole, rhyme, history, geography, or any clear association. <strong>You validate your own chain</strong> — honor system!</div></div>
+      <div class="how-card"><div class="how-num">4</div><div class="how-body">Once your last word <strong>connects to the Target</strong>, confirm it and win. Fewer hops + faster time = higher score.</div></div>
+      <div class="how-card"><div class="how-num">5</div><div class="how-body"><strong>Scoring:</strong> 1000 base − (hops × 60) − (seconds × 2) − penalties. Share your chain as an emoji trail — no spoilers!</div></div>
+      <div class="how-card"><div class="how-num">6</div><div class="how-body"><strong>Example:</strong> Sharks → Ocean → Pressure → Sound → Waves → Radio → Beatles. That's 6 hops. Can you beat it?</div></div>
+    </div>
+  </div>
+
+  <!-- HISTORY -->
+  <div class="tab-pane" id="tab-history">
+    <div class="history-list" id="history-list">
+      <div style="color:var(--ink3); font-size:14px; text-align:center; padding:24px 0;">No puzzles completed yet.</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- RESULT OVERLAY -->
+<div class="result-overlay" id="result-overlay">
+  <div class="result-modal">
+    <div class="result-icon" id="res-icon">🎉</div>
+    <div class="result-title" id="res-title">Chain Complete!</div>
+    <div class="result-sub" id="res-sub"></div>
+    <div class="result-chain-display" id="res-chain"></div>
+    <div class="result-scores">
+      <div class="rs-box"><div class="rs-n" id="rs-score">—</div><div class="rs-l">Score</div></div>
+      <div class="rs-box"><div class="rs-n" id="rs-hops">—</div><div class="rs-l">Hops</div></div>
+      <div class="rs-box"><div class="rs-n" id="rs-time">—</div><div class="rs-l">Seconds</div></div>
+    </div>
+    <div class="share-text-box" id="share-box"></div>
+    <button class="btn-share" onclick="copyShare()">Copy & Share ⛓️</button>
+    <div class="copied-msg" id="copied-msg"></div>
+    <button class="btn-next" onclick="nextPuzzle()">Next Puzzle →</button>
+  </div>
+</div>
+<footer>
+  <div class="footer-left">
+    © <span id="year"></span> Divya Arunachalam
+    &nbsp;·&nbsp;
+    <a href="https://github.com/divarun" target="_blank">GitHub</a>
+  </div>
+  <div class="footer-right">Built for fun. No tracking, no ads.</div>
+</footer>
+<script src="game.js"></script>
+</body>
+</html>
