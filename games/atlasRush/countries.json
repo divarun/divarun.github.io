@@ -8,7 +8,13 @@
     "borders": "Burkina Faso, Ghana, Guinea, Liberia, Mali",
     "capital": "Yamoussoukro",
     "landmark": "Basilica of Our Lady of Peace",
-    "hint": "Two words — starts with 'Ivory'"
+    "hint": "Two words — starts with 'Ivory'",
+    "difficulty": "easy",
+    "alts": [
+      "cote d'ivoire",
+      "côte d'ivoire"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Notre_dame_de_la_paix_yamoussoukro_by_felix_krohn.jpg/500px-Notre_dame_de_la_paix_yamoussoukro_by_felix_krohn.jpg"
   },
   {
     "name": "Italy",
@@ -19,7 +25,9 @@
     "borders": "Austria, France, San Marino, Slovenia, Switzerland, Vatican City",
     "capital": "Rome",
     "landmark": "Colosseum",
-    "hint": "Starts with 'I' — 5 letters"
+    "hint": "Starts with 'I' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/500px-Colosseo_2020.jpg"
   },
   {
     "name": "Kyrgyzstan",
@@ -30,7 +38,9 @@
     "borders": "China, Kazakhstan, Tajikistan, Uzbekistan",
     "capital": "Bishkek",
     "landmark": "Lake Issyk‑Kul",
-    "hint": "Starts with 'K' — 10 letters"
+    "hint": "Starts with 'K' — 10 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE%D0%BB%2C_%D0%BF%D0%B0%D1%80%D0%BA_%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0%2C_%D1%81%D1%84%D0%B5%D1%80%D0%BE%D0%BF%D0%B0%D0%BD%D0%BE%D1%80%D0%B0%D0%BC%D0%B0.jpg/500px-%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE%D0%BB%2C_%D0%BF%D0%B0%D1%80%D0%BA_%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0%2C_%D1%81%D1%84%D0%B5%D1%80%D0%BE%D0%BF%D0%B0%D0%BD%D0%BE%D1%80%D0%B0%D0%BC%D0%B0.jpg"
   },
   {
     "name": "Papua New Guinea",
@@ -41,7 +51,9 @@
     "borders": "Indonesia",
     "capital": "Port Moresby",
     "landmark": "Lake Kutubu",
-    "hint": "Two words — starts with 'Papua'"
+    "hint": "Two words — starts with 'Papua'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Clouds_over_Lake_Kutubu.jpg/500px-Clouds_over_Lake_Kutubu.jpg"
   },
   {
     "name": "Fiji",
@@ -52,7 +64,9 @@
     "borders": "None",
     "capital": "Suva",
     "landmark": "Mamanuca Islands",
-    "hint": "Starts with 'F' — 4 letters"
+    "hint": "Starts with 'F' — 4 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mamanuca.jpg/500px-Mamanuca.jpg"
   },
   {
     "name": "United Arab Emirates",
@@ -63,7 +77,13 @@
     "borders": "Oman, Saudi Arabia",
     "capital": "Abu Dhabi",
     "landmark": "Burj Khalifa",
-    "hint": "Two words — starts with 'United'"
+    "hint": "Two words — starts with 'United'",
+    "difficulty": "easy",
+    "alts": [
+      "uae",
+      "emirates"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Burj_Khalifa_%28worlds_tallest_building%29_and_the_Dubai_skyline_%2825781049892%29.jpg/500px-Burj_Khalifa_%28worlds_tallest_building%29_and_the_Dubai_skyline_%2825781049892%29.jpg"
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -74,7 +94,9 @@
     "borders": "None",
     "capital": "Basseterre",
     "landmark": "Brimstone Hill Fortress",
-    "hint": "Two words — starts with 'Saint'"
+    "hint": "Two words — starts with 'Saint'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Brimstone_Hill_Fortress.jpg/480px-Brimstone_Hill_Fortress.jpg"
   },
   {
     "name": "French Guiana",
@@ -85,7 +107,9 @@
     "borders": "Brazil, Suriname",
     "capital": "Cayenne",
     "landmark": "Îles du Salut (Salvation Islands)",
-    "hint": "Two words — starts with 'French'"
+    "hint": "Two words — starts with 'French'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Carte_de_la_Guyane_fran%C3%A7oise_et_l%27isle_de_Cayenne_%28Bellin%2C_1763%29.jpg/500px-Carte_de_la_Guyane_fran%C3%A7oise_et_l%27isle_de_Cayenne_%28Bellin%2C_1763%29.jpg"
   },
   {
     "name": "Tanzania",
@@ -96,7 +120,9 @@
     "borders": "Burundi, Democratic Republic of the Congo, Kenya, Malawi, Mozambique, Rwanda, Uganda, Zambia",
     "capital": "Dodoma",
     "landmark": "Mount Kilimanjaro",
-    "hint": "Starts with 'T' — 8 letters"
+    "hint": "Starts with 'T' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Kilimanjaro_from_Amboseli.jpg/500px-Kilimanjaro_from_Amboseli.jpg"
   },
   {
     "name": "Angola",
@@ -107,7 +133,9 @@
     "borders": "Republic of the Congo, Democratic Republic of the Congo, Zambia, Namibia",
     "capital": "Luanda",
     "landmark": "Kalandula Falls",
-    "hint": "Starts with 'A' — 6 letters"
+    "hint": "Starts with 'A' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kalandula_waterfalls_of_the_Lucala-River_in_Malange%2C_Angola.JPG/500px-Kalandula_waterfalls_of_the_Lucala-River_in_Malange%2C_Angola.JPG"
   },
   {
     "name": "Togo",
@@ -118,7 +146,9 @@
     "borders": "Benin, Burkina Faso, Ghana",
     "capital": "Lomé",
     "landmark": "Koutammakou – The Land of the Batammariba",
-    "hint": "Starts with 'T' — 4 letters"
+    "hint": "Starts with 'T' — 4 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/500px-Flag_of_Togo.svg.png"
   },
   {
     "name": "Finland",
@@ -129,7 +159,9 @@
     "borders": "Norway, Sweden, Russia",
     "capital": "Helsinki",
     "landmark": "Suomenlinna Sea Fortress",
-    "hint": "Starts with 'F' — 7 letters"
+    "hint": "Starts with 'F' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/500px-Flag_of_Finland.svg.png"
   },
   {
     "name": "Malawi",
@@ -140,7 +172,9 @@
     "borders": "Mozambique, Tanzania, Zambia",
     "capital": "Lilongwe",
     "landmark": "Lake Malawi",
-    "hint": "Starts with 'M' — 6 letters"
+    "hint": "Starts with 'M' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Lake_Malawi_seen_from_orbit.jpg/500px-Lake_Malawi_seen_from_orbit.jpg"
   },
   {
     "name": "Mali",
@@ -151,7 +185,9 @@
     "borders": "Algeria, Burkina Faso, Guinea, Ivory Coast, Mauritania, Niger, Senegal",
     "capital": "Bamako",
     "landmark": "Great Mosque of Djenné",
-    "hint": "Starts with 'M' — 4 letters"
+    "hint": "Starts with 'M' — 4 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Djenne_great_mud_mosque.jpg/500px-Djenne_great_mud_mosque.jpg"
   },
   {
     "name": "Uzbekistan",
@@ -162,7 +198,9 @@
     "borders": "Afghanistan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan",
     "capital": "Tashkent",
     "landmark": "Registan Square in Samarkand",
-    "hint": "Starts with 'U' — 10 letters"
+    "hint": "Starts with 'U' — 10 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Ulugh_Beg%2C_Timurid_painting_1425-50.jpg/500px-Ulugh_Beg%2C_Timurid_painting_1425-50.jpg"
   },
   {
     "name": "Senegal",
@@ -173,7 +211,9 @@
     "borders": "Gambia, Guinea, Guinea-Bissau, Mali, Mauritania",
     "capital": "Dakar",
     "landmark": "Gorée Island",
-    "hint": "Starts with 'S' — 7 letters"
+    "hint": "Starts with 'S' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/500px-Flag_of_Senegal.svg.png"
   },
   {
     "name": "Uganda",
@@ -184,7 +224,9 @@
     "borders": "Democratic Republic of the Congo, Kenya, Rwanda, South Sudan, Tanzania",
     "capital": "Kampala",
     "landmark": "Bwindi Impenetrable Forest",
-    "hint": "Starts with 'U' — 6 letters"
+    "hint": "Starts with 'U' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bwindi_Impenetrable_National_Park_desde_el_Broadbill_Forest_Camp_20190925_085152.jpg/500px-Bwindi_Impenetrable_National_Park_desde_el_Broadbill_Forest_Camp_20190925_085152.jpg"
   },
   {
     "name": "Djibouti",
@@ -195,7 +237,9 @@
     "borders": "Eritrea, Ethiopia, Somalia",
     "capital": "Djibouti",
     "landmark": "Lake Assal",
-    "hint": "Starts with 'D' — 8 letters"
+    "hint": "Starts with 'D' — 8 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dead_Sea_beach_00.JPG/500px-Dead_Sea_beach_00.JPG"
   },
   {
     "name": "South Sudan",
@@ -206,7 +250,9 @@
     "borders": "Central African Republic, Democratic Republic of the Congo, Ethiopia, Kenya, Sudan, Uganda",
     "capital": "Juba",
     "landmark": "Imatong Mountains",
-    "hint": "Two words — starts with 'South'"
+    "hint": "Two words — starts with 'South'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Sudan_Kinyeti.jpg/500px-Sudan_Kinyeti.jpg"
   },
   {
     "name": "Jersey",
@@ -217,7 +263,9 @@
     "borders": "None",
     "capital": "Saint Helier",
     "landmark": "Mont Orgueil Castle",
-    "hint": "Starts with 'J' — 6 letters"
+    "hint": "Starts with 'J' — 6 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Flag_of_Jersey.svg/500px-Flag_of_Jersey.svg.png"
   },
   {
     "name": "Tuvalu",
@@ -228,7 +276,9 @@
     "borders": "None",
     "capital": "Funafuti",
     "landmark": "Funafuti Atoll",
-    "hint": "Starts with 'T' — 6 letters"
+    "hint": "Starts with 'T' — 6 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/500px-Flag_of_Tuvalu.svg.png"
   },
   {
     "name": "Japan",
@@ -239,7 +289,9 @@
     "borders": "None",
     "capital": "Tokyo",
     "landmark": "Mount Fuji",
-    "hint": "Starts with 'J' — 5 letters"
+    "hint": "Starts with 'J' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg/500px-View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg"
   },
   {
     "name": "Oman",
@@ -250,7 +302,9 @@
     "borders": "Saudi Arabia, United Arab Emirates (UAE), Yemen",
     "capital": "Muscat",
     "landmark": "Sultan Qaboos Grand Mosque",
-    "hint": "Starts with 'O' — 4 letters"
+    "hint": "Starts with 'O' — 4 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Sultan_Qaboos_Grand_Mosque_RB.jpg/500px-Sultan_Qaboos_Grand_Mosque_RB.jpg"
   },
   {
     "name": "Belgium",
@@ -261,7 +315,9 @@
     "borders": "France, Germany, Luxembourg, Netherlands",
     "capital": "Brussels",
     "landmark": "Grand Place (Grote Markt)",
-    "hint": "Starts with 'B' — 7 letters"
+    "hint": "Starts with 'B' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Bruxelles_Manneken_Pis_cropped.jpg/500px-Bruxelles_Manneken_Pis_cropped.jpg"
   },
   {
     "name": "Saint Martin",
@@ -272,7 +328,9 @@
     "borders": "Sint Maarten",
     "capital": "Marigot",
     "landmark": "Maho Beach",
-    "hint": "Two words — starts with 'Saint'"
+    "hint": "Two words — starts with 'Saint'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Corsair_Airbus_A330_at_SXM_Bidini.jpg/500px-Corsair_Airbus_A330_at_SXM_Bidini.jpg"
   },
   {
     "name": "Mayotte",
@@ -283,7 +341,9 @@
     "borders": "None",
     "capital": "Mamoudzou",
     "landmark": "Lake Dziani",
-    "hint": "Starts with 'M' — 7 letters"
+    "hint": "Starts with 'M' — 7 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Mayotte_%28Local%29.svg/500px-Flag_of_Mayotte_%28Local%29.svg.png"
   },
   {
     "name": "France",
@@ -294,7 +354,9 @@
     "borders": "Andorra, Belgium, Germany, Italy, Luxembourg, Monaco, Spain, Switzerland",
     "capital": "Paris",
     "landmark": "Eiffel Tower",
-    "hint": "Starts with 'F' — 6 letters"
+    "hint": "Starts with 'F' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/500px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg"
   },
   {
     "name": "Bulgaria",
@@ -305,7 +367,9 @@
     "borders": "Greece, North Macedonia, Romania, Serbia, Turkey",
     "capital": "Sofia",
     "landmark": "Rila Monastery",
-    "hint": "Starts with 'B' — 8 letters"
+    "hint": "Starts with 'B' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Rila_Monastery%2C_August_2013.jpg/500px-Rila_Monastery%2C_August_2013.jpg"
   },
   {
     "name": "Cyprus",
@@ -316,7 +380,9 @@
     "borders": "None",
     "capital": "Nicosia",
     "landmark": "Kyrenia Castle",
-    "hint": "Starts with 'C' — 6 letters"
+    "hint": "Starts with 'C' — 6 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Kyrenia_01-2017_img02_Castle_exterior.jpg/500px-Kyrenia_01-2017_img02_Castle_exterior.jpg"
   },
   {
     "name": "South Korea",
@@ -327,7 +393,13 @@
     "borders": "North Korea",
     "capital": "Seoul",
     "landmark": "Gyeongbokgung Palace",
-    "hint": "Two words — starts with 'South'"
+    "hint": "Two words — starts with 'South'",
+    "difficulty": "easy",
+    "alts": [
+      "republic of korea",
+      "korea"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Palacio_Real_de_Madrid_Julio_2016_%28cropped%29.jpg/500px-Palacio_Real_de_Madrid_Julio_2016_%28cropped%29.jpg"
   },
   {
     "name": "Mexico",
@@ -338,7 +410,9 @@
     "borders": "Belize, Guatemala, United States of America",
     "capital": "Mexicoico City",
     "landmark": "Chichen Itza",
-    "hint": "Starts with 'M' — 6 letters"
+    "hint": "Starts with 'M' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/500px-Chichen_Itza_3.jpg"
   },
   {
     "name": "North Macedonia",
@@ -349,7 +423,12 @@
     "borders": "Albania, Bulgaria, Greece, Kosovo, Serbia",
     "capital": "Skopje",
     "landmark": "Ohrid Old Town & Lake Ohrid",
-    "hint": "Two words — starts with 'North'"
+    "hint": "Two words — starts with 'North'",
+    "difficulty": "medium",
+    "alts": [
+      "macedonia"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/R.o.Macedonia_topography.svg/500px-R.o.Macedonia_topography.svg.png"
   },
   {
     "name": "Guyana",
@@ -360,7 +439,9 @@
     "borders": "Brazil, Suriname, Venezuela",
     "capital": "Georgetown",
     "landmark": "Kaieteur Falls",
-    "hint": "Starts with 'G' — 6 letters"
+    "hint": "Starts with 'G' — 6 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/GuyanaKaieteurFalls2004.jpg/500px-GuyanaKaieteurFalls2004.jpg"
   },
   {
     "name": "Kosovo",
@@ -371,7 +452,9 @@
     "borders": "Albania, North Macedonia, Montenegro, Serbia",
     "capital": "Pristina",
     "landmark": "Visoki Dečani Monastery",
-    "hint": "Starts with 'K' — 6 letters"
+    "hint": "Starts with 'K' — 6 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/500px-Flag_of_Kosovo.svg.png"
   },
   {
     "name": "Morocco",
@@ -382,7 +465,9 @@
     "borders": "Algeria, Western Sahara, Spain",
     "capital": "Rabat",
     "landmark": "Hassan II Mosque",
-    "hint": "Starts with 'M' — 7 letters"
+    "hint": "Starts with 'M' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Hassan_II_mosque%2C_Casablanca_2.jpg/500px-Hassan_II_mosque%2C_Casablanca_2.jpg"
   },
   {
     "name": "Gibraltar",
@@ -393,7 +478,9 @@
     "borders": "Spain",
     "capital": "Gibraltar",
     "landmark": "The Rock of Gibraltar",
-    "hint": "Starts with 'G' — 9 letters"
+    "hint": "Starts with 'G' — 9 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/STS059-238-074_Strait_of_Gibraltar.jpg/500px-STS059-238-074_Strait_of_Gibraltar.jpg"
   },
   {
     "name": "Western Sahara",
@@ -404,7 +491,9 @@
     "borders": "Algeria, Mauritania, Morocco",
     "capital": "El Aaiún",
     "landmark": "Banc d’Arguin National Park",
-    "hint": "Two words — starts with 'Western'"
+    "hint": "Two words — starts with 'Western'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg/500px-Great_white_pelican_%28Pelecanus_onocrotalus%29.jpg"
   },
   {
     "name": "Andorra",
@@ -415,7 +504,9 @@
     "borders": "France, Spain",
     "capital": "Andorra la Vella",
     "landmark": "Sant Joan de Caselles Church",
-    "hint": "Starts with 'A' — 7 letters"
+    "hint": "Starts with 'A' — 7 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/500px-Flag_of_Andorra.svg.png"
   },
   {
     "name": "Palau",
@@ -426,7 +517,9 @@
     "borders": "None",
     "capital": "Ngerulmud",
     "landmark": "Rock Islands",
-    "hint": "Starts with 'P' — 5 letters"
+    "hint": "Starts with 'P' — 5 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ngerukewid-2016-aerial-view-Luka-Peternel.jpg/500px-Ngerukewid-2016-aerial-view-Luka-Peternel.jpg"
   },
   {
     "name": "Guinea",
@@ -437,7 +530,9 @@
     "borders": "Ivory Coast, Guinea-Bissau, Liberia, Mali, Senegal, Sierra Leone",
     "capital": "Conakry",
     "landmark": "Mount Nimba Strict Nature Reserve",
-    "hint": "Starts with 'G' — 6 letters"
+    "hint": "Starts with 'G' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Nimba_Range.jpg/500px-Nimba_Range.jpg"
   },
   {
     "name": "Turks and Caicos Islands",
@@ -448,7 +543,9 @@
     "borders": "None",
     "capital": "Cockburn Town",
     "landmark": "Grace Bay Beach",
-    "hint": "Two words — starts with 'Turks'"
+    "hint": "Two words — starts with 'Turks'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg/500px-Flag_of_the_Turks_and_Caicos_Islands.svg.png"
   },
   {
     "name": "Saudi Arabia",
@@ -459,7 +556,9 @@
     "borders": "Iraq, Jordan, Kuwait, Oman, Qatar, United Arab Emirates (UAE), Yemen",
     "capital": "Riyadh",
     "landmark": "Masjid al-Haram",
-    "hint": "Two words — starts with 'Saudi'"
+    "hint": "Two words — starts with 'Saudi'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Great_Mosque_of_Mecca1.jpg/500px-Great_Mosque_of_Mecca1.jpg"
   },
   {
     "name": "Botswana",
@@ -470,7 +569,9 @@
     "borders": "Namibia, South Africa, Zambia, Zimbabwe",
     "capital": "Gaborone",
     "landmark": "Okavango Delta",
-    "hint": "Starts with 'B' — 8 letters"
+    "hint": "Starts with 'B' — 8 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Okavango_Delta_map.png/500px-Okavango_Delta_map.png"
   },
   {
     "name": "Comoros",
@@ -481,7 +582,9 @@
     "borders": "None",
     "capital": "Moroni",
     "landmark": "Mount Karthala",
-    "hint": "Starts with 'C' — 7 letters"
+    "hint": "Starts with 'C' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Mount_Karthala_%2811000398163%29.jpg/500px-Mount_Karthala_%2811000398163%29.jpg"
   },
   {
     "name": "Belize",
@@ -492,7 +595,9 @@
     "borders": "Guatemala, Mexico",
     "capital": "Belmopan",
     "landmark": "Great Blue Hole",
-    "hint": "Starts with 'B' — 6 letters"
+    "hint": "Starts with 'B' — 6 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Great_Blue_Hole.jpg/500px-Great_Blue_Hole.jpg"
   },
   {
     "name": "Cambodia",
@@ -503,7 +608,9 @@
     "borders": "Laos, Thailand, Vietnam",
     "capital": "Phnom Penh",
     "landmark": "Angkor Wat",
-    "hint": "Starts with 'C' — 8 letters"
+    "hint": "Starts with 'C' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Buddhist_monks_in_front_of_the_Angkor_Wat.jpg/500px-Buddhist_monks_in_front_of_the_Angkor_Wat.jpg"
   },
   {
     "name": "Saint Lucia",
@@ -514,7 +621,9 @@
     "borders": "None",
     "capital": "Castries",
     "landmark": "The Pitons",
-    "hint": "Two words — starts with 'Saint'"
+    "hint": "Two words — starts with 'Saint'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Roque_Cinchado_und_Teide.jpg/500px-Roque_Cinchado_und_Teide.jpg"
   },
   {
     "name": "Mauritania",
@@ -525,7 +634,9 @@
     "borders": "Algeria, Mali, Senegal, Western Sahara",
     "capital": "Nouakchott",
     "landmark": "Chinguetti Mosque",
-    "hint": "Starts with 'M' — 10 letters"
+    "hint": "Starts with 'M' — 10 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/%D9%85%D8%B3%D8%AC%D8%AF_%D8%B4%D9%86%D9%82%D9%8A%D8%B7_%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A.jpg/500px-%D9%85%D8%B3%D8%AC%D8%AF_%D8%B4%D9%86%D9%82%D9%8A%D8%B7_%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A.jpg"
   },
   {
     "name": "Jamaica",
@@ -536,7 +647,9 @@
     "borders": "None",
     "capital": "Kingston",
     "landmark": "Dunn's River Falls",
-    "hint": "Starts with 'J' — 7 letters"
+    "hint": "Starts with 'J' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Dunns_River_Falls_climb.JPG/500px-Dunns_River_Falls_climb.JPG"
   },
   {
     "name": "Cape Verde",
@@ -547,7 +660,9 @@
     "borders": "None",
     "capital": "Praia",
     "landmark": "Fogo Volcano",
-    "hint": "Two words — starts with 'Cape'"
+    "hint": "Two words — starts with 'Cape'",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Rainier20200906.jpg/500px-Rainier20200906.jpg"
   },
   {
     "name": "Marshall Islands",
@@ -558,7 +673,9 @@
     "borders": "None",
     "capital": "Majuro",
     "landmark": "Bikini Atoll",
-    "hint": "Two words — starts with 'Marshall'"
+    "hint": "Two words — starts with 'Marshall'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Bikini_Atoll_2001-01-14%2C_Landsat_7_ETM%2B%2C_bands_3-2-1-8.png/500px-Bikini_Atoll_2001-01-14%2C_Landsat_7_ETM%2B%2C_bands_3-2-1-8.png"
   },
   {
     "name": "Namibia",
@@ -569,7 +686,9 @@
     "borders": "Angola, Botswana, South Africa, Zambia",
     "capital": "Windhoek",
     "landmark": "Sossusvlei",
-    "hint": "Starts with 'N' — 7 letters"
+    "hint": "Starts with 'N' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Sossusvlei.jpg/500px-Sossusvlei.jpg"
   },
   {
     "name": "Iran",
@@ -580,7 +699,12 @@
     "borders": "Afghanistan, Armenia, Azerbaijan, Iraq, Pakistan, Turkey, Turkmenistan",
     "capital": "Tehran",
     "landmark": "Persepolis",
-    "hint": "Starts with 'I' — 4 letters"
+    "hint": "Starts with 'I' — 4 letters",
+    "difficulty": "easy",
+    "alts": [
+      "persia"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Gate_of_All_Nations%2C_Persepolis.jpg/500px-Gate_of_All_Nations%2C_Persepolis.jpg"
   },
   {
     "name": "Wallis and Futuna",
@@ -591,7 +715,9 @@
     "borders": "None",
     "capital": "Mata-Utu",
     "landmark": "Lake Lalolalo",
-    "hint": "Two words — starts with 'Wallis'"
+    "hint": "Two words — starts with 'Wallis'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lano_Lalolalo.jpg/500px-Lano_Lalolalo.jpg"
   },
   {
     "name": "Azerbaijan",
@@ -602,7 +728,9 @@
     "borders": "Armenia, Georgia, Iran, Russia, Turkey",
     "capital": "Baku",
     "landmark": "Maiden Tower (Baku)",
-    "hint": "Starts with 'A' — 10 letters"
+    "hint": "Starts with 'A' — 10 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Maiden_tower_IMG_8521.jpg/500px-Maiden_tower_IMG_8521.jpg"
   },
   {
     "name": "Niger",
@@ -613,7 +741,9 @@
     "borders": "Algeria, Benin, Burkina Faso, Chad, Libya, Mali, Nigeria",
     "capital": "Niamey",
     "landmark": "Agadez Mosque",
-    "hint": "Starts with 'N' — 5 letters"
+    "hint": "Starts with 'N' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1997_277-9A_Agadez_mosque_cropped.jpg/500px-1997_277-9A_Agadez_mosque_cropped.jpg"
   },
   {
     "name": "Heard Island and McDonald Islands",
@@ -623,7 +753,10 @@
     "pop": "~0",
     "borders": "None",
     "landmark": "Big Ben (Mawson Peak)",
-    "hint": "Two words — starts with 'Heard'"
+    "hint": "Two words — starts with 'Heard'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/500px-Flag_of_Australia_%28converted%29.svg.png",
+    "capital": "None"
   },
   {
     "name": "Laos",
@@ -634,7 +767,9 @@
     "borders": "Myanmar, Cambodia, China, Thailand, Vietnam",
     "capital": "Vientiane",
     "landmark": "Pha That Luang",
-    "hint": "Starts with 'L' — 4 letters"
+    "hint": "Starts with 'L' — 4 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Pha_That_Luang%2C_July_2023.jpg/500px-Pha_That_Luang%2C_July_2023.jpg"
   },
   {
     "name": "Burkina Faso",
@@ -645,10 +780,12 @@
     "borders": "Benin, Ivory Coast, Ghana, Mali, Niger, Togo",
     "capital": "Ouagadougou",
     "landmark": "Grand Mosque of Bobo-Dioulasso",
-    "hint": "Two words — starts with 'Burkina'"
+    "hint": "Two words — starts with 'Burkina'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Moschee_von_Bobo-Dioulasso.jpg/500px-Moschee_von_Bobo-Dioulasso.jpg"
   },
   {
-    "name": "Cocos (Keeling) Islands",
+    "name": "Cocos Islands",
     "code": "cc",
     "flag": "🇨🇨",
     "continent": "Oceania",
@@ -656,7 +793,9 @@
     "borders": "None",
     "capital": "West Island",
     "landmark": "Direction Island Lagoon",
-    "hint": "Two words — starts with 'Cocos'"
+    "hint": "Two words — starts with 'Cocos'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Kiritimati-EO.jpg/500px-Kiritimati-EO.jpg"
   },
   {
     "name": "Luxembourg",
@@ -667,7 +806,9 @@
     "borders": "Belgium, France, Germany",
     "capital": "Luxembourg",
     "landmark": "Grand Ducal Palace",
-    "hint": "Starts with 'L' — 10 letters"
+    "hint": "Starts with 'L' — 10 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/CoA_Grand_Duke_of_Luxembourg_2000-_%28shield_for_greater_arms%29.svg/500px-CoA_Grand_Duke_of_Luxembourg_2000-_%28shield_for_greater_arms%29.svg.png"
   },
   {
     "name": "Indonesia",
@@ -678,7 +819,9 @@
     "borders": "Timor-Leste (East Timor), Malaysia, Papua New Guinea",
     "capital": "Jakarta",
     "landmark": "Borobudur Temple",
-    "hint": "Starts with 'I' — 9 letters"
+    "hint": "Starts with 'I' — 9 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ankor_Wat_temple.jpg/500px-Ankor_Wat_temple.jpg"
   },
   {
     "name": "Lebanon",
@@ -689,7 +832,9 @@
     "borders": "Israel, Syria",
     "capital": "Beirut",
     "landmark": "Baalbek Temples",
-    "hint": "Starts with 'L' — 7 letters"
+    "hint": "Starts with 'L' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Temple_of_Bacchus%2C_Baalbek%2C_Lebanon_%2849890013476%29.jpg/500px-Temple_of_Bacchus%2C_Baalbek%2C_Lebanon_%2849890013476%29.jpg"
   },
   {
     "name": "Turkey",
@@ -700,7 +845,13 @@
     "borders": "Armenia, Azerbaijan, Bulgaria, Georgia, Greece, Iran, Iraq, Syria",
     "capital": "Ankara",
     "landmark": "Hagia Sophia",
-    "hint": "Starts with 'T' — 6 letters"
+    "hint": "Starts with 'T' — 6 letters",
+    "difficulty": "easy",
+    "alts": [
+      "turkiye",
+      "türkiye"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/500px-Hagia_Sophia_%28228968325%29.jpeg"
   },
   {
     "name": "Timor-Leste",
@@ -711,7 +862,9 @@
     "borders": "Indonesia",
     "capital": "Dili",
     "landmark": "Jesus Christ Statue (Cristo Rei)",
-    "hint": "Starts with 'T' — 11 letters"
+    "hint": "Starts with 'T' — 11 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/500px-Christ_the_Redeemer_-_Cristo_Redentor.jpg"
   },
   {
     "name": "Zimbabwe",
@@ -722,7 +875,9 @@
     "borders": "Botswana, Mozambique, South Africa, Zambia",
     "capital": "Harare",
     "landmark": "Victoria Falls",
-    "hint": "Starts with 'Z' — 8 letters"
+    "hint": "Starts with 'Z' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg/500px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg"
   },
   {
     "name": "South Africa",
@@ -733,7 +888,9 @@
     "borders": "Botswana, Lesotho, Mozambique, Namibia, Eswatini, Zimbabwe",
     "capital": "Pretoria",
     "landmark": "Table Mountain",
-    "hint": "Two words — starts with 'South'"
+    "hint": "Two words — starts with 'South'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Table_Mountain_DanieVDM.jpg/500px-Table_Mountain_DanieVDM.jpg"
   },
   {
     "name": "Armenia",
@@ -744,7 +901,9 @@
     "borders": "Azerbaijan, Georgia, Iran, Turkey",
     "capital": "Yerevan",
     "landmark": "GeGhanard Monastery",
-    "hint": "Starts with 'A' — 7 letters"
+    "hint": "Starts with 'A' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Geghard_monastery.jpg/480px-Geghard_monastery.jpg"
   },
   {
     "name": "Ireland",
@@ -755,7 +914,9 @@
     "borders": "United Kingdom",
     "capital": "Dublin",
     "landmark": "Cliffs of Moher",
-    "hint": "Starts with 'I' — 7 letters"
+    "hint": "Starts with 'I' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Cliffs-Of-Moher-OBriens-From-South.JPG/500px-Cliffs-Of-Moher-OBriens-From-South.JPG"
   },
   {
     "name": "Norway",
@@ -766,7 +927,9 @@
     "borders": "Finland, Sweden, Russia",
     "capital": "Oslo",
     "landmark": "Geirangerfjord",
-    "hint": "Starts with 'N' — 6 letters"
+    "hint": "Starts with 'N' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Geirangerfjord_.jpg/500px-Geirangerfjord_.jpg"
   },
   {
     "name": "Kenya",
@@ -777,18 +940,26 @@
     "borders": "Ethiopia, Somalia, South Sudan, Tanzania, Uganda",
     "capital": "Nairobi",
     "landmark": "Maasai Mara National Reserve",
-    "hint": "Starts with 'K' — 5 letters"
+    "hint": "Starts with 'K' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Masai_Mara_at_Sunset.jpg/500px-Masai_Mara_at_Sunset.jpg"
   },
   {
     "name": "North Korea",
     "code": "kp",
     "flag": "🇰🇵",
-  "continent": "Asia",
+    "continent": "Asia",
     "pop": "~26 million",
     "borders": "China, South Korea, Russia",
     "capital": "Pyongyang",
     "landmark": "Kumsusan Palace of the Sun",
-    "hint": "Two words — starts with 'North'"
+    "hint": "Two words — starts with 'North'",
+    "difficulty": "easy",
+    "alts": [
+      "dprk",
+      "democratic people's republic of korea"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/0990_-_Nordkorea_2015_-_Pj%C3%B6ngjang_-_Mausoleum_%2822950470746%29.jpg/500px-0990_-_Nordkorea_2015_-_Pj%C3%B6ngjang_-_Mausoleum_%2822950470746%29.jpg"
   },
   {
     "name": "Afghanistan",
@@ -799,7 +970,9 @@
     "borders": "Iran, Pakistan, Turkmenistan, Uzbekistan, Tajikistan, China",
     "capital": "Kabul",
     "landmark": "Minaret of Jam",
-    "hint": "Starts with 'A' — 11 letters"
+    "hint": "Starts with 'A' — 11 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Jam_afghan_architecture_harirud_brick.jpg/500px-Jam_afghan_architecture_harirud_brick.jpg"
   },
   {
     "name": "Bermuda",
@@ -810,7 +983,9 @@
     "borders": "None",
     "capital": "Hamilton",
     "landmark": "Horseshoe Bay Beach",
-    "hint": "Starts with 'B' — 7 letters"
+    "hint": "Starts with 'B' — 7 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Sussex_County_Delaware_Incorporated_and_Unincorporated_areas_Slaughter_Beach_Highlighted_1067050.svg/500px-Sussex_County_Delaware_Incorporated_and_Unincorporated_areas_Slaughter_Beach_Highlighted_1067050.svg.png"
   },
   {
     "name": "Spain",
@@ -821,7 +996,9 @@
     "borders": "Andorra, France, Gibraltar, Portugal, Morocco",
     "capital": "Madrid",
     "landmark": "Sagrada Familia",
-    "hint": "Starts with 'S' — 5 letters"
+    "hint": "Starts with 'S' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Magicsquareexample.svg/500px-Magicsquareexample.svg.png"
   },
   {
     "name": "Netherlands",
@@ -832,7 +1009,13 @@
     "borders": "Belgium, Germany",
     "capital": "Amsterdam",
     "landmark": "Kinderdijk Windmills",
-    "hint": "Starts with 'N' — 11 letters"
+    "hint": "Starts with 'N' — 11 letters",
+    "difficulty": "easy",
+    "alts": [
+      "holland",
+      "the netherlands"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/KinderdijkWindmills.jpg/500px-KinderdijkWindmills.jpg"
   },
   {
     "name": "Nicaragua",
@@ -843,7 +1026,9 @@
     "borders": "Costa Rica, Honduras",
     "capital": "Managua",
     "landmark": "Masaya Volcano",
-    "hint": "Starts with 'N' — 9 letters"
+    "hint": "Starts with 'N' — 9 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Volcan_Masaya2.jpg/500px-Volcan_Masaya2.jpg"
   },
   {
     "name": "Lesotho",
@@ -854,7 +1039,9 @@
     "borders": "South Africa",
     "capital": "Maseru",
     "landmark": "Maletsunyane Falls",
-    "hint": "Starts with 'L' — 7 letters"
+    "hint": "Starts with 'L' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Maletsunyanefalls.JPG/500px-Maletsunyanefalls.JPG"
   },
   {
     "name": "Egypt",
@@ -865,7 +1052,9 @@
     "borders": "Israel, Libya, Palestine, Sudan",
     "capital": "Cairo",
     "landmark": "Great Pyramids of Giza",
-    "hint": "Starts with 'E' — 5 letters"
+    "hint": "Starts with 'E' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/500px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
   },
   {
     "name": "Gambia",
@@ -876,7 +1065,9 @@
     "borders": "Senegal",
     "capital": "Banjul",
     "landmark": "Kachikally Crocodile Pool",
-    "hint": "Starts with 'G' — 6 letters"
+    "hint": "Starts with 'G' — 6 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bakau_0001.jpg/500px-Bakau_0001.jpg"
   },
   {
     "name": "Brazil",
@@ -887,7 +1078,9 @@
     "borders": "Argentina, Bolivia, Colombia, French Guiana, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela",
     "capital": "Brasília",
     "landmark": "Christ the Redeemer",
-    "hint": "Starts with 'B' — 6 letters"
+    "hint": "Starts with 'B' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/500px-Christ_the_Redeemer_-_Cristo_Redentor.jpg"
   },
   {
     "name": "Australia",
@@ -898,7 +1091,9 @@
     "borders": "None",
     "capital": "Canberra",
     "landmark": "Sydney Opera House",
-    "hint": "Starts with 'A' — 9 letters"
+    "hint": "Starts with 'A' — 9 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._%2821339175489%29.jpg/500px-Sydney_Australia._%2821339175489%29.jpg"
   },
   {
     "name": "Bouvet Island",
@@ -908,7 +1103,10 @@
     "pop": "0",
     "borders": "None",
     "landmark": "Olav Peak",
-    "hint": "Two words — starts with 'Bouvet'"
+    "hint": "Two words — starts with 'Bouvet'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Johann_Olav_Koss_1.jpg/500px-Johann_Olav_Koss_1.jpg",
+    "capital": "None"
   },
   {
     "name": "Pitcairn Islands",
@@ -919,7 +1117,9 @@
     "borders": "None",
     "capital": "Adamstown",
     "landmark": "Bounty Bay",
-    "hint": "Two words — starts with 'Pitcairn'"
+    "hint": "Two words — starts with 'Pitcairn'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bounty_bay.jpg/500px-Bounty_bay.jpg"
   },
   {
     "name": "Barbados",
@@ -930,7 +1130,9 @@
     "borders": "None",
     "capital": "Bridgetown",
     "landmark": "Harrison's Cave",
-    "hint": "Starts with 'B' — 8 letters"
+    "hint": "Starts with 'B' — 8 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Harrisoncave1.JPG/500px-Harrisoncave1.JPG"
   },
   {
     "name": "Madagascar",
@@ -941,7 +1143,9 @@
     "borders": "None",
     "capital": "Antananarivo",
     "landmark": "Avenue of the Baobabs",
-    "hint": "Starts with 'M' — 10 letters"
+    "hint": "Starts with 'M' — 10 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Adansonia_grandidieri_Pat_Hooper.jpg/500px-Adansonia_grandidieri_Pat_Hooper.jpg"
   },
   {
     "name": "United Kingdom",
@@ -952,7 +1156,15 @@
     "borders": "Ireland",
     "capital": "London",
     "landmark": "Big Ben",
-    "hint": "Two words — starts with 'United'"
+    "hint": "Two words — starts with 'United'",
+    "difficulty": "easy",
+    "alts": [
+      "uk",
+      "great britain",
+      "england",
+      "britain"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Elizabeth_Tower%2C_June_2022.jpg/500px-Elizabeth_Tower%2C_June_2022.jpg"
   },
   {
     "name": "Portugal",
@@ -963,7 +1175,9 @@
     "borders": "Spain",
     "capital": "Lisbon",
     "landmark": "Belém Tower",
-    "hint": "Starts with 'P' — 8 letters"
+    "hint": "Starts with 'P' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Torre_Bel%C3%A9m_April_2009-4a.jpg/500px-Torre_Bel%C3%A9m_April_2009-4a.jpg"
   },
   {
     "name": "Greenland",
@@ -974,7 +1188,9 @@
     "borders": "None",
     "capital": "Nuuk",
     "landmark": "Ilulissat Icefjord",
-    "hint": "Starts with 'G' — 9 letters"
+    "hint": "Starts with 'G' — 9 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Greenland_Ilulissat-25.jpg/500px-Greenland_Ilulissat-25.jpg"
   },
   {
     "name": "American Samoa",
@@ -985,7 +1201,9 @@
     "borders": "None",
     "capital": "Pago Pago",
     "landmark": "Pago Pago Harbo",
-    "hint": "Two words — starts with 'American'"
+    "hint": "Two words — starts with 'American'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Pago_Pago_Harbor.jpg/480px-Pago_Pago_Harbor.jpg"
   },
   {
     "name": "South Georgia",
@@ -996,7 +1214,9 @@
     "borders": "None",
     "capital": "King Edward Point",
     "landmark": "Mount Paget",
-    "hint": "Two words — starts with 'South'"
+    "hint": "Two words — starts with 'South'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mount_Paget.jpeg/500px-Mount_Paget.jpeg"
   },
   {
     "name": "Turkmenistan",
@@ -1007,7 +1227,9 @@
     "borders": "Afghanistan, Iran, Kazakhstan, Uzbekistan",
     "capital": "Ashgabat",
     "landmark": "Darvaza Gas Crater",
-    "hint": "Starts with 'T' — 12 letters"
+    "hint": "Starts with 'T' — 12 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Karakum_Desert%2C_Turkmenistan.jpg/500px-Karakum_Desert%2C_Turkmenistan.jpg"
   },
   {
     "name": "Guadeloupe",
@@ -1018,7 +1240,9 @@
     "borders": "None",
     "capital": "Basse-Terre",
     "landmark": "La Soufrière",
-    "hint": "Starts with 'G' — 10 letters"
+    "hint": "Starts with 'G' — 10 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/500px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png"
   },
   {
     "name": "Dominica",
@@ -1029,7 +1253,9 @@
     "borders": "None",
     "capital": "Roseau",
     "landmark": "Boiling Lake",
-    "hint": "Starts with 'D' — 8 letters"
+    "hint": "Starts with 'D' — 8 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Dominica_Boiling_Lake.jpg/500px-Dominica_Boiling_Lake.jpg"
   },
   {
     "name": "Solomon Islands",
@@ -1040,7 +1266,9 @@
     "borders": "None",
     "capital": "Honiara",
     "landmark": "Honiara Memorial",
-    "hint": "Two words — starts with 'Solomon'"
+    "hint": "Two words — starts with 'Solomon'",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Visale%2C_Solomon_Islands.JPG/500px-Visale%2C_Solomon_Islands.JPG"
   },
   {
     "name": "Saint Pierre and Miquelon",
@@ -1051,7 +1279,9 @@
     "borders": "None",
     "capital": "Saint-Pierre",
     "landmark": "Fort Saint-Pierre",
-    "hint": "Two words — starts with 'Saint'"
+    "hint": "Two words — starts with 'Saint'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Old_Warren_County_Courthouse.jpg/500px-Old_Warren_County_Courthouse.jpg"
   },
   {
     "name": "Rwanda",
@@ -1062,7 +1292,9 @@
     "borders": "Burundi, Democratic Republic of the Congo, Tanzania, Uganda",
     "capital": "Kigali",
     "landmark": "Volcanoes National Park",
-    "hint": "Starts with 'R' — 6 letters"
+    "hint": "Starts with 'R' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Volcanoes_National_Park_Banner_Image.gif/500px-Volcanoes_National_Park_Banner_Image.gif"
   },
   {
     "name": "Norfolk Island",
@@ -1073,7 +1305,9 @@
     "borders": "None",
     "capital": "Kingston",
     "landmark": "Kingston and Arthur’s Vale Historic Area (KAVHA)",
-    "hint": "Two words — starts with 'Norfolk'"
+    "hint": "Two words — starts with 'Norfolk'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Norfolk_Island_jail1.jpg/500px-Norfolk_Island_jail1.jpg"
   },
   {
     "name": "Panama",
@@ -1084,7 +1318,9 @@
     "borders": "Colombia, Costa Rica",
     "capital": "Panama City",
     "landmark": "Panama Canal",
-    "hint": "Starts with 'P' — 6 letters"
+    "hint": "Starts with 'P' — 6 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Panama_Canal_Map_EN.svg/500px-Panama_Canal_Map_EN.svg.png"
   },
   {
     "name": "Bahamas",
@@ -1095,7 +1331,9 @@
     "borders": "None",
     "capital": "Nassau",
     "landmark": "Atlantis Paradise Island",
-    "hint": "Starts with 'B' — 7 letters"
+    "hint": "Starts with 'B' — 7 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/The_Atlantis_Paradise_Island_complex.jpg/500px-The_Atlantis_Paradise_Island_complex.jpg"
   },
   {
     "name": "Tokelau",
@@ -1106,18 +1344,22 @@
     "borders": "None",
     "capital": "Fakaofo",
     "landmark": "Atafu Atoll",
-    "hint": "Starts with 'T' — 7 letters"
+    "hint": "Starts with 'T' — 7 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Tokelau.svg/500px-Flag_of_Tokelau.svg.png"
   },
   {
     "name": "Montenegro",
     "code": "me",
     "flag": "🇲🇪",
-  "continent": "Europe",
+    "continent": "Europe",
     "pop": "~1 million",
     "borders": "Albania, Bosnia and Herzegovina, Croatia, Kosovo, Serbia",
     "capital": "Podgorica",
     "landmark": "Durmitor National Park",
-    "hint": "Starts with 'M' — 10 letters"
+    "hint": "Starts with 'M' — 10 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/500px-Flag_of_Montenegro.svg.png"
   },
   {
     "name": "Åland Islands",
@@ -1128,7 +1370,9 @@
     "borders": "None",
     "capital": "Mariehamn",
     "landmark": "Kastelholm Castle",
-    "hint": "Two words — starts with 'Åland'"
+    "hint": "Two words — starts with 'Åland'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Kastelholm-aerial-2017-midsommar-2.png/500px-Kastelholm-aerial-2017-midsommar-2.png"
   },
   {
     "name": "Niue",
@@ -1139,7 +1383,9 @@
     "borders": "None",
     "capital": "Alofi",
     "landmark": "Alofi Lagoon",
-    "hint": "Starts with 'N' — 4 letters"
+    "hint": "Starts with 'N' — 4 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Niue.svg/500px-Flag_of_Niue.svg.png"
   },
   {
     "name": "Argentina",
@@ -1150,7 +1396,9 @@
     "borders": "Bolivia, Brazil, Chile, Paraguay, Uruguay",
     "capital": "Buenos Aires",
     "landmark": "Perito Moreno Glacier",
-    "hint": "Starts with 'A' — 9 letters"
+    "hint": "Starts with 'A' — 9 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Perito_Moreno_Glacier_2023.jpg/500px-Perito_Moreno_Glacier_2023.jpg"
   },
   {
     "name": "Cuba",
@@ -1161,7 +1409,9 @@
     "borders": "None",
     "capital": "Havana",
     "landmark": "El Morro Castle",
-    "hint": "Starts with 'C' — 4 letters"
+    "hint": "Starts with 'C' — 4 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/DJI_0197_crp_wiki.jpg/500px-DJI_0197_crp_wiki.jpg"
   },
   {
     "name": "Cayman Islands",
@@ -1172,7 +1422,9 @@
     "borders": "None",
     "capital": "George Town",
     "landmark": "Seven Mile Beach",
-    "hint": "Two words — starts with 'Cayman'"
+    "hint": "Two words — starts with 'Cayman'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_the_Cayman_Islands.svg/500px-Flag_of_the_Cayman_Islands.svg.png"
   },
   {
     "name": "Kazakhstan",
@@ -1183,7 +1435,9 @@
     "borders": "China, Kyrgyzstan, Russia, Turkmenistan, Uzbekistan",
     "capital": "Astana",
     "landmark": "Bayterek Tower",
-    "hint": "Starts with 'K' — 10 letters"
+    "hint": "Starts with 'K' — 10 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Astana_DSC04362_%287711355642%29.jpg/500px-Astana_DSC04362_%287711355642%29.jpg"
   },
   {
     "name": "Russia",
@@ -1194,7 +1448,12 @@
     "borders": "Azerbaijan, Belarus, China, Estonia, Finland, Georgia, Kazakhstan, North Korea, Latvia, Lithuania, Mongolia, Norway, Poland, Ukraine",
     "capital": "Moscow",
     "landmark": "Red Square",
-    "hint": "Starts with 'R' — 6 letters"
+    "hint": "Starts with 'R' — 6 letters",
+    "difficulty": "easy",
+    "alts": [
+      "russian federation"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kremlin_and_Red_Square.1.jpg/500px-Kremlin_and_Red_Square.1.jpg"
   },
   {
     "name": "India",
@@ -1205,7 +1464,9 @@
     "borders": "Bangladesh, Bhutan, Myanmar, China, Nepal, Pakistan",
     "capital": "New Delhi",
     "landmark": "Taj Mahal",
-    "hint": "Starts with 'I' — 5 letters"
+    "hint": "Starts with 'I' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/500px-Taj_Mahal_%28Edited%29.jpeg"
   },
   {
     "name": "British Virgin Islands",
@@ -1216,7 +1477,9 @@
     "borders": "None",
     "capital": "Road Town",
     "landmark": "The Baths",
-    "hint": "Two words — starts with 'British'"
+    "hint": "Two words — starts with 'British'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/TheBaths_VirginGorda_BVI.jpg/500px-TheBaths_VirginGorda_BVI.jpg"
   },
   {
     "name": "Guam",
@@ -1227,7 +1490,9 @@
     "borders": "None",
     "capital": "Hagåtña",
     "landmark": "Two Lovers Point",
-    "hint": "Starts with 'G' — 4 letters"
+    "hint": "Starts with 'G' — 4 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Two_Lovers_Point_from_Tumon_Bay.JPG/500px-Two_Lovers_Point_from_Tumon_Bay.JPG"
   },
   {
     "name": "Myanmar",
@@ -1238,7 +1503,12 @@
     "borders": "Bangladesh, China, India, Laos, Thailand",
     "capital": "Naypyidaw",
     "landmark": "Shwedagon Pagoda",
-    "hint": "Starts with 'M' — 7 letters"
+    "hint": "Starts with 'M' — 7 letters",
+    "difficulty": "easy",
+    "alts": [
+      "burma"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Shwedagon_Pagoda_2017.jpg/500px-Shwedagon_Pagoda_2017.jpg"
   },
   {
     "name": "Democratic Republic of the Congo (DR Congo)",
@@ -1249,7 +1519,9 @@
     "borders": "Angola, Burundi, Central African Republic, Republic of the Congo, Rwanda, South Sudan, Tanzania, Uganda, Zambia",
     "capital": "Kinshasa",
     "landmark": "Virunga National Park",
-    "hint": "Two words — starts with 'DR'"
+    "hint": "Two words — starts with 'DR'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Virunga_National_Park-107997.jpg/500px-Virunga_National_Park-107997.jpg"
   },
   {
     "name": "Mauritius",
@@ -1260,7 +1532,9 @@
     "borders": "None",
     "capital": "Port Louis",
     "landmark": "Le Morne Brabant",
-    "hint": "Starts with 'M' — 9 letters"
+    "hint": "Starts with 'M' — 9 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Le_Morne_Peninsula_in_Mauritius_%2853697779236%29.jpg/500px-Le_Morne_Peninsula_in_Mauritius_%2853697779236%29.jpg"
   },
   {
     "name": "Falkland Islands",
@@ -1271,7 +1545,9 @@
     "borders": "None",
     "capital": "Stanley",
     "landmark": "Volunteer Point",
-    "hint": "Two words — starts with 'Falkland'"
+    "hint": "Two words — starts with 'Falkland'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Shantyvolunteerpoint.jpg/500px-Shantyvolunteerpoint.jpg"
   },
   {
     "name": "Northern Mariana Islands",
@@ -1282,7 +1558,9 @@
     "borders": "None",
     "capital": "Saipan",
     "landmark": "Saipan Island Beaches",
-    "hint": "Two words — starts with 'Northern'"
+    "hint": "Two words — starts with 'Northern'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/500px-Flag_of_the_Northern_Mariana_Islands.svg.png"
   },
   {
     "name": "Ukraine",
@@ -1293,7 +1571,9 @@
     "borders": "Belarus, Hungary, Moldova, Poland, Romania, Russia, Slovakia",
     "capital": "Kyiv",
     "landmark": "Saint Sophia Cathedral",
-    "hint": "Starts with 'U' — 7 letters"
+    "hint": "Starts with 'U' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/80-391-0151_Kyiv_St.Sophia%27s_Cathedral_RB_18_2_%28cropped%29.jpg/500px-80-391-0151_Kyiv_St.Sophia%27s_Cathedral_RB_18_2_%28cropped%29.jpg"
   },
   {
     "name": "Monaco",
@@ -1304,7 +1584,9 @@
     "borders": "France",
     "capital": "Monaco",
     "landmark": "Monte Carlo Casino",
-    "hint": "Starts with 'M' — 6 letters"
+    "hint": "Starts with 'M' — 6 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Monaco_-_panoramio_%28138%29.jpg/500px-Monaco_-_panoramio_%28138%29.jpg"
   },
   {
     "name": "Tajikistan",
@@ -1315,7 +1597,9 @@
     "borders": "Afghanistan, China, Kyrgyzstan, Uzbekistan",
     "capital": "Dushanbe",
     "landmark": "Iskanderkul Lake",
-    "hint": "Starts with 'T' — 10 letters"
+    "hint": "Starts with 'T' — 10 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tajikistan_Map_TI-map.gif/500px-Tajikistan_Map_TI-map.gif"
   },
   {
     "name": "Malaysia",
@@ -1326,7 +1610,9 @@
     "borders": "Brunei, Indonesia, Thailand, Singapore",
     "capital": "Kuala Lumpur",
     "landmark": "Petronas Twin Towers",
-    "hint": "Starts with 'M' — 8 letters"
+    "hint": "Starts with 'M' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Sears_Tower%2C_Wacker_Drive_and_Jackson_Boulevard%2C_Chicago%2C_IL_-_54189600901.jpg/500px-Sears_Tower%2C_Wacker_Drive_and_Jackson_Boulevard%2C_Chicago%2C_IL_-_54189600901.jpg"
   },
   {
     "name": "Somalia",
@@ -1337,7 +1623,9 @@
     "borders": "Djibouti, Ethiopia, Kenya",
     "capital": "Mogadishu",
     "landmark": "Laas Geel rock paintings",
-    "hint": "Starts with 'S' — 7 letters"
+    "hint": "Starts with 'S' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_painting.jpg/500px-Lascaux_painting.jpg"
   },
   {
     "name": "Antigua and Barbuda",
@@ -1348,7 +1636,9 @@
     "borders": "None",
     "capital": "Saint John's",
     "landmark": "Nelson’s Dockyard",
-    "hint": "Two words — starts with 'Antigua'"
+    "hint": "Two words — starts with 'Antigua'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Aerial_photograph_of_Portsmouth_Dockyard_taken_during_a_Photex%2C_taken_from_2%2C000_feet._MOD_45144952.jpg/500px-Aerial_photograph_of_Portsmouth_Dockyard_taken_during_a_Photex%2C_taken_from_2%2C000_feet._MOD_45144952.jpg"
   },
   {
     "name": "Central African Republic",
@@ -1359,17 +1649,22 @@
     "borders": "Cameroon, Chad, Democratic Republic of the Congo, Republic of the Congo, South Sudan, Sudan",
     "capital": "Bangui",
     "landmark": "Boali Waterfalls",
-    "hint": "Two words — starts with 'Central'"
+    "hint": "Two words — starts with 'Central'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg/500px-Frederic_Edwin_Church_-_Niagara_Falls_-_WGA04867.jpg"
   },
   {
     "name": "Macau",
     "code": "mo",
     "flag": "🇲🇴",
-  "continent": "Asia",
+    "continent": "Asia",
     "pop": "~1 million",
     "borders": "China",
     "landmark": "Ruins of St. Paul's",
-    "hint": "Starts with 'M' — 5 letters"
+    "hint": "Starts with 'M' — 5 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Fresco_of_Saint_Paul_at_Ephesus.jpg/500px-Fresco_of_Saint_Paul_at_Ephesus.jpg",
+    "capital": "Macau"
   },
   {
     "name": "Israel",
@@ -1380,7 +1675,9 @@
     "borders": "Egypt, Jordan, Lebanon, Palestine, Syria",
     "capital": "Jerusalem",
     "landmark": "Western Wall (Kotel)",
-    "hint": "Starts with 'I' — 6 letters"
+    "hint": "Starts with 'I' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Jews-pray-in-the-Western-Wall-1.jpg/500px-Jews-pray-in-the-Western-Wall-1.jpg"
   },
   {
     "name": "Nigeria",
@@ -1391,7 +1688,9 @@
     "borders": "Benin, Cameroon, Chad, Niger",
     "capital": "Abuja",
     "landmark": "Zuma Rock",
-    "hint": "Starts with 'N' — 7 letters"
+    "hint": "Starts with 'N' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Zuma_Rock.jpg/500px-Zuma_Rock.jpg"
   },
   {
     "name": "Honduras",
@@ -1402,7 +1701,9 @@
     "borders": "Guatemala, El Salvador, Nicaragua",
     "capital": "Tegucigalpa",
     "landmark": "Copán Ruins",
-    "hint": "Starts with 'H' — 8 letters"
+    "hint": "Starts with 'H' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Copan_sculpture.jpg/500px-Copan_sculpture.jpg"
   },
   {
     "name": "Sierra Leone",
@@ -1413,7 +1714,9 @@
     "borders": "Guinea, Liberia",
     "capital": "Freetown",
     "landmark": "Tacugama Chimpanzee Sanctuary",
-    "hint": "Two words — starts with 'Sierra'"
+    "hint": "Two words — starts with 'Sierra'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/500px-Flag_of_Sierra_Leone.svg.png"
   },
   {
     "name": "Tunisia",
@@ -1424,7 +1727,9 @@
     "borders": "Algeria, Libya",
     "capital": "Tunis",
     "landmark": "El Djem Amphitheatre",
-    "hint": "Starts with 'T' — 7 letters"
+    "hint": "Starts with 'T' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gladiators_from_the_Zliten_mosaic_3.JPG/500px-Gladiators_from_the_Zliten_mosaic_3.JPG"
   },
   {
     "name": "Lithuania",
@@ -1435,7 +1740,9 @@
     "borders": "Belarus, Latvia, Poland, Russia",
     "capital": "Vilnius",
     "landmark": "Vilnius Old Town",
-    "hint": "Starts with 'L' — 9 letters"
+    "hint": "Starts with 'L' — 9 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Vilnius_old_town_by_Augustas_Didzgalvis.jpg/500px-Vilnius_old_town_by_Augustas_Didzgalvis.jpg"
   },
   {
     "name": "Iraq",
@@ -1446,7 +1753,9 @@
     "borders": "Iran, Jordan, Kuwait, Saudi Arabia, Syria, Turkey",
     "capital": "Baghdad",
     "landmark": "Ziggurat of Ur",
-    "hint": "Starts with 'I' — 4 letters"
+    "hint": "Starts with 'I' — 4 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ziggarat_of_Ur_001.jpg/500px-Ziggarat_of_Ur_001.jpg"
   },
   {
     "name": "Switzerland",
@@ -1457,7 +1766,9 @@
     "borders": "Austria, France, Italy, Liechtenstein, Germany",
     "capital": "Bern",
     "landmark": "Matterhorn",
-    "hint": "Starts with 'S' — 11 letters"
+    "hint": "Starts with 'S' — 11 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/500px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg"
   },
   {
     "name": "Chile",
@@ -1468,18 +1779,26 @@
     "borders": "Argentina, Bolivia, Peru",
     "capital": "Santiago",
     "landmark": "Easter Island Moai Statues",
-    "hint": "Starts with 'C' — 5 letters"
+    "hint": "Starts with 'C' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Easter_Island_5.jpg/500px-Easter_Island_5.jpg"
   },
   {
     "name": "Taiwan",
     "code": "tw",
     "flag": "🇹🇼",
-  "continent": "Asia",
+    "continent": "Asia",
     "pop": "~23 million",
     "borders": "None",
     "capital": "Taipei",
     "landmark": "Taipei 101",
-    "hint": "Starts with 'T' — 6 letters"
+    "hint": "Starts with 'T' — 6 letters",
+    "difficulty": "easy",
+    "alts": [
+      "republic of china",
+      "roc"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Taipei_101_logo.svg/500px-Taipei_101_logo.svg.png"
   },
   {
     "name": "Vietnam",
@@ -1490,7 +1809,12 @@
     "borders": "Cambodia, China, Laos",
     "capital": "Hanoi",
     "landmark": "Ha Long Bay",
-    "hint": "Starts with 'V' — 7 letters"
+    "hint": "Starts with 'V' — 7 letters",
+    "difficulty": "easy",
+    "alts": [
+      "viet nam"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/500px-Flag_of_Vietnam.svg.png"
   },
   {
     "name": "Bangladesh",
@@ -1501,7 +1825,9 @@
     "borders": "Myanmar, India",
     "capital": "Dhaka",
     "landmark": "Sundarbans Mangrove Forest",
-    "hint": "Starts with 'B' — 10 letters"
+    "hint": "Starts with 'B' — 10 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Bengal_tiger_in_Sanjay_Dubri_Tiger_Reserve_December_2024_by_Tisha_Mukherjee_11.jpg/500px-Bengal_tiger_in_Sanjay_Dubri_Tiger_Reserve_December_2024_by_Tisha_Mukherjee_11.jpg"
   },
   {
     "name": "Vanuatu",
@@ -1512,7 +1838,9 @@
     "borders": "None",
     "capital": "Port Vila",
     "landmark": "Mount Yasur",
-    "hint": "Starts with 'V' — 7 letters"
+    "hint": "Starts with 'V' — 7 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Mount_Yasur_eruption_2006%2C_Tanna_Island%2C_Vanuatu%2C_VAN_0516.jpg/500px-Mount_Yasur_eruption_2006%2C_Tanna_Island%2C_Vanuatu%2C_VAN_0516.jpg"
   },
   {
     "name": "Pakistan",
@@ -1523,7 +1851,9 @@
     "borders": "Afghanistan, China, India, Iran",
     "capital": "Islamabad",
     "landmark": "Badshahi Mosque",
-    "hint": "Starts with 'P' — 8 letters"
+    "hint": "Starts with 'P' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Badshahi_Mosque_front_picture.jpg/500px-Badshahi_Mosque_front_picture.jpg"
   },
   {
     "name": "Latvia",
@@ -1534,7 +1864,9 @@
     "borders": "Belarus, Estonia, Lithuania, Russia",
     "capital": "Riga",
     "landmark": "Ħal Saflieni Hypogeum",
-    "hint": "Starts with 'L' — 6 letters"
+    "hint": "Starts with 'L' — 6 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Photo_Ellis_Hal_Salflieni.jpg/500px-Photo_Ellis_Hal_Salflieni.jpg"
   },
   {
     "name": "Malta",
@@ -1545,7 +1877,9 @@
     "borders": "None",
     "capital": "Valletta",
     "landmark": "Ħal Saflieni Hypogeum",
-    "hint": "Starts with 'M' — 5 letters"
+    "hint": "Starts with 'M' — 5 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Photo_Ellis_Hal_Salflieni.jpg/500px-Photo_Ellis_Hal_Salflieni.jpg"
   },
   {
     "name": "Seychelles",
@@ -1556,7 +1890,9 @@
     "borders": "None",
     "capital": "Victoria",
     "landmark": "Vallée de Mai",
-    "hint": "Starts with 'S' — 10 letters"
+    "hint": "Starts with 'S' — 10 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Valle%C3%A9_de_mai2.jpg/500px-Valle%C3%A9_de_mai2.jpg"
   },
   {
     "name": "Montserrat",
@@ -1567,7 +1903,9 @@
     "borders": "None",
     "capital": "Plymouth",
     "landmark": "Soufrière Hills Volcano",
-    "hint": "Starts with 'M' — 10 letters"
+    "hint": "Starts with 'M' — 10 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/500px-Flag_of_Montserrat.svg.png"
   },
   {
     "name": "Anguilla",
@@ -1578,7 +1916,9 @@
     "borders": "None",
     "capital": "The Valley",
     "landmark": "Shoal Bay Beach",
-    "hint": "Starts with 'A' — 8 letters"
+    "hint": "Starts with 'A' — 8 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/GughSandbar.JPG/500px-GughSandbar.JPG"
   },
   {
     "name": "Greece",
@@ -1589,7 +1929,9 @@
     "borders": "Albania, Bulgaria, Turkey, North Macedonia",
     "capital": "Athens",
     "landmark": "Acropolis of Athens",
-    "hint": "Starts with 'G' — 6 letters"
+    "hint": "Starts with 'G' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg/500px-1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg"
   },
   {
     "name": "Czechia",
@@ -1600,7 +1942,12 @@
     "borders": "Austria, Germany, Poland, Slovakia",
     "capital": "Prague",
     "landmark": "Prague Castle",
-    "hint": "Starts with 'C' — 7 letters"
+    "hint": "Starts with 'C' — 7 letters",
+    "difficulty": "easy",
+    "alts": [
+      "czech republic"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Karl%C5%AFv_most_Praha%2C_Star%C3%A9_M%C4%9Bsto_20170810_007.jpg/500px-Karl%C5%AFv_most_Praha%2C_Star%C3%A9_M%C4%9Bsto_20170810_007.jpg"
   },
   {
     "name": "Zambia",
@@ -1611,18 +1958,22 @@
     "borders": "Angola, Botswana, Democratic Republic of the Congo, Malawi, Mozambique, Namibia, Tanzania, Zimbabwe",
     "capital": "Lusaka",
     "landmark": "Victoria Falls",
-    "hint": "Starts with 'Z' — 6 letters"
+    "hint": "Starts with 'Z' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg/500px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_04.jpg"
   },
   {
     "name": "Hong Kong",
     "code": "hk",
     "flag": "🇭🇰",
-  "continent": "Asia",
+    "continent": "Asia",
     "pop": "~8 million",
     "borders": "China",
     "capital": "City of Victoria",
     "landmark": "Victoria Peak",
-    "hint": "Two words — starts with 'Hong'"
+    "hint": "Two words — starts with 'Hong'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/High_West_and_Victoria_Peak_from_Victoria_Gap_%28crop1%29.jpg/500px-High_West_and_Victoria_Peak_from_Victoria_Gap_%28crop1%29.jpg"
   },
   {
     "name": "United States of America",
@@ -1633,7 +1984,9 @@
     "borders": "Canada, Mexico",
     "capital": "Washington, D.C.",
     "landmark": "Statue of Liberty",
-    "hint": "Two words — starts with 'United'"
+    "hint": "Two words — starts with 'United'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Front_view_of_Statue_of_Liberty_%28cropped%29.jpg/500px-Front_view_of_Statue_of_Liberty_%28cropped%29.jpg"
   },
   {
     "name": "Eswatini",
@@ -1644,7 +1997,12 @@
     "borders": "Mozambique, South Africa",
     "capital": "Mbabane",
     "landmark": "Mlilwane Wildlife Sanctuary",
-    "hint": "Starts with 'E' — 8 letters"
+    "hint": "Starts with 'E' — 8 letters",
+    "difficulty": "medium",
+    "alts": [
+      "swaziland"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Zabras_in_Mlilwane_Wildlife_Sanctuary.jpg/500px-Zabras_in_Mlilwane_Wildlife_Sanctuary.jpg"
   },
   {
     "name": "Slovenia",
@@ -1655,7 +2013,9 @@
     "borders": "Austria, Croatia, Italy, Hungary",
     "capital": "Ljubljana",
     "landmark": "Lake Bled and Bled Castle",
-    "hint": "Starts with 'S' — 8 letters"
+    "hint": "Starts with 'S' — 8 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lake_Bled_from_the_Mountain.jpg/500px-Lake_Bled_from_the_Mountain.jpg"
   },
   {
     "name": "Caribbean Netherlands",
@@ -1666,7 +2026,9 @@
     "borders": "None",
     "capital": "Kralendijk",
     "landmark": "Mount Scenery (on Saba)",
-    "hint": "Two words — starts with 'Caribbean'"
+    "hint": "Two words — starts with 'Caribbean'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Satellite_image_of_the_Netherlands_in_May_2000.jpg/500px-Satellite_image_of_the_Netherlands_in_May_2000.jpg"
   },
   {
     "name": "Maldives",
@@ -1677,7 +2039,9 @@
     "borders": "None",
     "capital": "Malé",
     "landmark": "Malé Friday Mosque (Hukuru Miskiy)",
-    "hint": "Starts with 'M' — 8 letters"
+    "hint": "Starts with 'M' — 8 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/500px-Flag_of_Maldives.svg.png"
   },
   {
     "name": "Ghana",
@@ -1688,7 +2052,9 @@
     "borders": "Burkina Faso, Ivory Coast, Togo",
     "capital": "Accra",
     "landmark": "Cape Coast Castle",
-    "hint": "Starts with 'G' — 5 letters"
+    "hint": "Starts with 'G' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Cape_Coast_Castle%2C_Cape_Coast%2C_Ghana.JPG/500px-Cape_Coast_Castle%2C_Cape_Coast%2C_Ghana.JPG"
   },
   {
     "name": "Paraguay",
@@ -1699,7 +2065,9 @@
     "borders": "Argentina, Bolivia, Brazil",
     "capital": "Asunción",
     "landmark": "Jesuit Missions of La Santísima Trinidad de Paraná",
-    "hint": "Starts with 'P' — 8 letters"
+    "hint": "Starts with 'P' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Ru%C3%ADnas_1.jpg/500px-Ru%C3%ADnas_1.jpg"
   },
   {
     "name": "Mozambique",
@@ -1710,7 +2078,9 @@
     "borders": "Malawi, South Africa, Eswatini, Tanzania, Zambia, Zimbabwe",
     "capital": "Maputo",
     "landmark": "Island of Mozambique",
-    "hint": "Starts with 'M' — 10 letters"
+    "hint": "Starts with 'M' — 10 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ilha_de_Mocambique.jpg/500px-Ilha_de_Mocambique.jpg"
   },
   {
     "name": "Palestine",
@@ -1721,7 +2091,14 @@
     "borders": "Israel, Egypt, Jordan",
     "capital": "Ramallah",
     "landmark": "Church of the Nativity (Bethlehem)",
-    "hint": "Starts with 'P' — 9 letters"
+    "hint": "Starts with 'P' — 9 letters",
+    "difficulty": "easy",
+    "alts": [
+      "state of palestine",
+      "west bank",
+      "gaza"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Church_of_the_Nativity_%287703592746%29.jpg/500px-Church_of_the_Nativity_%287703592746%29.jpg"
   },
   {
     "name": "Moldova",
@@ -1732,7 +2109,9 @@
     "borders": "Romania, Ukraine",
     "capital": "Chișinău",
     "landmark": "Orheiul Vechi",
-    "hint": "Starts with 'M' — 7 letters"
+    "hint": "Starts with 'M' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/500px-Flag_of_Moldova.svg.png"
   },
   {
     "name": "Liberia",
@@ -1743,7 +2122,9 @@
     "borders": "Guinea, Ivory Coast, Sierra Leone",
     "capital": "Monrovia",
     "landmark": "Providence Island",
-    "hint": "Starts with 'L' — 7 letters"
+    "hint": "Starts with 'L' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Rhode_Island.svg/500px-Flag_of_Rhode_Island.svg.png"
   },
   {
     "name": "Liechtenstein",
@@ -1754,7 +2135,9 @@
     "borders": "Austria, Switzerland",
     "capital": "Vaduz",
     "landmark": "Vaduz Castle",
-    "hint": "Starts with 'L' — 13 letters"
+    "hint": "Starts with 'L' — 13 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Liechtenstein_asv2022-10_img22_Vaduz_Schloss.jpg/500px-Liechtenstein_asv2022-10_img22_Vaduz_Schloss.jpg"
   },
   {
     "name": "Peru",
@@ -1765,7 +2148,9 @@
     "borders": "Bolivia, Brazil, Chile, Colombia, Ecuador",
     "capital": "Lima",
     "landmark": "Machu Picchu",
-    "hint": "Starts with 'P' — 4 letters"
+    "hint": "Starts with 'P' — 4 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Machu_Picchu%2C_2023_%28012%29.jpg/500px-Machu_Picchu%2C_2023_%28012%29.jpg"
   },
   {
     "name": "Qatar",
@@ -1776,7 +2161,9 @@
     "borders": "Saudi Arabia",
     "capital": "Doha",
     "landmark": "Museum of Islamic Art",
-    "hint": "Starts with 'Q' — 5 letters"
+    "hint": "Starts with 'Q' — 5 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg/500px-Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg"
   },
   {
     "name": "Christmas Island",
@@ -1787,7 +2174,9 @@
     "borders": "None",
     "capital": "Flying Fish Cove",
     "landmark": "Christmas Island National Park",
-    "hint": "Two words — starts with 'Christmas'"
+    "hint": "Two words — starts with 'Christmas'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Idyllic_Bathing_Pool_%2825513646381%29.jpg/500px-Idyllic_Bathing_Pool_%2825513646381%29.jpg"
   },
   {
     "name": "Georgia",
@@ -1798,7 +2187,9 @@
     "borders": "Armenia, Azerbaijan, Russia, Turkey",
     "capital": "Tbilisi",
     "landmark": "Galápagos Islands",
-    "hint": "Starts with 'G' — 7 letters"
+    "hint": "Starts with 'G' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Lobo_marino_%28Zalophus_californianus_wollebaeki%29%2C_Punta_Pitt%2C_isla_de_San_Crist%C3%B3bal%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-24%2C_DD_11.JPG/500px-Lobo_marino_%28Zalophus_californianus_wollebaeki%29%2C_Punta_Pitt%2C_isla_de_San_Crist%C3%B3bal%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-24%2C_DD_11.JPG"
   },
   {
     "name": "Ecuador",
@@ -1809,7 +2200,9 @@
     "borders": "Colombia, Peru",
     "capital": "Quito",
     "landmark": "Galápagos Islands",
-    "hint": "Starts with 'E' — 7 letters"
+    "hint": "Starts with 'E' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Lobo_marino_%28Zalophus_californianus_wollebaeki%29%2C_Punta_Pitt%2C_isla_de_San_Crist%C3%B3bal%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-24%2C_DD_11.JPG/500px-Lobo_marino_%28Zalophus_californianus_wollebaeki%29%2C_Punta_Pitt%2C_isla_de_San_Crist%C3%B3bal%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-24%2C_DD_11.JPG"
   },
   {
     "name": "Philippines",
@@ -1820,7 +2213,9 @@
     "borders": "None",
     "capital": "Manila",
     "landmark": "Chocolate Hills",
-    "hint": "Starts with 'P' — 11 letters"
+    "hint": "Starts with 'P' — 11 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Chocolate_Hills_Bohol.JPG/500px-Chocolate_Hills_Bohol.JPG"
   },
   {
     "name": "Ethiopia",
@@ -1831,7 +2226,9 @@
     "borders": "Djibouti, ERI, Kenya, Somalia, South Sudan, Sudan",
     "capital": "Addis Ababa",
     "landmark": "Lalibela Rock-Hewn Churches",
-    "hint": "Starts with 'E' — 8 letters"
+    "hint": "Starts with 'E' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Beautiful_Geghard_Monastery.jpg/500px-Beautiful_Geghard_Monastery.jpg"
   },
   {
     "name": "United States Virgin Islands",
@@ -1842,7 +2239,9 @@
     "borders": "None",
     "capital": "Charlotte Amalie",
     "landmark": "Buck Island Reef National Monument",
-    "hint": "Two words — starts with 'United'"
+    "hint": "Two words — starts with 'United'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/BuckIsland_StCroix_fire_coral.jpg/500px-BuckIsland_StCroix_fire_coral.jpg"
   },
   {
     "name": "Syria",
@@ -1853,7 +2252,12 @@
     "borders": "Iraq, Israel, Jordan, Lebanon, Turkey",
     "capital": "Damascus",
     "landmark": "Ancient City of Palmyra",
-    "hint": "Starts with 'S' — 5 letters"
+    "hint": "Starts with 'S' — 5 letters",
+    "difficulty": "easy",
+    "alts": [
+      "syrian arab republic"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/City_of_Tadmor%2C_Syria.jpg/500px-City_of_Tadmor%2C_Syria.jpg"
   },
   {
     "name": "Romania",
@@ -1864,7 +2268,9 @@
     "borders": "Bulgaria, Hungary, Moldova, Serbia, Ukraine",
     "capital": "Bucharest",
     "landmark": "Bran Castle",
-    "hint": "Starts with 'R' — 7 letters"
+    "hint": "Starts with 'R' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Castelul_Bran2.jpg/500px-Castelul_Bran2.jpg"
   },
   {
     "name": "Guatemala",
@@ -1875,7 +2281,9 @@
     "borders": "Belize, El Salvador, Honduras, Mexico",
     "capital": "Guatemala City",
     "landmark": "Tikal",
-    "hint": "Starts with 'G' — 9 letters"
+    "hint": "Starts with 'G' — 9 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Tikal_3.jpg/500px-Tikal_3.jpg"
   },
   {
     "name": "Nepal",
@@ -1886,7 +2294,9 @@
     "borders": "China, India",
     "capital": "Kathmandu",
     "landmark": "Mount Everest",
-    "hint": "Starts with 'N' — 5 letters"
+    "hint": "Starts with 'N' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/500px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg"
   },
   {
     "name": "Réunion",
@@ -1897,7 +2307,9 @@
     "borders": "None",
     "capital": "Saint-Denis",
     "landmark": "Piton de la Fournaise",
-    "hint": "Starts with 'R' — 7 letters"
+    "hint": "Starts with 'R' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Piton_de_la_Fournaise%2C_R%C3%A9union_Island_%28High_Resolution%29.jpg/500px-Piton_de_la_Fournaise%2C_R%C3%A9union_Island_%28High_Resolution%29.jpg"
   },
   {
     "name": "Benin",
@@ -1908,7 +2320,9 @@
     "borders": "Burkina Faso, Niger, Nigeria, Togo",
     "capital": "Porto-Novo",
     "landmark": "Royal Palaces of Abomey",
-    "hint": "Starts with 'B' — 5 letters"
+    "hint": "Starts with 'B' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Abomey_2006_1.jpg/500px-Abomey_2006_1.jpg"
   },
   {
     "name": "Kuwait",
@@ -1919,7 +2333,9 @@
     "borders": "Iraq, Saudi Arabia",
     "capital": "Kuwait City",
     "landmark": "Kuwait Towers",
-    "hint": "Starts with 'K' — 6 letters"
+    "hint": "Starts with 'K' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Kuwait_Towers_RB.jpg/500px-Kuwait_Towers_RB.jpg"
   },
   {
     "name": "Suriname",
@@ -1930,7 +2346,9 @@
     "borders": "Brazil, French Guiana (France), Guyana",
     "capital": "Paramaribo",
     "landmark": "Saint Peter and Paul Cathedral, Paramaribo",
-    "hint": "Starts with 'S' — 8 letters"
+    "hint": "Starts with 'S' — 8 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sint-Petrus-en-Pauluskathedraal.jpg/500px-Sint-Petrus-en-Pauluskathedraal.jpg"
   },
   {
     "name": "New Caledonia",
@@ -1941,7 +2359,9 @@
     "borders": "None",
     "capital": "Nouméa",
     "landmark": "Nouméa Lagoon",
-    "hint": "Two words — starts with 'New'"
+    "hint": "Two words — starts with 'New'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ile_de_Clipperton_%28carte-en%29.svg/500px-Ile_de_Clipperton_%28carte-en%29.svg.png"
   },
   {
     "name": "Sudan",
@@ -1952,7 +2372,9 @@
     "borders": "Central African Republic, Chad, Egypt, Eritrea, Ethiopia, Libya, South Sudan",
     "capital": "Khartoum",
     "landmark": "Pyramids of Meroë",
-    "hint": "Starts with 'S' — 5 letters"
+    "hint": "Starts with 'S' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/NubianMeroePyramids30sep2005%282%29.jpg/500px-NubianMeroePyramids30sep2005%282%29.jpg"
   },
   {
     "name": "United States Minor Outlying Islands",
@@ -1963,7 +2385,9 @@
     "borders": "None",
     "capital": "Washington DC",
     "landmark": "Wake Island",
-    "hint": "Two words — starts with 'United'"
+    "hint": "Two words — starts with 'United'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Wake_Island_NASA_photo_map.jpg/500px-Wake_Island_NASA_photo_map.jpg"
   },
   {
     "name": "Chad",
@@ -1974,7 +2398,9 @@
     "borders": "Cameroon, Central African Republic, Libya, Niger, Nigeria, Sudan",
     "capital": "N'Djamena",
     "landmark": "Zakouma National Park",
-    "hint": "Starts with 'C' — 4 letters"
+    "hint": "Starts with 'C' — 4 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Girafe_du_parc_national_de_Zakouma.jpg/500px-Girafe_du_parc_national_de_Zakouma.jpg"
   },
   {
     "name": "Uruguay",
@@ -1985,18 +2411,22 @@
     "borders": "Argentina, Brazil",
     "capital": "Montevideo",
     "landmark": "Casapueblo",
-    "hint": "Starts with 'U' — 7 letters"
+    "hint": "Starts with 'U' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Casapueblo.JPG/500px-Casapueblo.JPG"
   },
   {
     "name": "Bosnia and Herzegovina",
     "code": "ba",
     "flag": "🇧🇦",
-"continent": "Europe",
+    "continent": "Europe",
     "pop": "~3 million",
     "borders": "Croatia, Montenegro, Serbia",
     "capital": "Sarajevo",
     "landmark": "Stari Most (Old Bridge), Mostar",
-    "hint": "Two words — starts with 'Bosnia'"
+    "hint": "Two words — starts with 'Bosnia'",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Stari_Most_viewed_from_North.jpg/500px-Stari_Most_viewed_from_North.jpg"
   },
   {
     "name": "Trinidad and Tobago",
@@ -2007,7 +2437,9 @@
     "borders": "None",
     "capital": "Port of Spain",
     "landmark": "Pitch Lake",
-    "hint": "Two words — starts with 'Trinidad'"
+    "hint": "Two words — starts with 'Trinidad'",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/0/06/Trinidad_pitch_lake_ENG.png"
   },
   {
     "name": "Sweden",
@@ -2018,7 +2450,9 @@
     "borders": "Finland, Norway",
     "capital": "Stockholm",
     "landmark": "Drottningholm Palace",
-    "hint": "Starts with 'S' — 6 letters"
+    "hint": "Starts with 'S' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Drottningholm_kollage_2011abc.jpg/500px-Drottningholm_kollage_2011abc.jpg"
   },
   {
     "name": "Iceland",
@@ -2029,7 +2463,9 @@
     "borders": "None",
     "capital": "Reykjavik",
     "landmark": "Blue Lagoon",
-    "hint": "Starts with 'I' — 7 letters"
+    "hint": "Starts with 'I' — 7 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Blue-Lagoon-Iceland.jpg/480px-Blue-Lagoon-Iceland.jpg"
   },
   {
     "name": "Haiti",
@@ -2040,7 +2476,9 @@
     "borders": "Dominican Republic",
     "capital": "Port-au-Prince",
     "landmark": "Citadelle Laferrière",
-    "hint": "Starts with 'H' — 5 letters"
+    "hint": "Starts with 'H' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Citadelle_Laferri%C3%A8re.jpg/500px-Citadelle_Laferri%C3%A8re.jpg"
   },
   {
     "name": "Brunei",
@@ -2051,7 +2489,9 @@
     "borders": "Malaysia",
     "capital": "Bandar Seri Begawan",
     "landmark": "Sultan Omar Ali Saifuddien Mosque",
-    "hint": "Starts with 'B' — 6 letters"
+    "hint": "Starts with 'B' — 6 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Brunei_Fireworks_%26_Drone_Light_Show_2024_12.jpg/500px-Brunei_Fireworks_%26_Drone_Light_Show_2024_12.jpg"
   },
   {
     "name": "French Southern and Antarctic Lands",
@@ -2062,7 +2502,9 @@
     "borders": "None",
     "capital": "Port-aux-Français",
     "landmark": "Kerguelen Islands",
-    "hint": "Two words — starts with 'French'"
+    "hint": "Two words — starts with 'French'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_of_the_French_Southern_and_Antarctic_Lands.svg/500px-Flag_of_the_French_Southern_and_Antarctic_Lands.svg.png"
   },
   {
     "name": "Guernsey",
@@ -2073,7 +2515,9 @@
     "borders": "None",
     "capital": "St. Peter Port",
     "landmark": "Castle Cornet",
-    "hint": "Starts with 'G' — 8 letters"
+    "hint": "Starts with 'G' — 8 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Castle_Cornet%2C_Guernsey.jpg/500px-Castle_Cornet%2C_Guernsey.jpg"
   },
   {
     "name": "Croatia",
@@ -2084,7 +2528,9 @@
     "borders": "Bosnia and Herzegovina, Hungary, Montenegro, Serbia, Slovenia",
     "capital": "Zagreb",
     "landmark": "Diocletian's Palace",
-    "hint": "Starts with 'C' — 7 letters"
+    "hint": "Starts with 'C' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Croatia-01239_-_The_Peristil_%289551533404%29.jpg/500px-Croatia-01239_-_The_Peristil_%289551533404%29.jpg"
   },
   {
     "name": "Saint Barthélemy",
@@ -2095,18 +2541,22 @@
     "borders": "None",
     "capital": "Gustavia",
     "landmark": "Gustavia Harbor",
-    "hint": "Two words — starts with 'Saint'"
+    "hint": "Two words — starts with 'Saint'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/DJI_0197_crp_wiki.jpg/500px-DJI_0197_crp_wiki.jpg"
   },
   {
     "name": "Mongolia",
     "code": "mn",
     "flag": "🇲🇳",
-  "continent": "Asia",
+    "continent": "Asia",
     "pop": "~4 million",
     "borders": "China, Russia",
     "capital": "Ulan Bator",
     "landmark": "Gobi Desert",
-    "hint": "Starts with 'M' — 8 letters"
+    "hint": "Starts with 'M' — 8 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Gobi_Desert.jpg/500px-Gobi_Desert.jpg"
   },
   {
     "name": "Aruba",
@@ -2117,7 +2567,9 @@
     "borders": "None",
     "capital": "Oranjestad",
     "landmark": "Natural Pool (Conchi)",
-    "hint": "Starts with 'A' — 5 letters"
+    "hint": "Starts with 'A' — 5 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Arikok_National_Park.jpg/500px-Arikok_National_Park.jpg"
   },
   {
     "name": "Republic of the Congo",
@@ -2128,7 +2580,13 @@
     "borders": "Angola, Cameroon, Central African Republic, Democratic Republic of the Congo, Gabon",
     "capital": "Brazzaville",
     "landmark": "Odzala-Kokoua National Park",
-    "hint": "Two words — starts with 'Republic'"
+    "hint": "Two words — starts with 'Republic'",
+    "difficulty": "easy",
+    "alts": [
+      "congo-brazzaville",
+      "roc"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/500px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg"
   },
   {
     "name": "São Tomé and Príncipe",
@@ -2139,7 +2597,9 @@
     "borders": "None",
     "capital": "São Tomé",
     "landmark": "Pico Cão Grande",
-    "hint": "Two words — starts with 'São'"
+    "hint": "Two words — starts with 'São'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pico_C%C3%A3o_Grande.jpg/500px-Pico_C%C3%A3o_Grande.jpg"
   },
   {
     "name": "Yemen",
@@ -2150,7 +2610,9 @@
     "borders": "Oman, Saudi Arabia",
     "capital": "Sana'a",
     "landmark": "Old City of Sana'a",
-    "hint": "Starts with 'Y' — 5 letters"
+    "hint": "Starts with 'Y' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/500px-Flag_of_Yemen.svg.png"
   },
   {
     "name": "Equatorial Guinea",
@@ -2161,7 +2623,9 @@
     "borders": "Cameroon, Gabon",
     "capital": "Ciudad de la Paz",
     "landmark": "Malabo Cathedral",
-    "hint": "Two words — starts with 'Equatorial'"
+    "hint": "Two words — starts with 'Equatorial'",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/500px-Flag_of_Equatorial_Guinea.svg.png"
   },
   {
     "name": "Svalbard and Jan Mayen",
@@ -2172,7 +2636,9 @@
     "borders": "None",
     "capital": "Longyearbyen",
     "landmark": "Svalbard Global Seed Vault",
-    "hint": "Two words — starts with 'Svalbard'"
+    "hint": "Two words — starts with 'Svalbard'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Logo_Svalbard_Global_Seed_Vault.png/500px-Logo_Svalbard_Global_Seed_Vault.png"
   },
   {
     "name": "Colombia",
@@ -2183,7 +2649,9 @@
     "borders": "Brazil, Ecuador, Panama, Peru, Venezuela",
     "capital": "Bogotá",
     "landmark": "Ciudad Perdida (Lost City)",
-    "hint": "Starts with 'C' — 8 letters"
+    "hint": "Starts with 'C' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Peru_Machu_Picchu_Sunrise.jpg/500px-Peru_Machu_Picchu_Sunrise.jpg"
   },
   {
     "name": "Guinea-Bissau",
@@ -2194,7 +2662,9 @@
     "borders": "Guinea, Senegal",
     "capital": "Bissau",
     "landmark": "Orango Islands National Park",
-    "hint": "Starts with 'G' — 13 letters"
+    "hint": "Starts with 'G' — 13 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Map_of_the_sectors_of_the_Bolama_Region%2C_Guinea-Bissau.png/500px-Map_of_the_sectors_of_the_Bolama_Region%2C_Guinea-Bissau.png"
   },
   {
     "name": "Kiribati",
@@ -2205,7 +2675,9 @@
     "borders": "None",
     "capital": "South Tarawa",
     "landmark": "Christmas Island (Kiritimati)",
-    "hint": "Starts with 'K' — 8 letters"
+    "hint": "Starts with 'K' — 8 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/500px-Flag_of_Kiribati.svg.png"
   },
   {
     "name": "Germany",
@@ -2216,7 +2688,9 @@
     "borders": "Austria, Belgium, Czechia, Denmark, France, Luxembourg, Netherlands, Poland, Switzerland",
     "capital": "Berlin",
     "landmark": "Brandenburg Gate",
-    "hint": "Starts with 'G' — 7 letters"
+    "hint": "Starts with 'G' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brandenburger_Tor_abends.jpg/500px-Brandenburger_Tor_abends.jpg"
   },
   {
     "name": "Thailand",
@@ -2227,7 +2701,9 @@
     "borders": "Myanmar, Cambodia, Laos, Malaysia",
     "capital": "Bangkok",
     "landmark": "Grand Palace",
-    "hint": "Starts with 'T' — 8 letters"
+    "hint": "Starts with 'T' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/0005574_-_Wat_Phra_Kaew_006.jpg/500px-0005574_-_Wat_Phra_Kaew_006.jpg"
   },
   {
     "name": "Isle of Man",
@@ -2238,7 +2714,9 @@
     "borders": "None",
     "capital": "Douglas",
     "landmark": "Castle Rushen",
-    "hint": "Two words — starts with 'Isle'"
+    "hint": "Two words — starts with 'Isle'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Castle_Rushen_on_the_Isle_of_Man.jpg/500px-Castle_Rushen_on_the_Isle_of_Man.jpg"
   },
   {
     "name": "Bhutan",
@@ -2249,7 +2727,9 @@
     "borders": "China, India",
     "capital": "Thimphu",
     "landmark": "Paro Taktsang (Tiger’s Nest Monastery)",
-    "hint": "Starts with 'B' — 6 letters"
+    "hint": "Starts with 'B' — 6 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Himalayas_and_allied_ranges_NASA_Landsat_showing_the_eight_thousanders%2C_annotated_with_major_rivers.jpg/500px-Himalayas_and_allied_ranges_NASA_Landsat_showing_the_eight_thousanders%2C_annotated_with_major_rivers.jpg"
   },
   {
     "name": "Gabon",
@@ -2260,7 +2740,9 @@
     "borders": "Cameroon, Republic of the Congo, Equatorial Guinea",
     "capital": "Libreville",
     "landmark": "Lope National Park",
-    "hint": "Starts with 'G' — 5 letters"
+    "hint": "Starts with 'G' — 5 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/500px-Flag_of_Gabon.svg.png"
   },
   {
     "name": "Sint Maarten",
@@ -2271,7 +2753,9 @@
     "borders": "Saint Martin",
     "capital": "Philipsburg",
     "landmark": "Maho Beach",
-    "hint": "Two words — starts with 'Sint'"
+    "hint": "Two words — starts with 'Sint'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Corsair_Airbus_A330_at_SXM_Bidini.jpg/500px-Corsair_Airbus_A330_at_SXM_Bidini.jpg"
   },
   {
     "name": "Sri Lanka",
@@ -2282,7 +2766,9 @@
     "borders": "None",
     "capital": "Sri Jayawardenepura Kotte",
     "landmark": "Sigiriya Rock Fortress",
-    "hint": "Two words — starts with 'Sri'"
+    "hint": "Two words — starts with 'Sri'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/500px-Flag_of_Sri_Lanka.svg.png"
   },
   {
     "name": "Albania",
@@ -2293,7 +2779,9 @@
     "borders": "Montenegro, Greece, North Macedonia, Kosovo",
     "capital": "Tirana",
     "landmark": "Rozafa Castle",
-    "hint": "Starts with 'A' — 7 letters"
+    "hint": "Starts with 'A' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Rozafa_Castle_in_July_2013_%285%29.JPG/500px-Rozafa_Castle_in_July_2013_%285%29.JPG"
   },
   {
     "name": "New Zealand",
@@ -2304,7 +2792,9 @@
     "borders": "None",
     "capital": "Wellington",
     "landmark": "Milford Sound",
-    "hint": "Two words — starts with 'New'"
+    "hint": "Two words — starts with 'New'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/500px-Milford_Sound_%28New_Zealand%29.JPG"
   },
   {
     "name": "Algeria",
@@ -2315,7 +2805,9 @@
     "borders": "Tunisia, Libya, Niger, Western Sahara, Mauritania, Mali, Morocco",
     "capital": "Algiers",
     "landmark": "Casbah of Algiers",
-    "hint": "Starts with 'A' — 7 letters"
+    "hint": "Starts with 'A' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/AlgerCasbah.jpg/500px-AlgerCasbah.jpg"
   },
   {
     "name": "San Marino",
@@ -2326,7 +2818,9 @@
     "borders": "Italy",
     "capital": "City of San Marino",
     "landmark": "Guaita Tower",
-    "hint": "Two words — starts with 'San'"
+    "hint": "Two words — starts with 'San'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Funivia_di_San_Marino_-_2019-05-07.jpg/500px-Funivia_di_San_Marino_-_2019-05-07.jpg"
   },
   {
     "name": "Micronesia",
@@ -2337,7 +2831,9 @@
     "borders": "None",
     "capital": "Palikir",
     "landmark": "Nan Madol",
-    "hint": "Starts with 'M' — 10 letters"
+    "hint": "Starts with 'M' — 10 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Nan_madol.jpg/500px-Nan_madol.jpg"
   },
   {
     "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -2348,7 +2844,9 @@
     "borders": "None",
     "capital": "Jamestown",
     "landmark": "Jamestown Historic Sites",
-    "hint": "Two words — starts with 'Saint'"
+    "hint": "Two words — starts with 'Saint'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jamestown_Saint_Helena.jpg/480px-Jamestown_Saint_Helena.jpg"
   },
   {
     "name": "Curaçao",
@@ -2359,7 +2857,9 @@
     "borders": "None",
     "capital": "Willemstad",
     "landmark": "Queen Emma Bridge",
-    "hint": "Starts with 'C' — 7 letters"
+    "hint": "Starts with 'C' — 7 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Curacao-Queen-Emma-Bridge.JPG/500px-Curacao-Queen-Emma-Bridge.JPG"
   },
   {
     "name": "El Salvador",
@@ -2370,7 +2870,9 @@
     "borders": "Guatemala, Honduras",
     "capital": "San Salvador",
     "landmark": "Santa Ana Volcano",
-    "hint": "Two words — starts with 'El'"
+    "hint": "Two words — starts with 'El'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Santa_Ana_Volcano.USAF.C-130.1.jpg/500px-Santa_Ana_Volcano.USAF.C-130.1.jpg"
   },
   {
     "name": "Martinique",
@@ -2381,7 +2883,9 @@
     "borders": "None",
     "capital": "Fort-de-France",
     "landmark": "Mount Pelée",
-    "hint": "Starts with 'M' — 10 letters"
+    "hint": "Starts with 'M' — 10 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ville_de_Saint-Pierre.jpg/500px-Ville_de_Saint-Pierre.jpg"
   },
   {
     "name": "Nauru",
@@ -2392,7 +2896,9 @@
     "borders": "None",
     "capital": "Yaren",
     "landmark": "Moqua Caves",
-    "hint": "Starts with 'N' — 5 letters"
+    "hint": "Starts with 'N' — 5 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Nauru_map_english.svg/500px-Nauru_map_english.svg.png"
   },
   {
     "name": "Vatican City",
@@ -2403,7 +2909,9 @@
     "borders": "Italy",
     "capital": "Vatican City",
     "landmark": "St. Peter's Basilica",
-    "hint": "Two words — starts with 'Vatican'"
+    "hint": "Two words — starts with 'Vatican'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg/500px-Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg"
   },
   {
     "name": "Grenada",
@@ -2414,7 +2922,9 @@
     "borders": "None",
     "capital": "St. George's",
     "landmark": "Grand Anse Beach",
-    "hint": "Starts with 'G' — 7 letters"
+    "hint": "Starts with 'G' — 7 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Island_Schwarzer_Strand_10.JPG/500px-Island_Schwarzer_Strand_10.JPG"
   },
   {
     "name": "Tonga",
@@ -2425,7 +2935,9 @@
     "borders": "None",
     "capital": "Nuku'alofa",
     "landmark": "Haʻamonga ʻa Maui",
-    "hint": "Starts with 'T' — 5 letters"
+    "hint": "Starts with 'T' — 5 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ha%CA%BBamonga.jpg/500px-Ha%CA%BBamonga.jpg"
   },
   {
     "name": "Burundi",
@@ -2436,7 +2948,9 @@
     "borders": "Democratic Republic of the Congo, Rwanda, Tanzania",
     "capital": "Gitega",
     "landmark": "Source of the Nile at Rutovu",
-    "hint": "Starts with 'B' — 7 letters"
+    "hint": "Starts with 'B' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Nile_3rd_Cataract_Left.jpg/500px-Nile_3rd_Cataract_Left.jpg"
   },
   {
     "name": "Samoa",
@@ -2447,7 +2961,9 @@
     "borders": "None",
     "capital": "Apia",
     "landmark": "To‑Sua Ocean Trench",
-    "hint": "Starts with 'S' — 5 letters"
+    "hint": "Starts with 'S' — 5 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Diegogarcia.jpg/500px-Diegogarcia.jpg"
   },
   {
     "name": "Denmark",
@@ -2458,7 +2974,9 @@
     "borders": "Germany",
     "capital": "Copenhagen",
     "landmark": "Tivoli Gardens (or Nyhavn / The Little Mermaid)",
-    "hint": "Starts with 'D' — 7 letters"
+    "hint": "Starts with 'D' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2018_-_Christiansborg_from_the_Marble_Bridge.jpg/500px-2018_-_Christiansborg_from_the_Marble_Bridge.jpg"
   },
   {
     "name": "Venezuela",
@@ -2469,7 +2987,12 @@
     "borders": "Brazil, Colombia, Guyana",
     "capital": "Caracas",
     "landmark": "Angel Falls",
-    "hint": "Starts with 'V' — 9 letters"
+    "hint": "Starts with 'V' — 9 letters",
+    "difficulty": "easy",
+    "alts": [
+      "bolivarian republic of venezuela"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/e/e9/SaltoAngel1.jpg"
   },
   {
     "name": "Austria",
@@ -2480,7 +3003,9 @@
     "borders": "Czechia, Germany, Hungary, Italy, Liechtenstein, Slovakia, Slovenia, Switzerland",
     "capital": "Vienna",
     "landmark": "Schönbrunn Palace",
-    "hint": "Starts with 'A' — 7 letters"
+    "hint": "Starts with 'A' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wien_-_Schloss_Sch%C3%B6nbrunn.JPG/500px-Wien_-_Schloss_Sch%C3%B6nbrunn.JPG"
   },
   {
     "name": "Slovakia",
@@ -2491,7 +3016,9 @@
     "borders": "Austria, Czechia, Hungary, Poland, Ukraine",
     "capital": "Bratislava",
     "landmark": "Bratislava Castle",
-    "hint": "Starts with 'S' — 8 letters"
+    "hint": "Starts with 'S' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bratislava_-_Burg_%28b%29.JPG/500px-Bratislava_-_Burg_%28b%29.JPG"
   },
   {
     "name": "China",
@@ -2502,7 +3029,9 @@
     "borders": "Afghanistan, Bhutan, Myanmar, Hong Kong, India, Kazakhstan, Nepal, North Korea, Kyrgyzstan, Laos, Macau, Mongolia, Pakistan, Russia, Tajikistan, Vietnam",
     "capital": "Beijing",
     "landmark": "Great Wall of China",
-    "hint": "Starts with 'C' — 5 letters"
+    "hint": "Starts with 'C' — 5 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/500px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
   },
   {
     "name": "British Indian Ocean Territory",
@@ -2513,7 +3042,9 @@
     "borders": "None",
     "capital": "Diego Garcia",
     "landmark": "Diego Garcia Atoll",
-    "hint": "Two words — starts with 'British'"
+    "hint": "Two words — starts with 'British'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Diegogarcia.jpg/500px-Diegogarcia.jpg"
   },
   {
     "name": "French Polynesia",
@@ -2524,7 +3055,9 @@
     "borders": "None",
     "capital": "Papeetē",
     "landmark": "Bora Bora Lagoon",
-    "hint": "Two words — starts with 'French'"
+    "hint": "Two words — starts with 'French'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/BalosLagoonCreta.jpg/500px-BalosLagoonCreta.jpg"
   },
   {
     "name": "Bolivia",
@@ -2535,7 +3068,12 @@
     "borders": "Argentina, Brazil, Chile, Paraguay, Peru",
     "capital": "Sucre",
     "landmark": "Salar de Uyuni",
-    "hint": "Starts with 'B' — 7 letters"
+    "hint": "Starts with 'B' — 7 letters",
+    "difficulty": "easy",
+    "alts": [
+      "plurinational state of bolivia"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Salar_Uyuni_au01.jpg/500px-Salar_Uyuni_au01.jpg"
   },
   {
     "name": "Antarctica",
@@ -2545,7 +3083,10 @@
     "pop": "~1000",
     "borders": "None",
     "landmark": "Mount Vinson",
-    "hint": "Starts with 'A' — 10 letters"
+    "hint": "Starts with 'A' — 10 letters",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mt_erebus.jpg/500px-Mt_erebus.jpg",
+    "capital": "None"
   },
   {
     "name": "Libya",
@@ -2556,7 +3097,12 @@
     "borders": "Algeria, Chad, Egypt, Niger, Sudan, Tunisia",
     "capital": "Tripoli",
     "landmark": "Leptis Magna",
-    "hint": "Starts with 'L' — 5 letters"
+    "hint": "Starts with 'L' — 5 letters",
+    "difficulty": "easy",
+    "alts": [
+      "state of libya"
+    ],
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Leptis_Magna_%2829%29_%288288918733%29.jpg/500px-Leptis_Magna_%2829%29_%288288918733%29.jpg"
   },
   {
     "name": "Estonia",
@@ -2567,7 +3113,9 @@
     "borders": "Latvia, Russia",
     "capital": "Tallinn",
     "landmark": "Tallinn Old Town",
-    "hint": "Starts with 'E' — 7 letters"
+    "hint": "Starts with 'E' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Old_Town_of_Tallinn%2C_Tallinn%2C_Estonia_-_panoramio_%2858%29.jpg/500px-Old_Town_of_Tallinn%2C_Tallinn%2C_Estonia_-_panoramio_%2858%29.jpg"
   },
   {
     "name": "Cook Islands",
@@ -2578,7 +3126,9 @@
     "borders": "None",
     "capital": "Avarua",
     "landmark": "Aitutaki Lagoon",
-    "hint": "Two words — starts with 'Cook'"
+    "hint": "Two words — starts with 'Cook'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Tetiaroa_from_sky.JPG/500px-Tetiaroa_from_sky.JPG"
   },
   {
     "name": "Puerto Rico",
@@ -2589,7 +3139,9 @@
     "borders": "None",
     "capital": "San Juan",
     "landmark": "El Yunque National Forest",
-    "hint": "Two words — starts with 'Puerto'"
+    "hint": "Two words — starts with 'Puerto'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Puerto_Rico_El_Yunque_1.jpg/500px-Puerto_Rico_El_Yunque_1.jpg"
   },
   {
     "name": "Belarus",
@@ -2600,7 +3152,9 @@
     "borders": "Latvia, Lithuania, Poland, Russia, Ukraine",
     "capital": "Minsk",
     "landmark": "Mir Castle",
-    "hint": "Starts with 'B' — 7 letters"
+    "hint": "Starts with 'B' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Mir_Castle_2018.jpg/500px-Mir_Castle_2018.jpg"
   },
   {
     "name": "Faroe Islands",
@@ -2611,7 +3165,9 @@
     "borders": "None",
     "capital": "Tórshavn",
     "landmark": "Saksun Village",
-    "hint": "Two words — starts with 'Faroe'"
+    "hint": "Two words — starts with 'Faroe'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Faroes030417-nasa%282%29.jpg"
   },
   {
     "name": "Saint Vincent and the Grenadines",
@@ -2622,7 +3178,9 @@
     "borders": "None",
     "capital": "Kingstown",
     "landmark": "La Soufrière Volcano",
-    "hint": "Two words — starts with 'Saint'"
+    "hint": "Two words — starts with 'Saint'",
+    "difficulty": "hard",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Guadeloupe_in_France_2016.svg/500px-Guadeloupe_in_France_2016.svg.png"
   },
   {
     "name": "Dominican Republic",
@@ -2633,7 +3191,9 @@
     "borders": "Haiti",
     "capital": "Santo Domingo",
     "landmark": "Zona Colonial (Colonial Zone) – Santo Domingo",
-    "hint": "Two words — starts with 'Dominican'"
+    "hint": "Two words — starts with 'Dominican'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ciudad_de_Guatemala%2C_CA.jpg/500px-Ciudad_de_Guatemala%2C_CA.jpg"
   },
   {
     "name": "Hungary",
@@ -2644,7 +3204,9 @@
     "borders": "Austria, Croatia, Romania, Serbia, Slovakia, Slovenia, Ukraine",
     "capital": "Budapest",
     "landmark": "Buda Castle",
-    "hint": "Starts with 'H' — 7 letters"
+    "hint": "Starts with 'H' — 7 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Budav%C3%A1ri_Palota%2C_ABCDEF_%C3%A9p%C3%BClet.jpg/500px-Budav%C3%A1ri_Palota%2C_ABCDEF_%C3%A9p%C3%BClet.jpg"
   },
   {
     "name": "Bahrain",
@@ -2655,7 +3217,9 @@
     "borders": "None",
     "capital": "Manama",
     "landmark": "Bahrain Fort (Qal'at al-Bahrain)",
-    "hint": "Starts with 'B' — 7 letters"
+    "hint": "Starts with 'B' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Mapofqatar1849.jpg/500px-Mapofqatar1849.jpg"
   },
   {
     "name": "Cameroon",
@@ -2666,7 +3230,9 @@
     "borders": "Central African Republic, Chad, Republic of the Congo, Equatorial Guinea, Gabon, Nigeria",
     "capital": "Yaoundé",
     "landmark": "Mount Cameroon",
-    "hint": "Starts with 'C' — 8 letters"
+    "hint": "Starts with 'C' — 8 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mount_Cameroon_view_from_Buea_%28Soppo%29.jpg/500px-Mount_Cameroon_view_from_Buea_%28Soppo%29.jpg"
   },
   {
     "name": "Canada",
@@ -2677,7 +3243,9 @@
     "borders": "United States of America",
     "capital": "Ottawa",
     "landmark": "Niagara Falls",
-    "hint": "Starts with 'C' — 6 letters"
+    "hint": "Starts with 'C' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/3Falls_Niagara.jpg/500px-3Falls_Niagara.jpg"
   },
   {
     "name": "Eritrea",
@@ -2688,7 +3256,9 @@
     "borders": "Djibouti, Ethiopia, Sudan",
     "capital": "Asmara",
     "landmark": "Asmara’s Fiat Tagliero Building",
-    "hint": "Starts with 'E' — 7 letters"
+    "hint": "Starts with 'E' — 7 letters",
+    "difficulty": "medium",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Chrysler_Building_1_%284684845155%29.jpg/500px-Chrysler_Building_1_%284684845155%29.jpg"
   },
   {
     "name": "Singapore",
@@ -2699,7 +3269,9 @@
     "borders": "Malaysia",
     "capital": "Singapore",
     "landmark": "Marina Bay Sands",
-    "hint": "Starts with 'S' — 9 letters"
+    "hint": "Starts with 'S' — 9 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_Bay_Sands_%28I%29.jpg/500px-Marina_Bay_Sands_%28I%29.jpg"
   },
   {
     "name": "Costa Rica",
@@ -2710,7 +3282,9 @@
     "borders": "Nicaragua, Panama",
     "capital": "San José",
     "landmark": "Arenal Volcano",
-    "hint": "Two words — starts with 'Costa'"
+    "hint": "Two words — starts with 'Costa'",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Arenal_volcano_%2870785p%29_%28cropped%29.jpg/500px-Arenal_volcano_%2870785p%29_%28cropped%29.jpg"
   },
   {
     "name": "Serbia",
@@ -2721,7 +3295,9 @@
     "borders": "Bosnia and Herzegovina, Bulgaria, Croatia, Hungary, Kosovo, North Macedonia, Montenegro, Romania",
     "capital": "Belgrade",
     "landmark": "Belgrade Fortress (Kalemegdan)",
-    "hint": "Starts with 'S' — 6 letters"
+    "hint": "Starts with 'S' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Panorama_Belgrad.jpg/500px-Panorama_Belgrad.jpg"
   },
   {
     "name": "Poland",
@@ -2732,7 +3308,9 @@
     "borders": "Belarus, Czechia, Germany, Lithuania, Russia, Slovakia, Ukraine",
     "capital": "Warsaw",
     "landmark": "Wawel Castle",
-    "hint": "Starts with 'P' — 6 letters"
+    "hint": "Starts with 'P' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Wawel_%284%29.jpg/500px-Wawel_%284%29.jpg"
   },
   {
     "name": "Jordan",
@@ -2743,6 +3321,8 @@
     "borders": "Iraq, Israel, Palestine, Saudi Arabia, Syria",
     "capital": "Amman",
     "landmark": "Petra",
-    "hint": "Starts with 'J' — 6 letters"
+    "hint": "Starts with 'J' — 6 letters",
+    "difficulty": "easy",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Al_Deir_Petra.JPG/500px-Al_Deir_Petra.JPG"
   }
 ]

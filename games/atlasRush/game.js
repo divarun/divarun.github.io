@@ -1,143 +1,102 @@
+// ─── DATA ────────────────────────────────────────────────────────────────────
 let COUNTRIES = [];
 
 async function loadCountries() {
   try {
     const res = await fetch('countries.json');
-    if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     COUNTRIES = await res.json();
-    console.log("✅ Countries loaded:", COUNTRIES.length);
+    console.log(`✅ Loaded ${COUNTRIES.length} countries`);
     init();
   } catch (err) {
-    console.error("❌ Failed to load countries JSON:", err);
+    console.error('❌ Failed to load countries.json:', err);
+    document.getElementById('clues-stack').innerHTML =
+      '<p style="color:var(--danger);padding:1rem 0">Failed to load game data. Please refresh.</p>';
   }
 }
 
-// ─── DIFFICULTY FILTERING ───
-// Territories, micronations, and obscure places get filtered out in Easy/Medium.
-const HARD_ONLY_KEYWORDS = [
-  'territory','islands','island','saint ','st.','sint ','dependency',
-  'reunion','mayotte','guiana','guadeloupe','martinique','jersey','guernsey',
-  'cayman','gibraltar','bermuda','aruba','curacao','bonaire','montserrat',
-  'falkland','pitcairn','tokelau','wallis','niue','palau','nauru','tuvalu',
-  'kiribati','marshall','micronesia','cook islands','antarctica','svalbard',
-  'faroe','aland','french polynesia','new caledonia','western sahara',
-  'american samoa','northern mariana','puerto rico','virgin','cocos',
-  'christmas','norfolk','heard','south georgia','british indian',
-  'french guiana','saint martin','saint barthelemy','sint maarten',
-  'saint pierre','turks','anguilla','british virgin'
-];
-
-const MEDIUM_SMALL_POP = 500000; // filter below this in Easy
-
+// ─── DIFFICULTY ──────────────────────────────────────────────────────────────
+// Difficulty is a field on each country in countries.json:
+//   "easy"   = major well-known countries (5M+ pop, no territories)
+//   "medium" = 500K+ pop countries
+//   "hard"   = everything including territories and micronations
 function getFilteredCountries(difficulty) {
-  if (difficulty === 'hard') return COUNTRIES;
+  if (difficulty === 'hard')   return COUNTRIES;
+  if (difficulty === 'medium') return COUNTRIES.filter(c => c.difficulty !== 'hard');
+  return COUNTRIES.filter(c => c.difficulty === 'easy');
+}
 
-  return COUNTRIES.filter(c => {
-    const nameLower = c.name.toLowerCase();
-    const isHardOnly = HARD_ONLY_KEYWORDS.some(kw => nameLower.includes(kw));
-    if (isHardOnly) return false;
+// ─── ALTERNATE NAMES ─────────────────────────────────────────────────────────
+// Aliases live in the "alts" array on each country in countries.json.
+let ALT_NAMES = {};
 
-    if (difficulty === 'easy') {
-      const popNum = parsePopulation(c.pop);
-      return popNum >= 5000000; // Easy: 5M+ population countries
+function buildAltNames() {
+  ALT_NAMES = {};
+  for (const c of COUNTRIES) {
+    if (Array.isArray(c.alts)) {
+      for (const alt of c.alts) {
+        ALT_NAMES[alt.toLowerCase()] = c.name.toLowerCase();
+      }
     }
-    // medium: exclude tiny territories but keep everything else
-    const popNum = parsePopulation(c.pop);
-    return popNum >= MEDIUM_SMALL_POP;
-  });
+  }
 }
-
-function parsePopulation(popStr) {
-  if (!popStr) return 0;
-  const s = popStr.replace(/[~,\s]/g, '');
-  const num = parseFloat(s);
-  if (s.includes('billion')) return num * 1e9;
-  if (s.toLowerCase().includes('million')) return num * 1e6;
-  if (s.toLowerCase().includes('thousand')) return num * 1e3;
-  return num || 0;
-}
-
-// ─── ALTERNATE NAMES ───
-// Maps common aliases → canonical country name (lowercase)
-const ALT_NAMES = {
-  'usa': 'united states',
-  'us': 'united states',
-  'united states of america': 'united states',
-  'america': 'united states',
-  'uae': 'united arab emirates',
-  'uk': 'united kingdom',
-  'great britain': 'united kingdom',
-  'england': 'united kingdom',
-  "cote d'ivoire": 'ivory coast',
-  "côte d'ivoire": 'ivory coast',
-  'republic of china': 'taiwan',
-  'czech republic': 'czechia',
-  'russia': 'russia',
-  'south korea': 'south korea',
-  'north korea': 'north korea',
-  'drc': 'democratic republic of the congo',
-  'congo-kinshasa': 'democratic republic of the congo',
-  'roc': 'republic of the congo',
-  'congo-brazzaville': 'republic of the congo',
-  'myanmar': 'myanmar',
-  'burma': 'myanmar',
-  'holland': 'netherlands',
-  'the netherlands': 'netherlands',
-  'iran': 'iran',
-  'persia': 'iran',
-  'vietnam': 'vietnam',
-  'viet nam': 'vietnam',
-  'palestine': 'palestine',
-  'eswatini': 'eswatini',
-  'swaziland': 'eswatini',
-  'north macedonia': 'north macedonia',
-  'macedonia': 'north macedonia',
-  'cape verde': 'cabo verde',
-};
 
 function normalizeGuess(raw) {
   const s = raw.toLowerCase().trim().replace(/\s+/g, ' ');
   return ALT_NAMES[s] || s;
 }
 
-const CLUE_KEYS   = ["continent","pop","flag","borders","capital","landmark","hint"];
-const CLUE_LABELS = ["Continent","Population","Flag","Borders","Capital","Famous Landmark","Letter Hint"];
-const CLUE_ICONS  = ["🌍","👥","🏳️","🗺️","🏛️","📸","🔤"];
-const MAX_SCORE   = 1000;
-const CLUE_COST   = 150;
-const WRONG_COST  = 50;
+// ─── CLUE DEFINITIONS ────────────────────────────────────────────────────────
+// Order: continent → flag → capital → landmark photo → borders → letter hint
+const CLUE_KEYS   = ['continent', 'flag', 'capital', 'landmark_img','pop', 'borders', 'hint'];
+const CLUE_LABELS = ['Continent', 'Flag', 'Capital', 'Landmark', 'Population','Borders', 'Letter Hint'];
+const CLUE_ICONS  = ['🌍', '🏳️', '🏛️', '📸', '👥', '🗺️', '🔤'];
 
+const MAX_SCORE  = 1000;
+const CLUE_COST  = 200; // 5 clues × 200 = 1000 max deduction
+const WRONG_COST = 50;
+
+// ─── STATE ───────────────────────────────────────────────────────────────────
 let currentDifficulty = 'medium';
 let activePool = [];
 
-let state = {
-  queue: [],
-  current: null,
-  revealed: 0,
-  score: MAX_SCORE,
+const state = {
+  queue:        [],
+  current:      null,
+  revealed:     0,
+  score:        MAX_SCORE,
   wrongGuesses: 0,
-  streak: 0,
-  bestScores: JSON.parse(localStorage.getItem('atlasRush_scores') || '[]'),
-  roundOver: false,
-  emojiLog: [],
+  streak:       0,
+  bestScores:   JSON.parse(localStorage.getItem('atlasRush_scores') || '[]'),
+  roundOver:    false,
+  emojiLog:     [],
 };
 
+// ─── UTILITIES ───────────────────────────────────────────────────────────────
 function shuffle(arr) {
-  let a=[...arr];
-  for(let i=a.length-1;i>0;i--){
-    const j=Math.floor(Math.random()*(i+1));
-    [a[i],a[j]]=[a[j],a[i]];
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
 }
 
+function escHtml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// ─── INIT ────────────────────────────────────────────────────────────────────
 function init() {
   document.getElementById('year').textContent = new Date().getFullYear();
+  buildAltNames();
+  initDifficultyButtons();
   setDifficulty(currentDifficulty, false);
   updateStreakDisplay();
   renderScores();
   initAutocomplete();
-  initDifficultyButtons();
 }
 
 function setDifficulty(diff, restartRound = true) {
@@ -146,16 +105,16 @@ function setDifficulty(diff, restartRound = true) {
   state.queue = shuffle(activePool);
 
   document.querySelectorAll('.diff-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.diff === diff);
+    const active = b.dataset.diff === diff;
+    b.classList.toggle('active', active);
+    b.setAttribute('aria-pressed', String(active));
   });
 
   if (restartRound) {
     state.streak = 0;
     updateStreakDisplay();
-    nextRound();
-  } else {
-    nextRound();
   }
+  nextRound();
 }
 
 function initDifficultyButtons() {
@@ -164,22 +123,25 @@ function initDifficultyButtons() {
   });
 }
 
+// ─── ROUND ───────────────────────────────────────────────────────────────────
 function nextRound() {
   if (state.queue.length === 0) state.queue = shuffle(activePool);
-  state.current = state.queue.pop();
-  state.revealed = 0;
-  state.score = MAX_SCORE;
+  state.current      = state.queue.pop();
+  state.revealed     = 0;
+  state.score        = MAX_SCORE;
   state.wrongGuesses = 0;
-  state.roundOver = false;
-  state.emojiLog = [];
+  state.roundOver    = false;
+  state.emojiLog     = [];
 
   document.getElementById('result-card').classList.remove('show');
-  document.getElementById('guess-input').value = '';
-  document.getElementById('guess-input').classList.remove('wrong');
-  document.getElementById('feedback').textContent = '';
-  document.getElementById('suggestions').className = 'suggestions';
-  document.getElementById('guess-input').disabled = false;
+  const input = document.getElementById('guess-input');
+  input.value = '';
+  input.classList.remove('wrong');
+  input.disabled = false;
+  input.removeAttribute('aria-disabled');
   document.getElementById('guess-btn').disabled = false;
+  document.getElementById('feedback').textContent = '';
+  hideSuggestions();
 
   revealClue(0);
   renderLocked();
@@ -188,21 +150,9 @@ function nextRound() {
   switchTab('play');
 }
 
+// ─── CLUE RENDERING ──────────────────────────────────────────────────────────
 function revealClue(idx) {
   const key = CLUE_KEYS[idx];
-  let val = state.current[key];
-
-  if (key === "flag") {
-    val = `
-      <div style="display:flex;align-items:center;gap:12px;">
-        <img src="https://flagcdn.com/w160/${state.current.code}.png"
-             style="width:64px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,0.4);"
-             alt="Flag of ${state.current.name}">
-        <span style="font-size:14px;color:var(--muted);">Flag</span>
-      </div>
-    `;
-  }
-
   state.revealed = idx + 1;
 
   const stack = document.getElementById('clues-stack');
@@ -210,20 +160,78 @@ function revealClue(idx) {
 
   const card = document.createElement('div');
   card.className = 'clue-card' + (idx === 0 ? ' first' : '');
-  card.innerHTML = `
-    <div class="clue-icon">${CLUE_ICONS[idx]}</div>
-    <div class="clue-content">
-      <div class="clue-label">${CLUE_LABELS[idx]}</div>
-      <div class="clue-value">${val}</div>
-    </div>`;
+
+  const iconEl  = `<div class="clue-icon" aria-hidden="true">${CLUE_ICONS[idx]}</div>`;
+  const labelEl = `<div class="clue-label">${CLUE_LABELS[idx]}</div>`;
+
+  if (key === 'flag') {
+    // Flag image from flagcdn
+    card.innerHTML = `
+      ${iconEl}
+      <div class="clue-content">
+        ${labelEl}
+        <div class="clue-value">
+          <img src="https://flagcdn.com/w160/${escHtml(state.current.code)}.png"
+               class="clue-flag-img"
+               alt="The mystery country's flag"
+               loading="lazy">
+        </div>
+      </div>`;
+
+  } else if (key === 'landmark_img') {
+    // Static Wikimedia URL stored directly in the JSON — no async fetch needed
+    const imgUrl  = state.current.landmark_img;
+    const caption = escHtml(state.current.landmark || '');
+
+    if (imgUrl) {
+      card.innerHTML = `
+        ${iconEl}
+        <div class="clue-content">
+          ${labelEl}
+          <div class="clue-value">
+            <figure class="landmark-figure">
+              <img src="${escHtml(imgUrl)}"
+                   class="landmark-img"
+                   alt="A famous landmark — country name hidden until round ends"
+                   loading="lazy"
+                   onerror="this.parentElement.innerHTML='<span class=clue-text-fallback>${caption}</span>'"
+              >
+              <figcaption class="landmark-caption">${caption}</figcaption>
+            </figure>
+          </div>
+        </div>`;
+    } else {
+      // No image stored — show text
+      card.innerHTML = `
+        ${iconEl}
+        <div class="clue-content">
+          ${labelEl}
+          <div class="clue-value">${caption || '—'}</div>
+        </div>`;
+    }
+
+  } else {
+    // Plain text clue
+    card.innerHTML = `
+      ${iconEl}
+      <div class="clue-content">
+        ${labelEl}
+        <div class="clue-value">${escHtml(state.current[key] ?? '—')}</div>
+      </div>`;
+  }
+
   stack.appendChild(card);
 
   document.getElementById('clue-num').textContent = state.revealed;
   renderLocked();
   renderProgress();
   updateRevealBtn();
+
+  // Scroll newest card into view on mobile
+  card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
+// ─── LOCKED + PROGRESS ───────────────────────────────────────────────────────
 function renderLocked() {
   const row = document.getElementById('locked-row');
   row.innerHTML = '';
@@ -231,7 +239,7 @@ function renderLocked() {
   for (let i = state.revealed; i < CLUE_KEYS.length; i++) {
     const pill = document.createElement('div');
     pill.className = 'locked-pill';
-    pill.innerHTML = `${lockSVG}${CLUE_LABELS[i]}`;
+    pill.innerHTML = `${lockSVG}${escHtml(CLUE_LABELS[i])}`;
     row.appendChild(pill);
   }
 }
@@ -244,7 +252,6 @@ function renderProgress(won) {
     const d = document.createElement('div');
     d.className = 'dot';
     if (won !== undefined && i < state.revealed) {
-      // Round ended — colour all revealed dots
       d.classList.add(won ? 'win' : 'used');
     } else if (i < state.revealed - 1) {
       d.classList.add('used');
@@ -263,7 +270,7 @@ function updateRevealBtn() {
     cost.textContent = 'all revealed';
   } else {
     btn.disabled = false;
-    cost.textContent = `−${CLUE_COST} pts`;
+    cost.textContent = `-${CLUE_COST} pts`;
   }
 }
 
@@ -275,35 +282,33 @@ function revealNextClue() {
   updateScoreDisplay();
 }
 
+// ─── SCORE DISPLAY ───────────────────────────────────────────────────────────
 function updateScoreDisplay(animate) {
   const el = document.getElementById('score-display');
   el.textContent = state.score;
-
-  // Color shifts: green → yellow → orange → red
-  el.classList.remove('score-high','score-mid','score-low','score-critical');
-  if (state.score >= 700)       el.classList.add('score-high');
-  else if (state.score >= 450)  el.classList.add('score-mid');
-  else if (state.score >= 200)  el.classList.add('score-low');
+  el.classList.remove('score-high', 'score-mid', 'score-low', 'score-critical');
+  if      (state.score >= 700) el.classList.add('score-high');
+  else if (state.score >= 450) el.classList.add('score-mid');
+  else if (state.score >= 200) el.classList.add('score-low');
   else                          el.classList.add('score-critical');
-
   if (animate) {
     el.classList.add('pop');
     setTimeout(() => el.classList.remove('pop'), 200);
   }
 }
 
+// ─── GUESSING ────────────────────────────────────────────────────────────────
 function submitGuess() {
   if (state.roundOver) return;
   const raw = document.getElementById('guess-input').value.trim();
   if (!raw) return;
   hideSuggestions();
 
-  const guess  = normalizeGuess(raw);
-  const answer = state.current.name.toLowerCase();
-  // Also accept answer without spaces (e.g. "unitedstates")
-  const answerNS = answer.replace(/\s+/g,'');
+  const guess    = normalizeGuess(raw);
+  const answer   = state.current.name.toLowerCase();
+  const answerNS = answer.replace(/\s+/g, '');
 
-  if (guess === answer || guess === answerNS || guess.replace(/\s+/g,'') === answerNS) {
+  if (guess === answer || guess === answerNS || guess.replace(/\s+/g, '') === answerNS) {
     endRound(true);
   } else {
     state.wrongGuesses++;
@@ -316,7 +321,7 @@ function submitGuess() {
     setTimeout(() => input.classList.remove('wrong'), 400);
 
     const fb = document.getElementById('feedback');
-    fb.textContent = `"${raw}" is not correct. −${WRONG_COST} pts`;
+    fb.textContent = `"${raw}" is not correct. -${WRONG_COST} pts`;
     setTimeout(() => { fb.textContent = ''; }, 2200);
 
     if (state.score <= 0) {
@@ -326,9 +331,12 @@ function submitGuess() {
   }
 }
 
+// ─── END ROUND ───────────────────────────────────────────────────────────────
 function endRound(won) {
   state.roundOver = true;
-  document.getElementById('guess-input').disabled = true;
+  const input = document.getElementById('guess-input');
+  input.disabled = true;
+  input.setAttribute('aria-disabled', 'true');
   document.getElementById('guess-btn').disabled = true;
   document.getElementById('feedback').textContent = '';
   hideSuggestions();
@@ -343,7 +351,7 @@ function endRound(won) {
     state.score = 0;
   }
 
-  renderProgress(won); // recolour all revealed dots
+  renderProgress(won);
   updateStreakDisplay();
   renderScores();
   showResult(won);
@@ -351,36 +359,58 @@ function endRound(won) {
 
 function showResult(won) {
   document.getElementById('res-flag').innerHTML =
-    `<img src="https://flagcdn.com/w320/${state.current.code}.png"
-          style="width:90px;border-radius:10px;"
-          alt="Flag of ${state.current.name}">`;
+    `<img src="https://flagcdn.com/w320/${escHtml(state.current.code)}.png"
+          class="result-flag-img"
+          alt="Flag of ${escHtml(state.current.name)}"
+          loading="lazy">`;
   document.getElementById('res-country').textContent = state.current.name;
   document.getElementById('res-subtitle').textContent = won
-    ? `Correct! 🎉 Identified in ${state.revealed} clue${state.revealed !== 1 ? 's' : ''}`
-    : `Not quite — it was ${state.current.name}`;
-  document.getElementById('rs-score').textContent = state.score;
-  document.getElementById('rs-clues').textContent = state.revealed;
+    ? `Correct! Identified in ${state.revealed} clue${state.revealed !== 1 ? 's' : ''}`
+    : `Not quite — the answer was ${state.current.name}`;
+  document.getElementById('rs-score').textContent  = state.score;
+  document.getElementById('rs-clues').textContent  = state.revealed;
   document.getElementById('rs-streak').textContent = state.streak;
-  buildShareBlock(won);
-  document.getElementById('result-card').classList.add('show');
+  buildShareBlock();
+
+  const card = document.getElementById('result-card');
+  card.classList.add('show');
+  card.setAttribute('tabindex', '-1');
+  setTimeout(() => card.focus(), 50);
 }
 
-function buildShareBlock(won) {
-  const header   = `AtlasRush 🌍`;
-  const scoreStr = `Score: ${state.score} pts`;
-  const clueStr  = `Clues used: ${state.revealed}/${CLUE_KEYS.length}`;
-  const log      = state.emojiLog.join('');
+function buildShareBlock() {
   const diffLabel = currentDifficulty.charAt(0).toUpperCase() + currentDifficulty.slice(1);
-  const share    = `${header} [${diffLabel}]\n${state.current.flag} ${state.current.name}\n${log}\n${scoreStr} | ${clueStr}\nStreak: 🔥${state.streak}`;
+  const share = [
+    `AtlasRush 🌍 [${diffLabel}]`,
+    `${state.current.flag} ${state.current.name}`,
+    state.emojiLog.join(''),
+    `Score: ${state.score} pts | Clues: ${state.revealed}/${CLUE_KEYS.length}`,
+    `Streak: 🔥${state.streak}`,
+  ].join('\n');
   document.getElementById('share-block').textContent = share;
   window._shareText = share;
 }
 
 function copyShare() {
-  navigator.clipboard.writeText(window._shareText || '').then(() => {
+  const finish = () => {
     document.getElementById('copied-msg').textContent = '✓ Copied to clipboard!';
+    const btn = document.querySelector('.btn-share');
+    if (btn) { const orig = btn.textContent; btn.textContent = '✓ Copied!'; setTimeout(() => btn.textContent = orig, 2500); }
     setTimeout(() => { document.getElementById('copied-msg').textContent = ''; }, 2500);
-  });
+  };
+  const fallback = () => {
+    const ta = Object.assign(document.createElement('textarea'), {
+      value: window._shareText || '',
+      style: 'position:fixed;opacity:0;top:0;left:0'
+    });
+    document.body.appendChild(ta);
+    ta.focus(); ta.select();
+    try { document.execCommand('copy'); } catch (_) {}
+    document.body.removeChild(ta);
+  };
+  if (navigator.clipboard?.writeText) {
+    navigator.clipboard.writeText(window._shareText || '').then(finish).catch(() => { fallback(); finish(); });
+  } else { fallback(); finish(); }
 }
 
 function skipCountry() {
@@ -388,6 +418,7 @@ function skipCountry() {
   else nextRound();
 }
 
+// ─── SCORES ──────────────────────────────────────────────────────────────────
 function saveBestScore() {
   state.bestScores.unshift({
     country:    state.current.name,
@@ -395,7 +426,7 @@ function saveBestScore() {
     score:      state.score,
     clues:      state.revealed,
     difficulty: currentDifficulty,
-    date:       new Date().toLocaleDateString()
+    date:       new Date().toLocaleDateString(),
   });
   state.bestScores = state.bestScores.slice(0, 10);
   localStorage.setItem('atlasRush_scores', JSON.stringify(state.bestScores));
@@ -408,16 +439,15 @@ function renderScores() {
     return;
   }
   list.innerHTML = state.bestScores.map(s => {
-    const diffBadge = s.difficulty
-      ? `<span class="diff-badge diff-badge--${s.difficulty}">${s.difficulty}</span>`
-      : '';
+    const badge = s.difficulty
+      ? `<span class="diff-badge diff-badge--${s.difficulty}">${s.difficulty}</span>` : '';
     return `
       <div class="score-row">
-        <div style="display:flex;align-items:center;">
-          <span class="c">${s.flag}</span>
+        <div class="score-row-left">
+          <span class="c" aria-hidden="true">${s.flag}</span>
           <div>
-            <div class="cn">${s.country} ${diffBadge}</div>
-            <div class="clues-used">${s.clues} clue${s.clues!==1?'s':''} · ${s.date}</div>
+            <div class="cn">${escHtml(s.country)} ${badge}</div>
+            <div class="clues-used">${s.clues} clue${s.clues !== 1 ? 's' : ''} · ${s.date}</div>
           </div>
         </div>
         <div class="sc">${s.score}</div>
@@ -429,41 +459,42 @@ function updateStreakDisplay() {
   document.getElementById('streak-count').textContent = state.streak;
 }
 
-// ─── AUTOCOMPLETE with keyboard navigation ───
-
+// ─── AUTOCOMPLETE ─────────────────────────────────────────────────────────────
 let allCountryNames = [];
 let suggestFocusIdx = -1;
 
 function initAutocomplete() {
   allCountryNames = COUNTRIES.map(c => c.name);
-
   const input = document.getElementById('guess-input');
 
-  input.addEventListener('input', function() {
+  input.addEventListener('input', function () {
     suggestFocusIdx = -1;
     const val = this.value.trim().toLowerCase();
     const box = document.getElementById('suggestions');
-
     if (!val) { hideSuggestions(); return; }
 
     const matches = allCountryNames
       .filter(n => n.toLowerCase().startsWith(val))
       .slice(0, 6);
 
-    if (matches.length === 0) { hideSuggestions(); return; }
+    if (!matches.length) { hideSuggestions(); return; }
 
     box.innerHTML = matches.map((name, i) =>
-      `<div class="sug-item" role="option" tabindex="-1"
-            data-idx="${i}" data-name="${name}"
-            onclick="selectSuggestion('${name.replace(/'/g,"\\'")}')">
-        ${name}
-      </div>`
+      `<div class="sug-item"
+            role="option"
+            tabindex="-1"
+            aria-selected="false"
+            data-idx="${i}"
+            data-name="${escHtml(name)}"
+            onpointerdown="selectSuggestion(event,'${name.replace(/\\/g, '\\\\').replace(/'/g, "\\'")}')"
+       >${escHtml(name)}</div>`
     ).join('');
     box.className = 'suggestions show';
+    box.setAttribute('aria-expanded', 'true');
   });
 
-  input.addEventListener('keydown', function(e) {
-    const box = document.getElementById('suggestions');
+  input.addEventListener('keydown', function (e) {
+    const box   = document.getElementById('suggestions');
     const items = box.querySelectorAll('.sug-item');
 
     if (e.key === 'ArrowDown') {
@@ -475,8 +506,9 @@ function initAutocomplete() {
       suggestFocusIdx = Math.max(suggestFocusIdx - 1, -1);
       updateSuggestFocus(items);
     } else if (e.key === 'Enter') {
+      e.preventDefault();
       if (suggestFocusIdx >= 0 && items[suggestFocusIdx]) {
-        selectSuggestion(items[suggestFocusIdx].dataset.name);
+        selectSuggestion(null, items[suggestFocusIdx].dataset.name);
       } else {
         submitGuess();
       }
@@ -485,7 +517,7 @@ function initAutocomplete() {
     }
   });
 
-  document.addEventListener('click', function(e) {
+  document.addEventListener('pointerdown', function (e) {
     if (!e.target.closest('#guess-input') && !e.target.closest('#suggestions')) {
       hideSuggestions();
     }
@@ -494,34 +526,46 @@ function initAutocomplete() {
 
 function updateSuggestFocus(items) {
   items.forEach((item, i) => {
-    item.classList.toggle('focused', i === suggestFocusIdx);
+    const active = i === suggestFocusIdx;
+    item.classList.toggle('focused', active);
+    item.setAttribute('aria-selected', String(active));
   });
   if (suggestFocusIdx >= 0 && items[suggestFocusIdx]) {
     document.getElementById('guess-input').value = items[suggestFocusIdx].dataset.name;
   }
 }
 
-function selectSuggestion(name) {
+function selectSuggestion(e, name) {
+  if (e) e.preventDefault();
   document.getElementById('guess-input').value = name;
   hideSuggestions();
   submitGuess();
 }
 
 function hideSuggestions() {
-  document.getElementById('suggestions').className = 'suggestions';
+  const box = document.getElementById('suggestions');
+  box.className = 'suggestions';
+  box.setAttribute('aria-expanded', 'false');
   suggestFocusIdx = -1;
 }
 
-// ─── TABS ───
+// ─── TABS ─────────────────────────────────────────────────────────────────────
 function switchTab(id) {
-  const ids = ['play','how','scores'];
-  document.querySelectorAll('.tab-btn').forEach((b,i) => {
+  const ids = ['play', 'how', 'scores'];
+  document.querySelectorAll('.tab-btn').forEach((b, i) => {
     const active = ids[i] === id;
     b.classList.toggle('active', active);
-    b.setAttribute('aria-selected', active);
+    b.setAttribute('aria-selected', String(active));
+    b.setAttribute('tabindex', active ? '0' : '-1');
   });
-  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
-  document.getElementById('tab-'+id).classList.add('active');
+  document.querySelectorAll('.tab-pane').forEach(p => {
+    p.classList.remove('active');
+    p.hidden = true;
+  });
+  const pane = document.getElementById('tab-' + id);
+  pane.classList.add('active');
+  pane.hidden = false;
 }
 
+// ─── START ────────────────────────────────────────────────────────────────────
 loadCountries();
