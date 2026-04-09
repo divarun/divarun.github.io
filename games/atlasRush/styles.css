@@ -12,12 +12,10 @@
   --text-soft:   #a8a8b8;
   --text-muted:  #6a6a80;
 
-  /* Muted steel-blue accent — no neon */
   --accent:      #7eb8d4;
   --accent-dim:  rgba(126,184,212,0.10);
   --accent-dim2: rgba(126,184,212,0.20);
 
-  /* Semantic */
   --danger:      #c4687a;
   --danger-dim:  rgba(196,104,122,0.12);
   --warn:        #c4a46e;
@@ -82,7 +80,7 @@ header {
   max-width: var(--max);
   padding: 1.25rem 0 1.1rem;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .header-inner {
@@ -140,6 +138,33 @@ header {
   white-space: nowrap;
 }
 
+/* ── DIFFICULTY ROW ── */
+.difficulty-row {
+  display: flex;
+  gap: .4rem;
+  margin-bottom: 1.1rem;
+}
+
+.diff-btn {
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: 2rem;
+  padding: .3rem .9rem;
+  font-size: .75rem;
+  font-weight: 600;
+  font-family: var(--sans);
+  color: var(--text-muted);
+  cursor: pointer;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  transition: color .15s, background .15s, border-color .15s;
+}
+.diff-btn:hover { color: var(--text-soft); background: var(--surface2); }
+.diff-btn.active[data-diff="easy"]   { color: var(--success); border-color: var(--success); background: var(--success-dim); }
+.diff-btn.active[data-diff="medium"] { color: var(--warn);    border-color: var(--warn);    background: var(--warn-dim);    }
+.diff-btn.active[data-diff="hard"]   { color: var(--danger);  border-color: var(--danger);  background: var(--danger-dim);  }
+.diff-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
 /* ── GAME WRAP ── */
 .game-wrap {
   width: 100%;
@@ -196,11 +221,16 @@ header {
   font-family: var(--serif);
   font-size: 2.2rem;
   font-weight: 300;
-  color: var(--accent);
   line-height: 1;
-  transition: transform .15s;
+  transition: color .4s, transform .15s;
 }
 .score-val.pop { transform: scale(1.2); }
+
+/* Score color states */
+.score-val.score-high     { color: var(--success); }
+.score-val.score-mid      { color: var(--accent);  }
+.score-val.score-low      { color: var(--warn);    }
+.score-val.score-critical { color: var(--danger);  }
 
 .clue-counter {
   font-size: .82rem;
@@ -447,7 +477,9 @@ header {
   color: var(--text-soft);
 }
 .sug-item:last-child { border-bottom: none; }
-.sug-item:hover, .sug-item:focus { background: var(--surface2); outline: none; }
+.sug-item:hover,
+.sug-item:focus,
+.sug-item.focused { background: var(--surface2); outline: none; }
 
 /* ── RESULT CARD ── */
 .result-card {
@@ -623,6 +655,10 @@ header {
   font-size: .9rem;
   font-weight: 500;
   color: var(--text-soft);
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  flex-wrap: wrap;
 }
 
 .score-row .sc {
@@ -638,6 +674,20 @@ header {
   color: var(--text-muted);
   margin-top: .1rem;
 }
+
+/* Difficulty badge in score rows */
+.diff-badge {
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  padding: .1rem .4rem;
+  border-radius: 2rem;
+  border: 1px solid;
+}
+.diff-badge--easy   { color: var(--success); border-color: var(--success); background: var(--success-dim); }
+.diff-badge--medium { color: var(--warn);    border-color: var(--warn);    background: var(--warn-dim);    }
+.diff-badge--hard   { color: var(--danger);  border-color: var(--danger);  background: var(--danger-dim);  }
 
 /* ── FOOTER ── */
 footer {
@@ -681,6 +731,8 @@ footer {
   .hint-row { gap: .4rem; }
   .btn-skip { margin-left: 0; }
   .footer-note { margin-left: 0; }
+  .difficulty-row { gap: .3rem; }
+  .diff-btn { padding: .28rem .7rem; font-size: .7rem; }
 }
 
 /* ── REDUCED MOTION ── */

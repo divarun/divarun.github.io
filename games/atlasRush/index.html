@@ -33,6 +33,13 @@
 <main id="main-content">
   <div class="game-wrap">
 
+    <!-- DIFFICULTY SELECTOR -->
+    <div class="difficulty-row" role="group" aria-label="Difficulty">
+      <button class="diff-btn" data-diff="easy">Easy</button>
+      <button class="diff-btn active" data-diff="medium">Medium</button>
+      <button class="diff-btn" data-diff="hard">Hard</button>
+    </div>
+
     <div class="tabs" role="tablist" aria-label="Game sections">
       <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-play" onclick="switchTab('play')">Play</button>
       <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-how" onclick="switchTab('how')">How to Play</button>
@@ -45,7 +52,7 @@
       <div class="score-bar">
         <div class="score-group">
           <div class="score-label">Score</div>
-          <div class="score-val" id="score-display" aria-live="polite" aria-atomic="true">1000</div>
+          <div class="score-val score-high" id="score-display" aria-live="polite" aria-atomic="true">1000</div>
         </div>
         <div class="clue-counter" aria-live="polite">
           Clue <strong id="clue-num">1</strong> of <strong id="clue-total">7</strong>
@@ -111,7 +118,7 @@
         </li>
         <li class="how-item">
           <div class="how-num" aria-hidden="true">2</div>
-          <div class="how-text">Type your guess and hit <strong>Guess</strong>. A suggestions list appears as you type.</div>
+          <div class="how-text">Type your guess and hit <strong>Guess</strong>. Use <strong>↑↓ arrow keys</strong> to navigate suggestions, Enter to select.</div>
         </li>
         <li class="how-item">
           <div class="how-num" aria-hidden="true">3</div>
@@ -127,7 +134,11 @@
         </li>
         <li class="how-item">
           <div class="how-num" aria-hidden="true">6</div>
-          <div class="how-text">Build a <strong>streak</strong> by getting multiple countries right in a row. Share your emoji score grid!</div>
+          <div class="how-text">Choose your <strong>difficulty</strong>: Easy (popular countries), Medium, or Hard (includes territories &amp; micronations).</div>
+        </li>
+        <li class="how-item">
+          <div class="how-num" aria-hidden="true">7</div>
+          <div class="how-text">Common aliases work — try <strong>UAE</strong>, <strong>USA</strong>, <strong>Holland</strong>, <strong>Burma</strong> and more.</div>
         </li>
       </ol>
     </div>
@@ -144,7 +155,7 @@
 
 <footer>
   <div class="footer-inner">
-    <span class="footer-copy">© <span id="year"></span> Divya Arunachalam</span>
+    <span class="footer-copy"> <span id="year"></span> Divya Arunachalam</span>
     <span class="footer-divider" aria-hidden="true">·</span>
     <a href="https://github.com/divarun" target="_blank" rel="noopener" class="footer-link">GitHub</a>
     <span class="footer-note">No tracking, no ads.</span>
