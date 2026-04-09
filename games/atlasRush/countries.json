@@ -5,7 +5,7 @@
     "flag": "🇨🇮",
     "continent": "Africa",
     "pop": "~32 million",
-    "borders": "BFA, GHA, GIN, LBR, MLI",
+    "borders": "Burkina Faso, Ghana, Guinea, Liberia, Mali",
     "capital": "Yamoussoukro",
     "landmark": "Basilica of Our Lady of Peace",
     "hint": "Two words — starts with 'Ivory'"
@@ -16,7 +16,7 @@
     "flag": "🇮🇹",
     "continent": "Europe",
     "pop": "~59 million",
-    "borders": "AUT, FRA, SMR, SVN, CHE, VAT",
+    "borders": "Austria, France, San Marino, Slovenia, Switzerland, Vatican City",
     "capital": "Rome",
     "landmark": "Colosseum",
     "hint": "Starts with 'I' — 5 letters"
@@ -27,7 +27,7 @@
     "flag": "🇰🇬",
     "continent": "Asia",
     "pop": "~7 million",
-    "borders": "CHN, KAZ, TJK, UZB",
+    "borders": "China, Kazakhstan, Tajikistan, Uzbekistan",
     "capital": "Bishkek",
     "landmark": "Lake Issyk‑Kul",
     "hint": "Starts with 'K' — 10 letters"
@@ -38,7 +38,7 @@
     "flag": "🇵🇬",
     "continent": "Oceania",
     "pop": "~12 million",
-    "borders": "IDN",
+    "borders": "Indonesia",
     "capital": "Port Moresby",
     "landmark": "Lake Kutubu",
     "hint": "Two words — starts with 'Papua'"
@@ -49,7 +49,7 @@
     "flag": "🇫🇯",
     "continent": "Oceania",
     "pop": "~1 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Suva",
     "landmark": "Mamanuca Islands",
     "hint": "Starts with 'F' — 4 letters"
@@ -60,7 +60,7 @@
     "flag": "🇦🇪",
     "continent": "Asia",
     "pop": "~11 million",
-    "borders": "OMN, SAU",
+    "borders": "Oman, Saudi Arabia",
     "capital": "Abu Dhabi",
     "landmark": "Burj Khalifa",
     "hint": "Two words — starts with 'United'"
@@ -71,7 +71,7 @@
     "flag": "🇰🇳",
     "continent": "North America",
     "pop": "~47,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Basseterre",
     "landmark": "Brimstone Hill Fortress",
     "hint": "Two words — starts with 'Saint'"
@@ -82,7 +82,7 @@
     "flag": "🇬🇫",
     "continent": "South America",
     "pop": "~298,000",
-    "borders": "BRA, SUR",
+    "borders": "Brazil, Suriname",
     "capital": "Cayenne",
     "landmark": "Îles du Salut (Salvation Islands)",
     "hint": "Two words — starts with 'French'"
@@ -93,7 +93,7 @@
     "flag": "🇹🇿",
     "continent": "Africa",
     "pop": "~68 million",
-    "borders": "BDI, COD, KEN, MWI, MOZ, RWA, UGA, ZMB",
+    "borders": "Burundi, Democratic Republic of the Congo, Kenya, Malawi, Mozambique, Rwanda, Uganda, Zambia",
     "capital": "Dodoma",
     "landmark": "Mount Kilimanjaro",
     "hint": "Starts with 'T' — 8 letters"
@@ -104,7 +104,7 @@
     "flag": "🇦🇴",
     "continent": "Africa",
     "pop": "~36 million",
-    "borders": "COG, COD, ZMB, NAM",
+    "borders": "Republic of the Congo, Democratic Republic of the Congo, Zambia, Namibia",
     "capital": "Luanda",
     "landmark": "Kalandula Falls",
     "hint": "Starts with 'A' — 6 letters"
@@ -115,7 +115,7 @@
     "flag": "🇹🇬",
     "continent": "Africa",
     "pop": "~8 million",
-    "borders": "BEN, BFA, GHA",
+    "borders": "Benin, Burkina Faso, Ghana",
     "capital": "Lomé",
     "landmark": "Koutammakou – The Land of the Batammariba",
     "hint": "Starts with 'T' — 4 letters"
@@ -126,7 +126,7 @@
     "flag": "🇫🇮",
     "continent": "Europe",
     "pop": "~6 million",
-    "borders": "NOR, SWE, RUS",
+    "borders": "Norway, Sweden, Russia",
     "capital": "Helsinki",
     "landmark": "Suomenlinna Sea Fortress",
     "hint": "Starts with 'F' — 7 letters"
@@ -137,7 +137,7 @@
     "flag": "🇲🇼",
     "continent": "Africa",
     "pop": "~21 million",
-    "borders": "MOZ, TZA, ZMB",
+    "borders": "Mozambique, Tanzania, Zambia",
     "capital": "Lilongwe",
     "landmark": "Lake Malawi",
     "hint": "Starts with 'M' — 6 letters"
@@ -148,7 +148,7 @@
     "flag": "🇲🇱",
     "continent": "Africa",
     "pop": "~22 million",
-    "borders": "DZA, BFA, GIN, CIV, MRT, NER, SEN",
+    "borders": "Algeria, Burkina Faso, Guinea, Ivory Coast, Mauritania, Niger, Senegal",
     "capital": "Bamako",
     "landmark": "Great Mosque of Djenné",
     "hint": "Starts with 'M' — 4 letters"
@@ -157,9 +157,9 @@
     "name": "Uzbekistan",
     "code": "uz",
     "flag": "🇺🇿",
-    "continent": "Asia / Central Asia",
+    "continent": "Asia",
     "pop": "~38 million",
-    "borders": "AFG, KAZ, KGZ, TJK, TKM",
+    "borders": "Afghanistan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan",
     "capital": "Tashkent",
     "landmark": "Registan Square in Samarkand",
     "hint": "Starts with 'U' — 10 letters"
@@ -170,7 +170,7 @@
     "flag": "🇸🇳",
     "continent": "Africa",
     "pop": "~19 million",
-    "borders": "GMB, GIN, GNB, MLI, MRT",
+    "borders": "Gambia, Guinea, Guinea-Bissau, Mali, Mauritania",
     "capital": "Dakar",
     "landmark": "Gorée Island",
     "hint": "Starts with 'S' — 7 letters"
@@ -181,7 +181,7 @@
     "flag": "🇺🇬",
     "continent": "Africa",
     "pop": "~46 million",
-    "borders": "COD, KEN, RWA, SSD, TZA",
+    "borders": "Democratic Republic of the Congo, Kenya, Rwanda, South Sudan, Tanzania",
     "capital": "Kampala",
     "landmark": "Bwindi Impenetrable Forest",
     "hint": "Starts with 'U' — 6 letters"
@@ -192,7 +192,7 @@
     "flag": "🇩🇯",
     "continent": "Africa",
     "pop": "~1 million",
-    "borders": "ERI, ETH, SOM",
+    "borders": "Eritrea, Ethiopia, Somalia",
     "capital": "Djibouti",
     "landmark": "Lake Assal",
     "hint": "Starts with 'D' — 8 letters"
@@ -203,7 +203,7 @@
     "flag": "🇸🇸",
     "continent": "Africa",
     "pop": "~12 million",
-    "borders": "CAF, COD, ETH, KEN, SDN, UGA",
+    "borders": "Central African Republic, Democratic Republic of the Congo, Ethiopia, Kenya, Sudan, Uganda",
     "capital": "Juba",
     "landmark": "Imatong Mountains",
     "hint": "Two words — starts with 'South'"
@@ -214,7 +214,7 @@
     "flag": "🇯🇪",
     "continent": "Europe",
     "pop": "~97,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Saint Helier",
     "landmark": "Mont Orgueil Castle",
     "hint": "Starts with 'J' — 6 letters"
@@ -225,7 +225,7 @@
     "flag": "🇹🇻",
     "continent": "Oceania",
     "pop": "~10,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Funafuti",
     "landmark": "Funafuti Atoll",
     "hint": "Starts with 'T' — 6 letters"
@@ -236,7 +236,7 @@
     "flag": "🇯🇵",
     "continent": "Asia",
     "pop": "~123 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Tokyo",
     "landmark": "Mount Fuji",
     "hint": "Starts with 'J' — 5 letters"
@@ -247,7 +247,7 @@
     "flag": "🇴🇲",
     "continent": "Asia",
     "pop": "~5 million",
-    "borders": "SAU, ARE, YEM",
+    "borders": "Saudi Arabia, United Arab Emirates (UAE), Yemen",
     "capital": "Muscat",
     "landmark": "Sultan Qaboos Grand Mosque",
     "hint": "Starts with 'O' — 4 letters"
@@ -256,9 +256,9 @@
     "name": "Belgium",
     "code": "be",
     "flag": "🇧🇪",
-    "continent": "Europe / Western Europe",
+    "continent": "Europe",
     "pop": "~12 million",
-    "borders": "FRA, DEU, LUX, NLD",
+    "borders": "France, Germany, Luxembourg, Netherlands",
     "capital": "Brussels",
     "landmark": "Grand Place (Grote Markt)",
     "hint": "Starts with 'B' — 7 letters"
@@ -269,7 +269,7 @@
     "flag": "🇲🇫",
     "continent": "North America",
     "pop": "~36,000",
-    "borders": "SXM",
+    "borders": "Sint Maarten",
     "capital": "Marigot",
     "landmark": "Maho Beach",
     "hint": "Two words — starts with 'Saint'"
@@ -280,7 +280,7 @@
     "flag": "🇾🇹",
     "continent": "Africa",
     "pop": "~320,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Mamoudzou",
     "landmark": "Lake Dziani",
     "hint": "Starts with 'M' — 7 letters"
@@ -289,9 +289,9 @@
     "name": "France",
     "code": "fr",
     "flag": "🇫🇷",
-    "continent": "Europe / Western Europe",
+    "continent": "Europe",
     "pop": "~66 million",
-    "borders": "AND, BEL, DEU, ITA, LUX, MCO, ESP, CHE",
+    "borders": "Andorra, Belgium, Germany, Italy, Luxembourg, Monaco, Spain, Switzerland",
     "capital": "Paris",
     "landmark": "Eiffel Tower",
     "hint": "Starts with 'F' — 6 letters"
@@ -302,7 +302,7 @@
     "flag": "🇧🇬",
     "continent": "Europe",
     "pop": "~6 million",
-    "borders": "GRC, MKD, ROU, SRB, TUR",
+    "borders": "Greece, North Macedonia, Romania, Serbia, Turkey",
     "capital": "Sofia",
     "landmark": "Rila Monastery",
     "hint": "Starts with 'B' — 8 letters"
@@ -313,7 +313,7 @@
     "flag": "🇨🇾",
     "continent": "Europe",
     "pop": "~1 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Nicosia",
     "landmark": "Kyrenia Castle",
     "hint": "Starts with 'C' — 6 letters"
@@ -324,7 +324,7 @@
     "flag": "🇰🇷",
     "continent": "Asia",
     "pop": "~51 million",
-    "borders": "PRK",
+    "borders": "North Korea",
     "capital": "Seoul",
     "landmark": "Gyeongbokgung Palace",
     "hint": "Two words — starts with 'South'"
@@ -335,8 +335,8 @@
     "flag": "🇲🇽",
     "continent": "North America",
     "pop": "~131 million",
-    "borders": "BLZ, GTM, USA",
-    "capital": "Mexico City",
+    "borders": "Belize, Guatemala, United States of America",
+    "capital": "Mexicoico City",
     "landmark": "Chichen Itza",
     "hint": "Starts with 'M' — 6 letters"
   },
@@ -346,7 +346,7 @@
     "flag": "🇲🇰",
     "continent": "Europe",
     "pop": "~2 million",
-    "borders": "ALB, BGR, GRC, UNK, SRB",
+    "borders": "Albania, Bulgaria, Greece, Kosovo, Serbia",
     "capital": "Skopje",
     "landmark": "Ohrid Old Town & Lake Ohrid",
     "hint": "Two words — starts with 'North'"
@@ -357,7 +357,7 @@
     "flag": "🇬🇾",
     "continent": "South America",
     "pop": "~1 million",
-    "borders": "BRA, SUR, VEN",
+    "borders": "Brazil, Suriname, Venezuela",
     "capital": "Georgetown",
     "landmark": "Kaieteur Falls",
     "hint": "Starts with 'G' — 6 letters"
@@ -368,7 +368,7 @@
     "flag": "🇽🇰",
     "continent": "Europe",
     "pop": "~2 million",
-    "borders": "ALB, MKD, MNE, SRB",
+    "borders": "Albania, North Macedonia, Montenegro, Serbia",
     "capital": "Pristina",
     "landmark": "Visoki Dečani Monastery",
     "hint": "Starts with 'K' — 6 letters"
@@ -379,7 +379,7 @@
     "flag": "🇲🇦",
     "continent": "Africa",
     "pop": "~37 million",
-    "borders": "DZA, ESH, ESP",
+    "borders": "Algeria, Western Sahara, Spain",
     "capital": "Rabat",
     "landmark": "Hassan II Mosque",
     "hint": "Starts with 'M' — 7 letters"
@@ -390,7 +390,7 @@
     "flag": "🇬🇮",
     "continent": "Europe",
     "pop": "~39,000",
-    "borders": "ESP",
+    "borders": "Spain",
     "capital": "Gibraltar",
     "landmark": "The Rock of Gibraltar",
     "hint": "Starts with 'G' — 9 letters"
@@ -401,7 +401,7 @@
     "flag": "🇪🇭",
     "continent": "Africa",
     "pop": "~1 million",
-    "borders": "DZA, MRT, MAR",
+    "borders": "Algeria, Mauritania, Morocco",
     "capital": "El Aaiún",
     "landmark": "Banc d’Arguin National Park",
     "hint": "Two words — starts with 'Western'"
@@ -412,7 +412,7 @@
     "flag": "🇦🇩",
     "continent": "Europe",
     "pop": "~77,000",
-    "borders": "FRA, ESP",
+    "borders": "France, Spain",
     "capital": "Andorra la Vella",
     "landmark": "Sant Joan de Caselles Church",
     "hint": "Starts with 'A' — 7 letters"
@@ -423,7 +423,7 @@
     "flag": "🇵🇼",
     "continent": "Oceania",
     "pop": "~18,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Ngerulmud",
     "landmark": "Rock Islands",
     "hint": "Starts with 'P' — 5 letters"
@@ -434,7 +434,7 @@
     "flag": "🇬🇳",
     "continent": "Africa",
     "pop": "~14 million",
-    "borders": "CIV, GNB, LBR, MLI, SEN, SLE",
+    "borders": "Ivory Coast, Guinea-Bissau, Liberia, Mali, Senegal, Sierra Leone",
     "capital": "Conakry",
     "landmark": "Mount Nimba Strict Nature Reserve",
     "hint": "Starts with 'G' — 6 letters"
@@ -445,7 +445,7 @@
     "flag": "🇹🇨",
     "continent": "North America",
     "pop": "~44,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Cockburn Town",
     "landmark": "Grace Bay Beach",
     "hint": "Two words — starts with 'Turks'"
@@ -456,7 +456,7 @@
     "flag": "🇸🇦",
     "continent": "Asia",
     "pop": "~35 million",
-    "borders": "IRQ, JOR, KWT, OMN, QAT, ARE, YEM",
+    "borders": "Iraq, Jordan, Kuwait, Oman, Qatar, United Arab Emirates (UAE), Yemen",
     "capital": "Riyadh",
     "landmark": "Masjid al-Haram",
     "hint": "Two words — starts with 'Saudi'"
@@ -467,7 +467,7 @@
     "flag": "🇧🇼",
     "continent": "Africa / Southern Africa",
     "pop": "~2 million",
-    "borders": "NAM, ZAF, ZMB, ZWE",
+    "borders": "Namibia, South Africa, Zambia, Zimbabwe",
     "capital": "Gaborone",
     "landmark": "Okavango Delta",
     "hint": "Starts with 'B' — 8 letters"
@@ -478,7 +478,7 @@
     "flag": "🇰🇲",
     "continent": "Africa",
     "pop": "~1 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Moroni",
     "landmark": "Mount Karthala",
     "hint": "Starts with 'C' — 7 letters"
@@ -487,9 +487,9 @@
     "name": "Belize",
     "code": "bz",
     "flag": "🇧🇿",
-    "continent": "Americas / Central America",
+    "continent": "North America",
     "pop": "~441,000",
-    "borders": "GTM, MEX",
+    "borders": "Guatemala, Mexico",
     "capital": "Belmopan",
     "landmark": "Great Blue Hole",
     "hint": "Starts with 'B' — 6 letters"
@@ -500,7 +500,7 @@
     "flag": "🇰🇭",
     "continent": "Asia",
     "pop": "~18 million",
-    "borders": "LAO, THA, VNM",
+    "borders": "Laos, Thailand, Vietnam",
     "capital": "Phnom Penh",
     "landmark": "Angkor Wat",
     "hint": "Starts with 'C' — 8 letters"
@@ -511,7 +511,7 @@
     "flag": "🇱🇨",
     "continent": "North America",
     "pop": "~184,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Castries",
     "landmark": "The Pitons",
     "hint": "Two words — starts with 'Saint'"
@@ -522,7 +522,7 @@
     "flag": "🇲🇷",
     "continent": "Africa",
     "pop": "~5 million",
-    "borders": "DZA, MLI, SEN, ESH",
+    "borders": "Algeria, Mali, Senegal, Western Sahara",
     "capital": "Nouakchott",
     "landmark": "Chinguetti Mosque",
     "hint": "Starts with 'M' — 10 letters"
@@ -533,7 +533,7 @@
     "flag": "🇯🇲",
     "continent": "North America",
     "pop": "~3 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Kingston",
     "landmark": "Dunn's River Falls",
     "hint": "Starts with 'J' — 7 letters"
@@ -544,7 +544,7 @@
     "flag": "🇨🇻",
     "continent": "Africa",
     "pop": "~560,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Praia",
     "landmark": "Fogo Volcano",
     "hint": "Two words — starts with 'Cape'"
@@ -555,7 +555,7 @@
     "flag": "🇲🇭",
     "continent": "Oceania",
     "pop": "~42,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Majuro",
     "landmark": "Bikini Atoll",
     "hint": "Two words — starts with 'Marshall'"
@@ -564,9 +564,9 @@
     "name": "Namibia",
     "code": "na",
     "flag": "🇳🇦",
-    "continent": "Africa / Southern Africa",
+    "continent": "Africa",
     "pop": "~3 million",
-    "borders": "AGO, BWA, ZAF, ZMB",
+    "borders": "Angola, Botswana, South Africa, Zambia",
     "capital": "Windhoek",
     "landmark": "Sossusvlei",
     "hint": "Starts with 'N' — 7 letters"
@@ -577,7 +577,7 @@
     "flag": "🇮🇷",
     "continent": "Asia",
     "pop": "~86 million",
-    "borders": "AFG, ARM, AZE, IRQ, PAK, TUR, TKM",
+    "borders": "Afghanistan, Armenia, Azerbaijan, Iraq, Pakistan, Turkey, Turkmenistan",
     "capital": "Tehran",
     "landmark": "Persepolis",
     "hint": "Starts with 'I' — 4 letters"
@@ -588,7 +588,7 @@
     "flag": "🇼🇫",
     "continent": "Oceania",
     "pop": "~11,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Mata-Utu",
     "landmark": "Lake Lalolalo",
     "hint": "Two words — starts with 'Wallis'"
@@ -599,7 +599,7 @@
     "flag": "🇦🇿",
     "continent": "Asia",
     "pop": "~10 million",
-    "borders": "ARM, GEO, IRN, RUS, TUR",
+    "borders": "Armenia, Georgia, Iran, Russia, Turkey",
     "capital": "Baku",
     "landmark": "Maiden Tower (Baku)",
     "hint": "Starts with 'A' — 10 letters"
@@ -610,7 +610,7 @@
     "flag": "🇳🇪",
     "continent": "Africa",
     "pop": "~26 million",
-    "borders": "DZA, BEN, BFA, TCD, LBY, MLI, NGA",
+    "borders": "Algeria, Benin, Burkina Faso, Chad, Libya, Mali, Nigeria",
     "capital": "Niamey",
     "landmark": "Agadez Mosque",
     "hint": "Starts with 'N' — 5 letters"
@@ -621,7 +621,7 @@
     "flag": "🇭🇲",
     "continent": "Antarctica",
     "pop": "~0",
-    "borders": "",
+    "borders": "None",
     "landmark": "Big Ben (Mawson Peak)",
     "hint": "Two words — starts with 'Heard'"
   },
@@ -631,7 +631,7 @@
     "flag": "🇱🇦",
     "continent": "Asia",
     "pop": "~8 million",
-    "borders": "MMR, KHM, CHN, THA, VNM",
+    "borders": "Myanmar, Cambodia, China, Thailand, Vietnam",
     "capital": "Vientiane",
     "landmark": "Pha That Luang",
     "hint": "Starts with 'L' — 4 letters"
@@ -642,7 +642,7 @@
     "flag": "🇧🇫",
     "continent": "Africa",
     "pop": "~24 million",
-    "borders": "BEN, CIV, GHA, MLI, NER, TGO",
+    "borders": "Benin, Ivory Coast, Ghana, Mali, Niger, Togo",
     "capital": "Ouagadougou",
     "landmark": "Grand Mosque of Bobo-Dioulasso",
     "hint": "Two words — starts with 'Burkina'"
@@ -653,7 +653,7 @@
     "flag": "🇨🇨",
     "continent": "Oceania",
     "pop": "600",
-    "borders": "",
+    "borders": "None",
     "capital": "West Island",
     "landmark": "Direction Island Lagoon",
     "hint": "Two words — starts with 'Cocos'"
@@ -662,9 +662,9 @@
     "name": "Luxembourg",
     "code": "lu",
     "flag": "🇱🇺",
-    "continent": "Europe / Western Europe",
+    "continent": "Europe",
     "pop": "~1 million",
-    "borders": "BEL, FRA, DEU",
+    "borders": "Belgium, France, Germany",
     "capital": "Luxembourg",
     "landmark": "Grand Ducal Palace",
     "hint": "Starts with 'L' — 10 letters"
@@ -675,7 +675,7 @@
     "flag": "🇮🇩",
     "continent": "Asia",
     "pop": "~284 million",
-    "borders": "TLS, MYS, PNG",
+    "borders": "Timor-Leste (East Timor), Malaysia, Papua New Guinea",
     "capital": "Jakarta",
     "landmark": "Borobudur Temple",
     "hint": "Starts with 'I' — 9 letters"
@@ -686,7 +686,7 @@
     "flag": "🇱🇧",
     "continent": "Asia",
     "pop": "~5 million",
-    "borders": "ISR, SYR",
+    "borders": "Israel, Syria",
     "capital": "Beirut",
     "landmark": "Baalbek Temples",
     "hint": "Starts with 'L' — 7 letters"
@@ -697,7 +697,7 @@
     "flag": "🇹🇷",
     "continent": "Asia",
     "pop": "~86 million",
-    "borders": "ARM, AZE, BGR, GEO, GRC, IRN, IRQ, SYR",
+    "borders": "Armenia, Azerbaijan, Bulgaria, Georgia, Greece, Iran, Iraq, Syria",
     "capital": "Ankara",
     "landmark": "Hagia Sophia",
     "hint": "Starts with 'T' — 6 letters"
@@ -708,7 +708,7 @@
     "flag": "🇹🇱",
     "continent": "Asia",
     "pop": "~1 million",
-    "borders": "IDN",
+    "borders": "Indonesia",
     "capital": "Dili",
     "landmark": "Jesus Christ Statue (Cristo Rei)",
     "hint": "Starts with 'T' — 11 letters"
@@ -717,9 +717,9 @@
     "name": "Zimbabwe",
     "code": "zw",
     "flag": "🇿🇼",
-    "continent": "Africa / Southern Africa",
+    "continent": "Africa",
     "pop": "~17 million",
-    "borders": "BWA, MOZ, ZAF, ZMB",
+    "borders": "Botswana, Mozambique, South Africa, Zambia",
     "capital": "Harare",
     "landmark": "Victoria Falls",
     "hint": "Starts with 'Z' — 8 letters"
@@ -728,9 +728,9 @@
     "name": "South Africa",
     "code": "za",
     "flag": "🇿🇦",
-    "continent": "Africa / Southern Africa",
+    "continent": "Africa",
     "pop": "~63 million",
-    "borders": "BWA, LSO, MOZ, NAM, SWZ, ZWE",
+    "borders": "Botswana, Lesotho, Mozambique, Namibia, Eswatini, Zimbabwe",
     "capital": "Pretoria",
     "landmark": "Table Mountain",
     "hint": "Two words — starts with 'South'"
@@ -741,9 +741,9 @@
     "flag": "🇦🇲",
     "continent": "Asia",
     "pop": "~3 million",
-    "borders": "AZE, GEO, IRN, TUR",
+    "borders": "Azerbaijan, Georgia, Iran, Turkey",
     "capital": "Yerevan",
-    "landmark": "Geghard Monastery",
+    "landmark": "GeGhanard Monastery",
     "hint": "Starts with 'A' — 7 letters"
   },
   {
@@ -752,7 +752,7 @@
     "flag": "🇮🇪",
     "continent": "Europe",
     "pop": "~5 million",
-    "borders": "GBR",
+    "borders": "United Kingdom",
     "capital": "Dublin",
     "landmark": "Cliffs of Moher",
     "hint": "Starts with 'I' — 7 letters"
@@ -763,7 +763,7 @@
     "flag": "🇳🇴",
     "continent": "Europe",
     "pop": "~6 million",
-    "borders": "FIN, SWE, RUS",
+    "borders": "Finland, Sweden, Russia",
     "capital": "Oslo",
     "landmark": "Geirangerfjord",
     "hint": "Starts with 'N' — 6 letters"
@@ -774,7 +774,7 @@
     "flag": "🇰🇪",
     "continent": "Africa",
     "pop": "~53 million",
-    "borders": "ETH, SOM, SSD, TZA, UGA",
+    "borders": "Ethiopia, Somalia, South Sudan, Tanzania, Uganda",
     "capital": "Nairobi",
     "landmark": "Maasai Mara National Reserve",
     "hint": "Starts with 'K' — 5 letters"
@@ -785,7 +785,7 @@
     "flag": "🇰🇵",
   "continent": "Asia",
     "pop": "~26 million",
-    "borders": "CHN, KOR, RUS",
+    "borders": "China, South Korea, Russia",
     "capital": "Pyongyang",
     "landmark": "Kumsusan Palace of the Sun",
     "hint": "Two words — starts with 'North'"
@@ -796,7 +796,7 @@
     "flag": "🇦🇫",
     "continent": "Asia",
     "pop": "~44 million",
-    "borders": "IRN, PAK, TKM, UZB, TJK, CHN",
+    "borders": "Iran, Pakistan, Turkmenistan, Uzbekistan, Tajikistan, China",
     "capital": "Kabul",
     "landmark": "Minaret of Jam",
     "hint": "Starts with 'A' — 11 letters"
@@ -807,7 +807,7 @@
     "flag": "🇧🇲",
     "continent": "North America",
     "pop": "~64,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Hamilton",
     "landmark": "Horseshoe Bay Beach",
     "hint": "Starts with 'B' — 7 letters"
@@ -818,7 +818,7 @@
     "flag": "🇪🇸",
     "continent": "Europe",
     "pop": "~49 million",
-    "borders": "AND, FRA, GIB, PRT, MAR",
+    "borders": "Andorra, France, Gibraltar, Portugal, Morocco",
     "capital": "Madrid",
     "landmark": "Sagrada Familia",
     "hint": "Starts with 'S' — 5 letters"
@@ -827,9 +827,9 @@
     "name": "Netherlands",
     "code": "nl",
     "flag": "🇳🇱",
-    "continent": "Europe / Western Europe",
+    "continent": "Europe",
     "pop": "~18 million",
-    "borders": "BEL, DEU",
+    "borders": "Belgium, Germany",
     "capital": "Amsterdam",
     "landmark": "Kinderdijk Windmills",
     "hint": "Starts with 'N' — 11 letters"
@@ -838,9 +838,9 @@
     "name": "Nicaragua",
     "code": "ni",
     "flag": "🇳🇮",
-    "continent": "Americas / Central America",
+    "continent": "North America",
     "pop": "~7 million",
-    "borders": "CRI, HND",
+    "borders": "Costa Rica, Honduras",
     "capital": "Managua",
     "landmark": "Masaya Volcano",
     "hint": "Starts with 'N' — 9 letters"
@@ -849,9 +849,9 @@
     "name": "Lesotho",
     "code": "ls",
     "flag": "🇱🇸",
-    "continent": "Africa / Southern Africa",
+    "continent": "Africa",
     "pop": "~2 million",
-    "borders": "ZAF",
+    "borders": "South Africa",
     "capital": "Maseru",
     "landmark": "Maletsunyane Falls",
     "hint": "Starts with 'L' — 7 letters"
@@ -862,7 +862,7 @@
     "flag": "🇪🇬",
     "continent": "Africa",
     "pop": "~107 million",
-    "borders": "ISR, LBY, PSE, SDN",
+    "borders": "Israel, Libya, Palestine, Sudan",
     "capital": "Cairo",
     "landmark": "Great Pyramids of Giza",
     "hint": "Starts with 'E' — 5 letters"
@@ -873,7 +873,7 @@
     "flag": "🇬🇲",
     "continent": "Africa",
     "pop": "~2 million",
-    "borders": "SEN",
+    "borders": "Senegal",
     "capital": "Banjul",
     "landmark": "Kachikally Crocodile Pool",
     "hint": "Starts with 'G' — 6 letters"
@@ -884,7 +884,7 @@
     "flag": "🇧🇷",
     "continent": "South America",
     "pop": "~213 million",
-    "borders": "ARG, BOL, COL, GUF, GUY, PRY, PER, SUR, URY, VEN",
+    "borders": "Argentina, Bolivia, Colombia, French Guiana, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela",
     "capital": "Brasília",
     "landmark": "Christ the Redeemer",
     "hint": "Starts with 'B' — 6 letters"
@@ -895,7 +895,7 @@
     "flag": "🇦🇺",
     "continent": "Oceania",
     "pop": "~28 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Canberra",
     "landmark": "Sydney Opera House",
     "hint": "Starts with 'A' — 9 letters"
@@ -906,7 +906,7 @@
     "flag": "🇧🇻",
     "continent": "Antarctica",
     "pop": "0",
-    "borders": "",
+    "borders": "None",
     "landmark": "Olav Peak",
     "hint": "Two words — starts with 'Bouvet'"
   },
@@ -916,7 +916,7 @@
     "flag": "🇵🇳",
     "continent": "Oceania",
     "pop": "~50",
-    "borders": "",
+    "borders": "None",
     "capital": "Adamstown",
     "landmark": "Bounty Bay",
     "hint": "Two words — starts with 'Pitcairn'"
@@ -927,7 +927,7 @@
     "flag": "🇧🇧",
     "continent": "North America",
     "pop": "~287,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Bridgetown",
     "landmark": "Harrison's Cave",
     "hint": "Starts with 'B' — 8 letters"
@@ -938,7 +938,7 @@
     "flag": "🇲🇬",
     "continent": "Africa",
     "pop": "~32 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Antananarivo",
     "landmark": "Avenue of the Baobabs",
     "hint": "Starts with 'M' — 10 letters"
@@ -949,7 +949,7 @@
     "flag": "🇬🇧",
     "continent": "Europe",
     "pop": "~69 million",
-    "borders": "IRL",
+    "borders": "Ireland",
     "capital": "London",
     "landmark": "Big Ben",
     "hint": "Two words — starts with 'United'"
@@ -960,7 +960,7 @@
     "flag": "🇵🇹",
     "continent": "Europe",
     "pop": "~11 million",
-    "borders": "ESP",
+    "borders": "Spain",
     "capital": "Lisbon",
     "landmark": "Belém Tower",
     "hint": "Starts with 'P' — 8 letters"
@@ -971,7 +971,7 @@
     "flag": "🇬🇱",
     "continent": "North America",
     "pop": "~56,500",
-    "borders": "",
+    "borders": "None",
     "capital": "Nuuk",
     "landmark": "Ilulissat Icefjord",
     "hint": "Starts with 'G' — 9 letters"
@@ -982,7 +982,7 @@
     "flag": "🇦🇸",
     "continent": "Oceania",
     "pop": "~47,400",
-    "borders": "",
+    "borders": "None",
     "capital": "Pago Pago",
     "landmark": "Pago Pago Harbo",
     "hint": "Two words — starts with 'American'"
@@ -993,7 +993,7 @@
     "flag": "🇬🇸",
     "continent": "Antarctica",
     "pop": "0",
-    "borders": "",
+    "borders": "None",
     "capital": "King Edward Point",
     "landmark": "Mount Paget",
     "hint": "Two words — starts with 'South'"
@@ -1002,11 +1002,11 @@
     "name": "Turkmenistan",
     "code": "tm",
     "flag": "🇹🇲",
-    "continent": "Asia / Central Asia",
+    "continent": "Asia",
     "pop": "~7 million",
-    "borders": "AFG, IRN, KAZ, UZB",
+    "borders": "Afghanistan, Iran, Kazakhstan, Uzbekistan",
     "capital": "Ashgabat",
-    "landmark": "Darvaza Gas Crater (\"Door to Hell\")",
+    "landmark": "Darvaza Gas Crater",
     "hint": "Starts with 'T' — 12 letters"
   },
   {
@@ -1015,7 +1015,7 @@
     "flag": "🇬🇵",
     "continent": "North America",
     "pop": "~400,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Basse-Terre",
     "landmark": "La Soufrière",
     "hint": "Starts with 'G' — 10 letters"
@@ -1026,7 +1026,7 @@
     "flag": "🇩🇲",
     "continent": "North America",
     "pop": "~72,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Roseau",
     "landmark": "Boiling Lake",
     "hint": "Starts with 'D' — 8 letters"
@@ -1037,7 +1037,7 @@
     "flag": "🇸🇧",
     "continent": "Oceania / Melanesia",
     "pop": "~1 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Honiara",
     "landmark": "Honiara Memorial",
     "hint": "Two words — starts with 'Solomon'"
@@ -1048,7 +1048,7 @@
     "flag": "🇵🇲",
     "continent": "North America",
     "pop": "~5800",
-    "borders": "",
+    "borders": "None",
     "capital": "Saint-Pierre",
     "landmark": "Fort Saint-Pierre",
     "hint": "Two words — starts with 'Saint'"
@@ -1059,7 +1059,7 @@
     "flag": "🇷🇼",
     "continent": "Africa",
     "pop": "~14 million",
-    "borders": "BDI, COD, TZA, UGA",
+    "borders": "Burundi, Democratic Republic of the Congo, Tanzania, Uganda",
     "capital": "Kigali",
     "landmark": "Volcanoes National Park",
     "hint": "Starts with 'R' — 6 letters"
@@ -1070,7 +1070,7 @@
     "flag": "🇳🇫",
     "continent": "Oceania",
     "pop": "~1700",
-    "borders": "",
+    "borders": "None",
     "capital": "Kingston",
     "landmark": "Kingston and Arthur’s Vale Historic Area (KAVHA)",
     "hint": "Two words — starts with 'Norfolk'"
@@ -1079,9 +1079,9 @@
     "name": "Panama",
     "code": "pa",
     "flag": "🇵🇦",
-    "continent": "Americas / Central America",
+    "continent": "North America",
     "pop": "~4 million",
-    "borders": "COL, CRI",
+    "borders": "Colombia, Costa Rica",
     "capital": "Panama City",
     "landmark": "Panama Canal",
     "hint": "Starts with 'P' — 6 letters"
@@ -1092,7 +1092,7 @@
     "flag": "🇧🇸",
     "continent": "North America",
     "pop": "~400,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Nassau",
     "landmark": "Atlantis Paradise Island",
     "hint": "Starts with 'B' — 7 letters"
@@ -1103,7 +1103,7 @@
     "flag": "🇹🇰",
     "continent": "Oceania",
     "pop": "~1500",
-    "borders": "",
+    "borders": "None",
     "capital": "Fakaofo",
     "landmark": "Atafu Atoll",
     "hint": "Starts with 'T' — 7 letters"
@@ -1114,7 +1114,7 @@
     "flag": "🇲🇪",
   "continent": "Europe",
     "pop": "~1 million",
-    "borders": "ALB, BIH, HRV, UNK, SRB",
+    "borders": "Albania, Bosnia and Herzegovina, Croatia, Kosovo, Serbia",
     "capital": "Podgorica",
     "landmark": "Durmitor National Park",
     "hint": "Starts with 'M' — 10 letters"
@@ -1125,7 +1125,7 @@
     "flag": "🇦🇽",
     "continent": "Europe",
     "pop": "~30,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Mariehamn",
     "landmark": "Kastelholm Castle",
     "hint": "Two words — starts with 'Åland'"
@@ -1136,7 +1136,7 @@
     "flag": "🇳🇺",
     "continent": "Oceania",
     "pop": "~1600",
-    "borders": "",
+    "borders": "None",
     "capital": "Alofi",
     "landmark": "Alofi Lagoon",
     "hint": "Starts with 'N' — 4 letters"
@@ -1147,7 +1147,7 @@
     "flag": "🇦🇷",
     "continent": "South America",
     "pop": "~47 million",
-    "borders": "BOL, BRA, CHL, PRY, URY",
+    "borders": "Bolivia, Brazil, Chile, Paraguay, Uruguay",
     "capital": "Buenos Aires",
     "landmark": "Perito Moreno Glacier",
     "hint": "Starts with 'A' — 9 letters"
@@ -1158,7 +1158,7 @@
     "flag": "🇨🇺",
     "continent": "North America",
     "pop": "~10 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Havana",
     "landmark": "El Morro Castle",
     "hint": "Starts with 'C' — 4 letters"
@@ -1169,7 +1169,7 @@
     "flag": "🇰🇾",
     "continent": "North America",
     "pop": "~71,000",
-    "borders": "",
+    "borders": "None",
     "capital": "George Town",
     "landmark": "Seven Mile Beach",
     "hint": "Two words — starts with 'Cayman'"
@@ -1178,9 +1178,9 @@
     "name": "Kazakhstan",
     "code": "kz",
     "flag": "🇰🇿",
-    "continent": "Asia / Central Asia",
+    "continent": "Asia",
     "pop": "~20 million",
-    "borders": "CHN, KGZ, RUS, TKM, UZB",
+    "borders": "China, Kyrgyzstan, Russia, Turkmenistan, Uzbekistan",
     "capital": "Astana",
     "landmark": "Bayterek Tower",
     "hint": "Starts with 'K' — 10 letters"
@@ -1191,7 +1191,7 @@
     "flag": "🇷🇺",
     "continent": "Europe",
     "pop": "~146 million",
-    "borders": "AZE, BLR, CHN, EST, FIN, GEO, KAZ, PRK, LVA, LTU, MNG, NOR, POL, UKR",
+    "borders": "Azerbaijan, Belarus, China, Estonia, Finland, Georgia, Kazakhstan, North Korea, Latvia, Lithuania, Mongolia, Norway, Poland, Ukraine",
     "capital": "Moscow",
     "landmark": "Red Square",
     "hint": "Starts with 'R' — 6 letters"
@@ -1202,7 +1202,7 @@
     "flag": "🇮🇳",
     "continent": "Asia",
     "pop": "~1417 million",
-    "borders": "BGD, BTN, MMR, CHN, NPL, PAK",
+    "borders": "Bangladesh, Bhutan, Myanmar, China, Nepal, Pakistan",
     "capital": "New Delhi",
     "landmark": "Taj Mahal",
     "hint": "Starts with 'I' — 5 letters"
@@ -1213,7 +1213,7 @@
     "flag": "🇻🇬",
     "continent": "North America",
     "pop": "~30,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Road Town",
     "landmark": "The Baths",
     "hint": "Two words — starts with 'British'"
@@ -1224,7 +1224,7 @@
     "flag": "🇬🇺",
     "continent": "Oceania",
     "pop": "~168,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Hagåtña",
     "landmark": "Two Lovers Point",
     "hint": "Starts with 'G' — 4 letters"
@@ -1235,7 +1235,7 @@
     "flag": "🇲🇲",
     "continent": "Asia",
     "pop": "~51 million",
-    "borders": "BGD, CHN, IND, LAO, THA",
+    "borders": "Bangladesh, China, India, Laos, Thailand",
     "capital": "Naypyidaw",
     "landmark": "Shwedagon Pagoda",
     "hint": "Starts with 'M' — 7 letters"
@@ -1246,7 +1246,7 @@
     "flag": "🇨🇩",
     "continent": "Africa",
     "pop": "~113 million",
-    "borders": "AGO, BDI, CAF, COG, RWA, SSD, TZA, UGA, ZMB",
+    "borders": "Angola, Burundi, Central African Republic, Republic of the Congo, Rwanda, South Sudan, Tanzania, Uganda, Zambia",
     "capital": "Kinshasa",
     "landmark": "Virunga National Park",
     "hint": "Two words — starts with 'DR'"
@@ -1257,7 +1257,7 @@
     "flag": "🇲🇺",
     "continent": "Africa",
     "pop": "~1 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Port Louis",
     "landmark": "Le Morne Brabant",
     "hint": "Starts with 'M' — 9 letters"
@@ -1268,7 +1268,7 @@
     "flag": "🇫🇰",
     "continent": "South America",
     "pop": "~3500",
-    "borders": "",
+    "borders": "None",
     "capital": "Stanley",
     "landmark": "Volunteer Point",
     "hint": "Two words — starts with 'Falkland'"
@@ -1279,7 +1279,7 @@
     "flag": "🇲🇵",
     "continent": "Oceania",
     "pop": "~57,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Saipan",
     "landmark": "Saipan Island Beaches",
     "hint": "Two words — starts with 'Northern'"
@@ -1290,7 +1290,7 @@
     "flag": "🇺🇦",
     "continent": "Europe",
     "pop": "~33 million",
-    "borders": "BLR, HUN, MDA, POL, ROU, RUS, SVK",
+    "borders": "Belarus, Hungary, Moldova, Poland, Romania, Russia, Slovakia",
     "capital": "Kyiv",
     "landmark": "Saint Sophia Cathedral",
     "hint": "Starts with 'U' — 7 letters"
@@ -1299,9 +1299,9 @@
     "name": "Monaco",
     "code": "mc",
     "flag": "🇲🇨",
-    "continent": "Europe / Western Europe",
+    "continent": "Europe",
     "pop": "~39,000",
-    "borders": "FRA",
+    "borders": "France",
     "capital": "Monaco",
     "landmark": "Monte Carlo Casino",
     "hint": "Starts with 'M' — 6 letters"
@@ -1310,9 +1310,9 @@
     "name": "Tajikistan",
     "code": "tj",
     "flag": "🇹🇯",
-    "continent": "Asia / Central Asia",
+    "continent": "Asia",
     "pop": "~10 million",
-    "borders": "AFG, CHN, KGZ, UZB",
+    "borders": "Afghanistan, China, Kyrgyzstan, Uzbekistan",
     "capital": "Dushanbe",
     "landmark": "Iskanderkul Lake",
     "hint": "Starts with 'T' — 10 letters"
@@ -1323,7 +1323,7 @@
     "flag": "🇲🇾",
     "continent": "Asia",
     "pop": "~34 million",
-    "borders": "BRN, IDN, THA",
+    "borders": "Brunei, Indonesia, Thailand, Singapore",
     "capital": "Kuala Lumpur",
     "landmark": "Petronas Twin Towers",
     "hint": "Starts with 'M' — 8 letters"
@@ -1334,7 +1334,7 @@
     "flag": "🇸🇴",
     "continent": "Africa",
     "pop": "~20 million",
-    "borders": "DJI, ETH, KEN",
+    "borders": "Djibouti, Ethiopia, Kenya",
     "capital": "Mogadishu",
     "landmark": "Laas Geel rock paintings",
     "hint": "Starts with 'S' — 7 letters"
@@ -1345,7 +1345,7 @@
     "flag": "🇦🇬",
     "continent": "North America",
     "pop": "~98,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Saint John's",
     "landmark": "Nelson’s Dockyard",
     "hint": "Two words — starts with 'Antigua'"
@@ -1356,7 +1356,7 @@
     "flag": "🇨🇫",
     "continent": "Africa",
     "pop": "~6 million",
-    "borders": "CMR, TCD, COD, COG, SSD, SDN",
+    "borders": "Cameroon, Chad, Democratic Republic of the Congo, Republic of the Congo, South Sudan, Sudan",
     "capital": "Bangui",
     "landmark": "Boali Waterfalls",
     "hint": "Two words — starts with 'Central'"
@@ -1367,7 +1367,7 @@
     "flag": "🇲🇴",
   "continent": "Asia",
     "pop": "~1 million",
-    "borders": "CHN",
+    "borders": "China",
     "landmark": "Ruins of St. Paul's",
     "hint": "Starts with 'M' — 5 letters"
   },
@@ -1377,7 +1377,7 @@
     "flag": "🇮🇱",
     "continent": "Asia",
     "pop": "~10 million",
-    "borders": "EGY, JOR, LBN, PSE, SYR",
+    "borders": "Egypt, Jordan, Lebanon, Palestine, Syria",
     "capital": "Jerusalem",
     "landmark": "Western Wall (Kotel)",
     "hint": "Starts with 'I' — 6 letters"
@@ -1388,7 +1388,7 @@
     "flag": "🇳🇬",
     "continent": "Africa",
     "pop": "~224 million",
-    "borders": "BEN, CMR, TCD, NER",
+    "borders": "Benin, Cameroon, Chad, Niger",
     "capital": "Abuja",
     "landmark": "Zuma Rock",
     "hint": "Starts with 'N' — 7 letters"
@@ -1397,9 +1397,9 @@
     "name": "Honduras",
     "code": "hn",
     "flag": "🇭🇳",
-    "continent": "Americas / Central America",
+    "continent": "North America",
     "pop": "~10 million",
-    "borders": "GTM, SLV, NIC",
+    "borders": "Guatemala, El Salvador, Nicaragua",
     "capital": "Tegucigalpa",
     "landmark": "Copán Ruins",
     "hint": "Starts with 'H' — 8 letters"
@@ -1410,7 +1410,7 @@
     "flag": "🇸🇱",
     "continent": "Africa",
     "pop": "~9 million",
-    "borders": "GIN, LBR",
+    "borders": "Guinea, Liberia",
     "capital": "Freetown",
     "landmark": "Tacugama Chimpanzee Sanctuary",
     "hint": "Two words — starts with 'Sierra'"
@@ -1421,7 +1421,7 @@
     "flag": "🇹🇳",
     "continent": "Africa",
     "pop": "~12 million",
-    "borders": "DZA, LBY",
+    "borders": "Algeria, Libya",
     "capital": "Tunis",
     "landmark": "El Djem Amphitheatre",
     "hint": "Starts with 'T' — 7 letters"
@@ -1432,7 +1432,7 @@
     "flag": "🇱🇹",
     "continent": "Europe",
     "pop": "~3 million",
-    "borders": "BLR, LVA, POL, RUS",
+    "borders": "Belarus, Latvia, Poland, Russia",
     "capital": "Vilnius",
     "landmark": "Vilnius Old Town",
     "hint": "Starts with 'L' — 9 letters"
@@ -1443,7 +1443,7 @@
     "flag": "🇮🇶",
     "continent": "Asia",
     "pop": "~46 million",
-    "borders": "IRN, JOR, KWT, SAU, SYR, TUR",
+    "borders": "Iran, Jordan, Kuwait, Saudi Arabia, Syria, Turkey",
     "capital": "Baghdad",
     "landmark": "Ziggurat of Ur",
     "hint": "Starts with 'I' — 4 letters"
@@ -1452,9 +1452,9 @@
     "name": "Switzerland",
     "code": "ch",
     "flag": "🇨🇭",
-    "continent": "Europe / Western Europe",
+    "continent": "Europe",
     "pop": "~9 million",
-    "borders": "AUT, FRA, ITA, LIE, DEU",
+    "borders": "Austria, France, Italy, Liechtenstein, Germany",
     "capital": "Bern",
     "landmark": "Matterhorn",
     "hint": "Starts with 'S' — 11 letters"
@@ -1465,7 +1465,7 @@
     "flag": "🇨🇱",
     "continent": "South America",
     "pop": "~20 million",
-    "borders": "ARG, BOL, PER",
+    "borders": "Argentina, Bolivia, Peru",
     "capital": "Santiago",
     "landmark": "Easter Island Moai Statues",
     "hint": "Starts with 'C' — 5 letters"
@@ -1476,7 +1476,7 @@
     "flag": "🇹🇼",
   "continent": "Asia",
     "pop": "~23 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Taipei",
     "landmark": "Taipei 101",
     "hint": "Starts with 'T' — 6 letters"
@@ -1487,7 +1487,7 @@
     "flag": "🇻🇳",
     "continent": "Asia",
     "pop": "~101 million",
-    "borders": "KHM, CHN, LAO",
+    "borders": "Cambodia, China, Laos",
     "capital": "Hanoi",
     "landmark": "Ha Long Bay",
     "hint": "Starts with 'V' — 7 letters"
@@ -1498,7 +1498,7 @@
     "flag": "🇧🇩",
     "continent": "Asia",
     "pop": "~170 million",
-    "borders": "MMR, IND",
+    "borders": "Myanmar, India",
     "capital": "Dhaka",
     "landmark": "Sundarbans Mangrove Forest",
     "hint": "Starts with 'B' — 10 letters"
@@ -1509,7 +1509,7 @@
     "flag": "🇻🇺",
     "continent": "Oceania / Melanesia",
     "pop": "~323,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Port Vila",
     "landmark": "Mount Yasur",
     "hint": "Starts with 'V' — 7 letters"
@@ -1520,7 +1520,7 @@
     "flag": "🇵🇰",
     "continent": "Asia",
     "pop": "~241 million",
-    "borders": "AFG, CHN, IND, IRN",
+    "borders": "Afghanistan, China, India, Iran",
     "capital": "Islamabad",
     "landmark": "Badshahi Mosque",
     "hint": "Starts with 'P' — 8 letters"
@@ -1531,7 +1531,7 @@
     "flag": "🇱🇻",
     "continent": "Europe",
     "pop": "~2 million",
-    "borders": "BLR, EST, LTU, RUS",
+    "borders": "Belarus, Estonia, Lithuania, Russia",
     "capital": "Riga",
     "landmark": "Ħal Saflieni Hypogeum",
     "hint": "Starts with 'L' — 6 letters"
@@ -1542,7 +1542,7 @@
     "flag": "🇲🇹",
     "continent": "Europe",
     "pop": "~1 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Valletta",
     "landmark": "Ħal Saflieni Hypogeum",
     "hint": "Starts with 'M' — 5 letters"
@@ -1553,7 +1553,7 @@
     "flag": "🇸🇨",
     "continent": "Africa",
     "pop": "~99,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Victoria",
     "landmark": "Vallée de Mai",
     "hint": "Starts with 'S' — 10 letters"
@@ -1564,7 +1564,7 @@
     "flag": "🇲🇸",
     "continent": "North America",
     "pop": "~5000",
-    "borders": "",
+    "borders": "None",
     "capital": "Plymouth",
     "landmark": "Soufrière Hills Volcano",
     "hint": "Starts with 'M' — 10 letters"
@@ -1575,7 +1575,7 @@
     "flag": "🇦🇮",
     "continent": "North America",
     "pop": "~15,000",
-    "borders": "",
+    "borders": "None",
     "capital": "The Valley",
     "landmark": "Shoal Bay Beach",
     "hint": "Starts with 'A' — 8 letters"
@@ -1586,7 +1586,7 @@
     "flag": "🇬🇷",
     "continent": "Europe",
     "pop": "~10 million",
-    "borders": "ALB, BGR, TUR, MKD",
+    "borders": "Albania, Bulgaria, Turkey, North Macedonia",
     "capital": "Athens",
     "landmark": "Acropolis of Athens",
     "hint": "Starts with 'G' — 6 letters"
@@ -1597,7 +1597,7 @@
     "flag": "🇨🇿",
     "continent": "Europe",
     "pop": "~11 million",
-    "borders": "AUT, DEU, POL, SVK",
+    "borders": "Austria, Germany, Poland, Slovakia",
     "capital": "Prague",
     "landmark": "Prague Castle",
     "hint": "Starts with 'C' — 7 letters"
@@ -1608,7 +1608,7 @@
     "flag": "🇿🇲",
     "continent": "Africa",
     "pop": "~20 million",
-    "borders": "AGO, BWA, COD, MWI, MOZ, NAM, TZA, ZWE",
+    "borders": "Angola, Botswana, Democratic Republic of the Congo, Malawi, Mozambique, Namibia, Tanzania, Zimbabwe",
     "capital": "Lusaka",
     "landmark": "Victoria Falls",
     "hint": "Starts with 'Z' — 6 letters"
@@ -1619,18 +1619,18 @@
     "flag": "🇭🇰",
   "continent": "Asia",
     "pop": "~8 million",
-    "borders": "CHN",
+    "borders": "China",
     "capital": "City of Victoria",
     "landmark": "Victoria Peak",
     "hint": "Two words — starts with 'Hong'"
   },
   {
-    "name": "United States",
+    "name": "United States of America",
     "code": "us",
     "flag": "🇺🇸",
     "continent": "North America",
     "pop": "~340 million",
-    "borders": "CAN, MEX",
+    "borders": "Canada, Mexico",
     "capital": "Washington, D.C.",
     "landmark": "Statue of Liberty",
     "hint": "Two words — starts with 'United'"
@@ -1639,9 +1639,9 @@
     "name": "Eswatini",
     "code": "sz",
     "flag": "🇸🇿",
-    "continent": "Africa / Southern Africa",
+    "continent": "Africa",
     "pop": "~1 million",
-    "borders": "MOZ, ZAF",
+    "borders": "Mozambique, South Africa",
     "capital": "Mbabane",
     "landmark": "Mlilwane Wildlife Sanctuary",
     "hint": "Starts with 'E' — 8 letters"
@@ -1652,7 +1652,7 @@
     "flag": "🇸🇮",
     "continent": "Europe",
     "pop": "~2 million",
-    "borders": "AUT, HRV, ITA, HUN",
+    "borders": "Austria, Croatia, Italy, Hungary",
     "capital": "Ljubljana",
     "landmark": "Lake Bled and Bled Castle",
     "hint": "Starts with 'S' — 8 letters"
@@ -1663,7 +1663,7 @@
     "flag": "🇧🇶",
     "continent": "North America",
     "pop": "~25,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Kralendijk",
     "landmark": "Mount Scenery (on Saba)",
     "hint": "Two words — starts with 'Caribbean'"
@@ -1674,7 +1674,7 @@
     "flag": "🇲🇻",
     "continent": "Asia",
     "pop": "~1 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Malé",
     "landmark": "Malé Friday Mosque (Hukuru Miskiy)",
     "hint": "Starts with 'M' — 8 letters"
@@ -1685,7 +1685,7 @@
     "flag": "🇬🇭",
     "continent": "Africa",
     "pop": "~34 million",
-    "borders": "BFA, CIV, TGO",
+    "borders": "Burkina Faso, Ivory Coast, Togo",
     "capital": "Accra",
     "landmark": "Cape Coast Castle",
     "hint": "Starts with 'G' — 5 letters"
@@ -1696,7 +1696,7 @@
     "flag": "🇵🇾",
     "continent": "South America",
     "pop": "~6 million",
-    "borders": "ARG, BOL, BRA",
+    "borders": "Argentina, Bolivia, Brazil",
     "capital": "Asunción",
     "landmark": "Jesuit Missions of La Santísima Trinidad de Paraná",
     "hint": "Starts with 'P' — 8 letters"
@@ -1707,7 +1707,7 @@
     "flag": "🇲🇿",
     "continent": "Africa",
     "pop": "~34 million",
-    "borders": "MWI, ZAF, SWZ, TZA, ZMB, ZWE",
+    "borders": "Malawi, South Africa, Eswatini, Tanzania, Zambia, Zimbabwe",
     "capital": "Maputo",
     "landmark": "Island of Mozambique",
     "hint": "Starts with 'M' — 10 letters"
@@ -1718,7 +1718,7 @@
     "flag": "🇵🇸",
     "continent": "Asia",
     "pop": "~5 million",
-    "borders": "ISR, EGY, JOR",
+    "borders": "Israel, Egypt, Jordan",
     "capital": "Ramallah",
     "landmark": "Church of the Nativity (Bethlehem)",
     "hint": "Starts with 'P' — 9 letters"
@@ -1729,7 +1729,7 @@
     "flag": "🇲🇩",
     "continent": "Europe",
     "pop": "~3 million",
-    "borders": "ROU, UKR",
+    "borders": "Romania, Ukraine",
     "capital": "Chișinău",
     "landmark": "Orheiul Vechi",
     "hint": "Starts with 'M' — 7 letters"
@@ -1740,7 +1740,7 @@
     "flag": "🇱🇷",
     "continent": "Africa",
     "pop": "~5 million",
-    "borders": "GIN, CIV, SLE",
+    "borders": "Guinea, Ivory Coast, Sierra Leone",
     "capital": "Monrovia",
     "landmark": "Providence Island",
     "hint": "Starts with 'L' — 7 letters"
@@ -1749,9 +1749,9 @@
     "name": "Liechtenstein",
     "code": "li",
     "flag": "🇱🇮",
-    "continent": "Europe / Western Europe",
+    "continent": "Europe",
     "pop": "~39,000",
-    "borders": "AUT, CHE",
+    "borders": "Austria, Switzerland",
     "capital": "Vaduz",
     "landmark": "Vaduz Castle",
     "hint": "Starts with 'L' — 13 letters"
@@ -1762,7 +1762,7 @@
     "flag": "🇵🇪",
     "continent": "South America",
     "pop": "~34 million",
-    "borders": "BOL, BRA, CHL, COL, ECU",
+    "borders": "Bolivia, Brazil, Chile, Colombia, Ecuador",
     "capital": "Lima",
     "landmark": "Machu Picchu",
     "hint": "Starts with 'P' — 4 letters"
@@ -1773,7 +1773,7 @@
     "flag": "🇶🇦",
     "continent": "Asia",
     "pop": "~3 million",
-    "borders": "SAU",
+    "borders": "Saudi Arabia",
     "capital": "Doha",
     "landmark": "Museum of Islamic Art",
     "hint": "Starts with 'Q' — 5 letters"
@@ -1784,7 +1784,7 @@
     "flag": "🇨🇽",
     "continent": "Oceania",
     "pop": "~2,200",
-    "borders": "",
+    "borders": "None",
     "capital": "Flying Fish Cove",
     "landmark": "Christmas Island National Park",
     "hint": "Two words — starts with 'Christmas'"
@@ -1795,7 +1795,7 @@
     "flag": "🇬🇪",
     "continent": "Asia",
     "pop": "~4 million",
-    "borders": "ARM, AZE, RUS, TUR",
+    "borders": "Armenia, Azerbaijan, Russia, Turkey",
     "capital": "Tbilisi",
     "landmark": "Galápagos Islands",
     "hint": "Starts with 'G' — 7 letters"
@@ -1806,7 +1806,7 @@
     "flag": "🇪🇨",
     "continent": "South America",
     "pop": "~18 million",
-    "borders": "COL, PER",
+    "borders": "Colombia, Peru",
     "capital": "Quito",
     "landmark": "Galápagos Islands",
     "hint": "Starts with 'E' — 7 letters"
@@ -1817,7 +1817,7 @@
     "flag": "🇵🇭",
     "continent": "Asia",
     "pop": "~114 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Manila",
     "landmark": "Chocolate Hills",
     "hint": "Starts with 'P' — 11 letters"
@@ -1828,7 +1828,7 @@
     "flag": "🇪🇹",
     "continent": "Africa",
     "pop": "~112 million",
-    "borders": "DJI, ERI, KEN, SOM, SSD, SDN",
+    "borders": "Djibouti, ERI, Kenya, Somalia, South Sudan, Sudan",
     "capital": "Addis Ababa",
     "landmark": "Lalibela Rock-Hewn Churches",
     "hint": "Starts with 'E' — 8 letters"
@@ -1839,7 +1839,7 @@
     "flag": "🇻🇮",
     "continent": "North America",
     "pop": "~104,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Charlotte Amalie",
     "landmark": "Buck Island Reef National Monument",
     "hint": "Two words — starts with 'United'"
@@ -1850,7 +1850,7 @@
     "flag": "🇸🇾",
     "continent": "Asia",
     "pop": "~26 million",
-    "borders": "IRQ, ISR, JOR, LBN, TUR",
+    "borders": "Iraq, Israel, Jordan, Lebanon, Turkey",
     "capital": "Damascus",
     "landmark": "Ancient City of Palmyra",
     "hint": "Starts with 'S' — 5 letters"
@@ -1861,7 +1861,7 @@
     "flag": "🇷🇴",
     "continent": "Europe",
     "pop": "~19 million",
-    "borders": "BGR, HUN, MDA, SRB, UKR",
+    "borders": "Bulgaria, Hungary, Moldova, Serbia, Ukraine",
     "capital": "Bucharest",
     "landmark": "Bran Castle",
     "hint": "Starts with 'R' — 7 letters"
@@ -1870,9 +1870,9 @@
     "name": "Guatemala",
     "code": "gt",
     "flag": "🇬🇹",
-    "continent": "Americas / Central America",
+    "continent": "North America",
     "pop": "~18 million",
-    "borders": "BLZ, SLV, HND, MEX",
+    "borders": "Belize, El Salvador, Honduras, Mexico",
     "capital": "Guatemala City",
     "landmark": "Tikal",
     "hint": "Starts with 'G' — 9 letters"
@@ -1883,7 +1883,7 @@
     "flag": "🇳🇵",
     "continent": "Asia",
     "pop": "~30 million",
-    "borders": "CHN, IND",
+    "borders": "China, India",
     "capital": "Kathmandu",
     "landmark": "Mount Everest",
     "hint": "Starts with 'N' — 5 letters"
@@ -1894,7 +1894,7 @@
     "flag": "🇷🇪",
     "continent": "Africa",
     "pop": "~1 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Saint-Denis",
     "landmark": "Piton de la Fournaise",
     "hint": "Starts with 'R' — 7 letters"
@@ -1905,7 +1905,7 @@
     "flag": "🇧🇯",
     "continent": "Africa",
     "pop": "~13 million",
-    "borders": "BFA, NER, NGA, TGO",
+    "borders": "Burkina Faso, Niger, Nigeria, Togo",
     "capital": "Porto-Novo",
     "landmark": "Royal Palaces of Abomey",
     "hint": "Starts with 'B' — 5 letters"
@@ -1916,7 +1916,7 @@
     "flag": "🇰🇼",
     "continent": "Asia",
     "pop": "~5 million",
-    "borders": "IRQ, SAU",
+    "borders": "Iraq, Saudi Arabia",
     "capital": "Kuwait City",
     "landmark": "Kuwait Towers",
     "hint": "Starts with 'K' — 6 letters"
@@ -1927,7 +1927,7 @@
     "flag": "🇸🇷",
     "continent": "South America",
     "pop": "~1 million",
-    "borders": "BRA, GUF, GUY",
+    "borders": "Brazil, French Guiana (France), Guyana",
     "capital": "Paramaribo",
     "landmark": "Saint Peter and Paul Cathedral, Paramaribo",
     "hint": "Starts with 'S' — 8 letters"
@@ -1938,7 +1938,7 @@
     "flag": "🇳🇨",
     "continent": "Oceania / Melanesia",
     "pop": "~271,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Nouméa",
     "landmark": "Nouméa Lagoon",
     "hint": "Two words — starts with 'New'"
@@ -1949,7 +1949,7 @@
     "flag": "🇸🇩",
     "continent": "Africa",
     "pop": "~52 million",
-    "borders": "CAF, TCD, EGY, ERI, ETH, LBY, SSD",
+    "borders": "Central African Republic, Chad, Egypt, Eritrea, Ethiopia, Libya, South Sudan",
     "capital": "Khartoum",
     "landmark": "Pyramids of Meroë",
     "hint": "Starts with 'S' — 5 letters"
@@ -1960,7 +1960,7 @@
     "flag": "🇺🇲",
     "continent": "North America",
     "pop": "0",
-    "borders": "",
+    "borders": "None",
     "capital": "Washington DC",
     "landmark": "Wake Island",
     "hint": "Two words — starts with 'United'"
@@ -1971,7 +1971,7 @@
     "flag": "🇹🇩",
     "continent": "Africa",
     "pop": "~19 million",
-    "borders": "CMR, CAF, LBY, NER, NGA, SDN",
+    "borders": "Cameroon, Central African Republic, Libya, Niger, Nigeria, Sudan",
     "capital": "N'Djamena",
     "landmark": "Zakouma National Park",
     "hint": "Starts with 'C' — 4 letters"
@@ -1982,7 +1982,7 @@
     "flag": "🇺🇾",
     "continent": "South America",
     "pop": "~3 million",
-    "borders": "ARG, BRA",
+    "borders": "Argentina, Brazil",
     "capital": "Montevideo",
     "landmark": "Casapueblo",
     "hint": "Starts with 'U' — 7 letters"
@@ -1993,7 +1993,7 @@
     "flag": "🇧🇦",
 "continent": "Europe",
     "pop": "~3 million",
-    "borders": "HRV, MNE, SRB",
+    "borders": "Croatia, Montenegro, Serbia",
     "capital": "Sarajevo",
     "landmark": "Stari Most (Old Bridge), Mostar",
     "hint": "Two words — starts with 'Bosnia'"
@@ -2004,7 +2004,7 @@
     "flag": "🇹🇹",
     "continent": "North America",
     "pop": "~1 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Port of Spain",
     "landmark": "Pitch Lake",
     "hint": "Two words — starts with 'Trinidad'"
@@ -2015,7 +2015,7 @@
     "flag": "🇸🇪",
     "continent": "Europe",
     "pop": "~11 million",
-    "borders": "FIN, NOR",
+    "borders": "Finland, Norway",
     "capital": "Stockholm",
     "landmark": "Drottningholm Palace",
     "hint": "Starts with 'S' — 6 letters"
@@ -2026,7 +2026,7 @@
     "flag": "🇮🇸",
     "continent": "Europe",
     "pop": "~376,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Reykjavik",
     "landmark": "Blue Lagoon",
     "hint": "Starts with 'I' — 7 letters"
@@ -2037,7 +2037,7 @@
     "flag": "🇭🇹",
     "continent": "North America",
     "pop": "~12 million",
-    "borders": "DOM",
+    "borders": "Dominican Republic",
     "capital": "Port-au-Prince",
     "landmark": "Citadelle Laferrière",
     "hint": "Starts with 'H' — 5 letters"
@@ -2048,7 +2048,7 @@
     "flag": "🇧🇳",
     "continent": "Asia",
     "pop": "~460,000",
-    "borders": "MYS",
+    "borders": "Malaysia",
     "capital": "Bandar Seri Begawan",
     "landmark": "Sultan Omar Ali Saifuddien Mosque",
     "hint": "Starts with 'B' — 6 letters"
@@ -2059,7 +2059,7 @@
     "flag": "🇹🇫",
     "continent": "Antarctica",
     "pop": "~100-200",
-    "borders": "",
+    "borders": "None",
     "capital": "Port-aux-Français",
     "landmark": "Kerguelen Islands",
     "hint": "Two words — starts with 'French'"
@@ -2070,7 +2070,7 @@
     "flag": "🇬🇬",
     "continent": "Europe",
     "pop": "~64,000",
-    "borders": "",
+    "borders": "None",
     "capital": "St. Peter Port",
     "landmark": "Castle Cornet",
     "hint": "Starts with 'G' — 8 letters"
@@ -2081,7 +2081,7 @@
     "flag": "🇭🇷",
     "continent": "Europe",
     "pop": "~4 million",
-    "borders": "BIH, HUN, MNE, SRB, SVN",
+    "borders": "Bosnia and Herzegovina, Hungary, Montenegro, Serbia, Slovenia",
     "capital": "Zagreb",
     "landmark": "Diocletian's Palace",
     "hint": "Starts with 'C' — 7 letters"
@@ -2092,7 +2092,7 @@
     "flag": "🇧🇱",
     "continent": "North America",
     "pop": "~11,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Gustavia",
     "landmark": "Gustavia Harbor",
     "hint": "Two words — starts with 'Saint'"
@@ -2103,7 +2103,7 @@
     "flag": "🇲🇳",
   "continent": "Asia",
     "pop": "~4 million",
-    "borders": "CHN, RUS",
+    "borders": "China, Russia",
     "capital": "Ulan Bator",
     "landmark": "Gobi Desert",
     "hint": "Starts with 'M' — 8 letters"
@@ -2114,7 +2114,7 @@
     "flag": "🇦🇼",
     "continent": "North America",
     "pop": "~107,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Oranjestad",
     "landmark": "Natural Pool (Conchi)",
     "hint": "Starts with 'A' — 5 letters"
@@ -2125,7 +2125,7 @@
     "flag": "🇨🇬",
     "continent": "Africa",
     "pop": "~6 million",
-    "borders": "AGO, CMR, CAF, COD, GAB",
+    "borders": "Angola, Cameroon, Central African Republic, Democratic Republic of the Congo, Gabon",
     "capital": "Brazzaville",
     "landmark": "Odzala-Kokoua National Park",
     "hint": "Two words — starts with 'Republic'"
@@ -2136,7 +2136,7 @@
     "flag": "🇸🇹",
     "continent": "Africa",
     "pop": "~230,000",
-    "borders": "",
+    "borders": "None",
     "capital": "São Tomé",
     "landmark": "Pico Cão Grande",
     "hint": "Two words — starts with 'São'"
@@ -2147,7 +2147,7 @@
     "flag": "🇾🇪",
     "continent": "Asia",
     "pop": "~33 million",
-    "borders": "OMN, SAU",
+    "borders": "Oman, Saudi Arabia",
     "capital": "Sana'a",
     "landmark": "Old City of Sana'a",
     "hint": "Starts with 'Y' — 5 letters"
@@ -2158,7 +2158,7 @@
     "flag": "🇬🇶",
     "continent": "Africa",
     "pop": "~2 million",
-    "borders": "CMR, GAB",
+    "borders": "Cameroon, Gabon",
     "capital": "Ciudad de la Paz",
     "landmark": "Malabo Cathedral",
     "hint": "Two words — starts with 'Equatorial'"
@@ -2169,7 +2169,7 @@
     "flag": "🇸🇯",
     "continent": "Europe",
     "pop": "~2500",
-    "borders": "",
+    "borders": "None",
     "capital": "Longyearbyen",
     "landmark": "Svalbard Global Seed Vault",
     "hint": "Two words — starts with 'Svalbard'"
@@ -2180,7 +2180,7 @@
     "flag": "🇨🇴",
     "continent": "South America",
     "pop": "~53 million",
-    "borders": "BRA, ECU, PAN, PER, VEN",
+    "borders": "Brazil, Ecuador, Panama, Peru, Venezuela",
     "capital": "Bogotá",
     "landmark": "Ciudad Perdida (Lost City)",
     "hint": "Starts with 'C' — 8 letters"
@@ -2191,7 +2191,7 @@
     "flag": "🇬🇼",
     "continent": "Africa",
     "pop": "~2 million",
-    "borders": "GIN, SEN",
+    "borders": "Guinea, Senegal",
     "capital": "Bissau",
     "landmark": "Orango Islands National Park",
     "hint": "Starts with 'G' — 13 letters"
@@ -2202,7 +2202,7 @@
     "flag": "🇰🇮",
     "continent": "Oceania",
     "pop": "~135,000",
-    "borders": "",
+    "borders": "None",
     "capital": "South Tarawa",
     "landmark": "Christmas Island (Kiritimati)",
     "hint": "Starts with 'K' — 8 letters"
@@ -2211,9 +2211,9 @@
     "name": "Germany",
     "code": "de",
     "flag": "🇩🇪",
-    "continent": "Europe / Western Europe",
+    "continent": "Europe",
     "pop": "~83 million",
-    "borders": "AUT, BEL, CZE, DNK, FRA, LUX, NLD, POL, CHE",
+    "borders": "Austria, Belgium, Czechia, Denmark, France, Luxembourg, Netherlands, Poland, Switzerland",
     "capital": "Berlin",
     "landmark": "Brandenburg Gate",
     "hint": "Starts with 'G' — 7 letters"
@@ -2224,7 +2224,7 @@
     "flag": "🇹🇭",
     "continent": "Asia",
     "pop": "~66 million",
-    "borders": "MMR, KHM, LAO, MYS",
+    "borders": "Myanmar, Cambodia, Laos, Malaysia",
     "capital": "Bangkok",
     "landmark": "Grand Palace",
     "hint": "Starts with 'T' — 8 letters"
@@ -2235,7 +2235,7 @@
     "flag": "🇮🇲",
     "continent": "Europe",
     "pop": "~85,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Douglas",
     "landmark": "Castle Rushen",
     "hint": "Two words — starts with 'Isle'"
@@ -2246,7 +2246,7 @@
     "flag": "🇧🇹",
     "continent": "Asia",
     "pop": "~1 million",
-    "borders": "CHN, IND",
+    "borders": "China, India",
     "capital": "Thimphu",
     "landmark": "Paro Taktsang (Tiger’s Nest Monastery)",
     "hint": "Starts with 'B' — 6 letters"
@@ -2257,7 +2257,7 @@
     "flag": "🇬🇦",
     "continent": "Africa",
     "pop": "~2 million",
-    "borders": "CMR, COG, GNQ",
+    "borders": "Cameroon, Republic of the Congo, Equatorial Guinea",
     "capital": "Libreville",
     "landmark": "Lope National Park",
     "hint": "Starts with 'G' — 5 letters"
@@ -2268,7 +2268,7 @@
     "flag": "🇸🇽",
     "continent": "North America",
     "pop": "~44,000",
-    "borders": "MAF",
+    "borders": "Saint Martin",
     "capital": "Philipsburg",
     "landmark": "Maho Beach",
     "hint": "Two words — starts with 'Sint'"
@@ -2279,7 +2279,7 @@
     "flag": "🇱🇰",
     "continent": "Asia",
     "pop": "~22 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Sri Jayawardenepura Kotte",
     "landmark": "Sigiriya Rock Fortress",
     "hint": "Two words — starts with 'Sri'"
@@ -2290,7 +2290,7 @@
     "flag": "🇦🇱",
     "continent": "Europe",
     "pop": "~2 million",
-    "borders": "MNE, GRC, MKD, UNK",
+    "borders": "Montenegro, Greece, North Macedonia, Kosovo",
     "capital": "Tirana",
     "landmark": "Rozafa Castle",
     "hint": "Starts with 'A' — 7 letters"
@@ -2301,7 +2301,7 @@
     "flag": "🇳🇿",
     "continent": "Oceania",
     "pop": "~5 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Wellington",
     "landmark": "Milford Sound",
     "hint": "Two words — starts with 'New'"
@@ -2312,7 +2312,7 @@
     "flag": "🇩🇿",
     "continent": "Africa",
     "pop": "~47 million",
-    "borders": "TUN, LBY, NER, ESH, MRT, MLI, MAR",
+    "borders": "Tunisia, Libya, Niger, Western Sahara, Mauritania, Mali, Morocco",
     "capital": "Algiers",
     "landmark": "Casbah of Algiers",
     "hint": "Starts with 'A' — 7 letters"
@@ -2323,7 +2323,7 @@
     "flag": "🇸🇲",
     "continent": "Europe",
     "pop": "~34,000",
-    "borders": "ITA",
+    "borders": "Italy",
     "capital": "City of San Marino",
     "landmark": "Guaita Tower",
     "hint": "Two words — starts with 'San'"
@@ -2334,7 +2334,7 @@
     "flag": "🇫🇲",
     "continent": "Oceania",
     "pop": "~115,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Palikir",
     "landmark": "Nan Madol",
     "hint": "Starts with 'M' — 10 letters"
@@ -2345,7 +2345,7 @@
     "flag": "🇸🇭",
     "continent": "Africa",
     "pop": "~6000",
-    "borders": "",
+    "borders": "None",
     "capital": "Jamestown",
     "landmark": "Jamestown Historic Sites",
     "hint": "Two words — starts with 'Saint'"
@@ -2356,7 +2356,7 @@
     "flag": "🇨🇼",
     "continent": "North America",
     "pop": "~160,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Willemstad",
     "landmark": "Queen Emma Bridge",
     "hint": "Starts with 'C' — 7 letters"
@@ -2365,9 +2365,9 @@
     "name": "El Salvador",
     "code": "sv",
     "flag": "🇸🇻",
-    "continent": "Americas / Central America",
+    "continent": "North America",
     "pop": "~6 million",
-    "borders": "GTM, HND",
+    "borders": "Guatemala, Honduras",
     "capital": "San Salvador",
     "landmark": "Santa Ana Volcano",
     "hint": "Two words — starts with 'El'"
@@ -2378,7 +2378,7 @@
     "flag": "🇲🇶",
     "continent": "North America",
     "pop": "~375,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Fort-de-France",
     "landmark": "Mount Pelée",
     "hint": "Starts with 'M' — 10 letters"
@@ -2389,7 +2389,7 @@
     "flag": "🇳🇷",
     "continent": "Oceania",
     "pop": "~10,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Yaren",
     "landmark": "Moqua Caves",
     "hint": "Starts with 'N' — 5 letters"
@@ -2400,7 +2400,7 @@
     "flag": "🇻🇦",
     "continent": "Europe",
     "pop": "~800",
-    "borders": "ITA",
+    "borders": "Italy",
     "capital": "Vatican City",
     "landmark": "St. Peter's Basilica",
     "hint": "Two words — starts with 'Vatican'"
@@ -2411,7 +2411,7 @@
     "flag": "🇬🇩",
     "continent": "North America",
     "pop": "~121,000",
-    "borders": "",
+    "borders": "None",
     "capital": "St. George's",
     "landmark": "Grand Anse Beach",
     "hint": "Starts with 'G' — 7 letters"
@@ -2422,7 +2422,7 @@
     "flag": "🇹🇴",
     "continent": "Oceania",
     "pop": "~107,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Nuku'alofa",
     "landmark": "Haʻamonga ʻa Maui",
     "hint": "Starts with 'T' — 5 letters"
@@ -2433,7 +2433,7 @@
     "flag": "🇧🇮",
     "continent": "Africa",
     "pop": "~13 million",
-    "borders": "COD, RWA, TZA",
+    "borders": "Democratic Republic of the Congo, Rwanda, Tanzania",
     "capital": "Gitega",
     "landmark": "Source of the Nile at Rutovu",
     "hint": "Starts with 'B' — 7 letters"
@@ -2444,7 +2444,7 @@
     "flag": "🇼🇸",
     "continent": "Oceania",
     "pop": "~220,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Apia",
     "landmark": "To‑Sua Ocean Trench",
     "hint": "Starts with 'S' — 5 letters"
@@ -2455,7 +2455,7 @@
     "flag": "🇩🇰",
     "continent": "Europe",
     "pop": "~6 million",
-    "borders": "DEU",
+    "borders": "Germany",
     "capital": "Copenhagen",
     "landmark": "Tivoli Gardens (or Nyhavn / The Little Mermaid)",
     "hint": "Starts with 'D' — 7 letters"
@@ -2466,9 +2466,9 @@
     "flag": "🇻🇪",
     "continent": "South America",
     "pop": "~34 million",
-    "borders": "BRA, COL, GUY",
+    "borders": "Brazil, Colombia, Guyana",
     "capital": "Caracas",
-    "landmark": "Angel Falls",
+    "landmark": "Angel Falls",
     "hint": "Starts with 'V' — 9 letters"
   },
   {
@@ -2477,7 +2477,7 @@
     "flag": "🇦🇹",
     "continent": "Europe",
     "pop": "~9 million",
-    "borders": "CZE, DEU, HUN, ITA, LIE, SVK, SVN, CHE",
+    "borders": "Czechia, Germany, Hungary, Italy, Liechtenstein, Slovakia, Slovenia, Switzerland",
     "capital": "Vienna",
     "landmark": "Schönbrunn Palace",
     "hint": "Starts with 'A' — 7 letters"
@@ -2488,7 +2488,7 @@
     "flag": "🇸🇰",
     "continent": "Europe",
     "pop": "~5 million",
-    "borders": "AUT, CZE, HUN, POL, UKR",
+    "borders": "Austria, Czechia, Hungary, Poland, Ukraine",
     "capital": "Bratislava",
     "landmark": "Bratislava Castle",
     "hint": "Starts with 'S' — 8 letters"
@@ -2499,7 +2499,7 @@
     "flag": "🇨🇳",
     "continent": "Asia",
     "pop": "~1408 million",
-    "borders": "AFG, BTN, MMR, HKG, IND, KAZ, NPL, PRK, KGZ, LAO, MAC, MNG, PAK, RUS, TJK, VNM",
+    "borders": "Afghanistan, Bhutan, Myanmar, Hong Kong, India, Kazakhstan, Nepal, North Korea, Kyrgyzstan, Laos, Macau, Mongolia, Pakistan, Russia, Tajikistan, Vietnam",
     "capital": "Beijing",
     "landmark": "Great Wall of China",
     "hint": "Starts with 'C' — 5 letters"
@@ -2510,7 +2510,7 @@
     "flag": "🇮🇴",
     "continent": "Africa",
     "pop": "~3000",
-    "borders": "",
+    "borders": "None",
     "capital": "Diego Garcia",
     "landmark": "Diego Garcia Atoll",
     "hint": "Two words — starts with 'British'"
@@ -2521,7 +2521,7 @@
     "flag": "🇵🇫",
     "continent": "Oceania",
     "pop": "~280,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Papeetē",
     "landmark": "Bora Bora Lagoon",
     "hint": "Two words — starts with 'French'"
@@ -2532,7 +2532,7 @@
     "flag": "🇧🇴",
     "continent": "South America",
     "pop": "~11 million",
-    "borders": "ARG, BRA, CHL, PRY, PER",
+    "borders": "Argentina, Brazil, Chile, Paraguay, Peru",
     "capital": "Sucre",
     "landmark": "Salar de Uyuni",
     "hint": "Starts with 'B' — 7 letters"
@@ -2543,7 +2543,7 @@
     "flag": "🇦🇶",
     "continent": "Antarctica",
     "pop": "~1000",
-    "borders": "",
+    "borders": "None",
     "landmark": "Mount Vinson",
     "hint": "Starts with 'A' — 10 letters"
   },
@@ -2553,7 +2553,7 @@
     "flag": "🇱🇾",
     "continent": "Africa",
     "pop": "~7 million",
-    "borders": "DZA, TCD, EGY, NER, SDN, TUN",
+    "borders": "Algeria, Chad, Egypt, Niger, Sudan, Tunisia",
     "capital": "Tripoli",
     "landmark": "Leptis Magna",
     "hint": "Starts with 'L' — 5 letters"
@@ -2564,7 +2564,7 @@
     "flag": "🇪🇪",
     "continent": "Europe",
     "pop": "~1 million",
-    "borders": "LVA, RUS",
+    "borders": "Latvia, Russia",
     "capital": "Tallinn",
     "landmark": "Tallinn Old Town",
     "hint": "Starts with 'E' — 7 letters"
@@ -2575,7 +2575,7 @@
     "flag": "🇨🇰",
     "continent": "Oceania",
     "pop": "~18,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Avarua",
     "landmark": "Aitutaki Lagoon",
     "hint": "Two words — starts with 'Cook'"
@@ -2586,7 +2586,7 @@
     "flag": "🇵🇷",
     "continent": "North America",
     "pop": "~3 million",
-    "borders": "",
+    "borders": "None",
     "capital": "San Juan",
     "landmark": "El Yunque National Forest",
     "hint": "Two words — starts with 'Puerto'"
@@ -2597,7 +2597,7 @@
     "flag": "🇧🇾",
     "continent": "Europe",
     "pop": "~9 million",
-    "borders": "LVA, LTU, POL, RUS, UKR",
+    "borders": "Latvia, Lithuania, Poland, Russia, Ukraine",
     "capital": "Minsk",
     "landmark": "Mir Castle",
     "hint": "Starts with 'B' — 7 letters"
@@ -2608,7 +2608,7 @@
     "flag": "🇫🇴",
     "continent": "Europe",
     "pop": "~53,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Tórshavn",
     "landmark": "Saksun Village",
     "hint": "Two words — starts with 'Faroe'"
@@ -2619,7 +2619,7 @@
     "flag": "🇻🇨",
     "continent": "North America",
     "pop": "~110,000",
-    "borders": "",
+    "borders": "None",
     "capital": "Kingstown",
     "landmark": "La Soufrière Volcano",
     "hint": "Two words — starts with 'Saint'"
@@ -2630,7 +2630,7 @@
     "flag": "🇩🇴",
     "continent": "North America",
     "pop": "~11 million",
-    "borders": "HTI",
+    "borders": "Haiti",
     "capital": "Santo Domingo",
     "landmark": "Zona Colonial (Colonial Zone) – Santo Domingo",
     "hint": "Two words — starts with 'Dominican'"
@@ -2641,7 +2641,7 @@
     "flag": "🇭🇺",
     "continent": "Europe",
     "pop": "~10 million",
-    "borders": "AUT, HRV, ROU, SRB, SVK, SVN, UKR",
+    "borders": "Austria, Croatia, Romania, Serbia, Slovakia, Slovenia, Ukraine",
     "capital": "Budapest",
     "landmark": "Buda Castle",
     "hint": "Starts with 'H' — 7 letters"
@@ -2652,7 +2652,7 @@
     "flag": "🇧🇭",
     "continent": "Asia",
     "pop": "~2 million",
-    "borders": "",
+    "borders": "None",
     "capital": "Manama",
     "landmark": "Bahrain Fort (Qal'at al-Bahrain)",
     "hint": "Starts with 'B' — 7 letters"
@@ -2663,7 +2663,7 @@
     "flag": "🇨🇲",
     "continent": "Africa",
     "pop": "~29 million",
-    "borders": "CAF, TCD, COG, GNQ, GAB, NGA",
+    "borders": "Central African Republic, Chad, Republic of the Congo, Equatorial Guinea, Gabon, Nigeria",
     "capital": "Yaoundé",
     "landmark": "Mount Cameroon",
     "hint": "Starts with 'C' — 8 letters"
@@ -2674,7 +2674,7 @@
     "flag": "🇨🇦",
     "continent": "North America",
     "pop": "~42 million",
-    "borders": "USA",
+    "borders": "United States of America",
     "capital": "Ottawa",
     "landmark": "Niagara Falls",
     "hint": "Starts with 'C' — 6 letters"
@@ -2685,7 +2685,7 @@
     "flag": "🇪🇷",
     "continent": "Africa",
     "pop": "~4 million",
-    "borders": "DJI, ETH, SDN",
+    "borders": "Djibouti, Ethiopia, Sudan",
     "capital": "Asmara",
     "landmark": "Asmara’s Fiat Tagliero Building",
     "hint": "Starts with 'E' — 7 letters"
@@ -2696,7 +2696,7 @@
     "flag": "🇸🇬",
     "continent": "Asia",
     "pop": "~6 million",
-    "borders": "",
+    "borders": "Malaysia",
     "capital": "Singapore",
     "landmark": "Marina Bay Sands",
     "hint": "Starts with 'S' — 9 letters"
@@ -2705,9 +2705,9 @@
     "name": "Costa Rica",
     "code": "cr",
     "flag": "🇨🇷",
-    "continent": "Americas / Central America",
+    "continent": "North America",
     "pop": "~5 million",
-    "borders": "NIC, PAN",
+    "borders": "Nicaragua, Panama",
     "capital": "San José",
     "landmark": "Arenal Volcano",
     "hint": "Two words — starts with 'Costa'"
@@ -2718,7 +2718,7 @@
     "flag": "🇷🇸",
     "continent": "Europe",
     "pop": "~7 million",
-    "borders": "BIH, BGR, HRV, HUN, UNK, MKD, MNE, ROU",
+    "borders": "Bosnia and Herzegovina, Bulgaria, Croatia, Hungary, Kosovo, North Macedonia, Montenegro, Romania",
     "capital": "Belgrade",
     "landmark": "Belgrade Fortress (Kalemegdan)",
     "hint": "Starts with 'S' — 6 letters"
@@ -2729,7 +2729,7 @@
     "flag": "🇵🇱",
     "continent": "Europe",
     "pop": "~37 million",
-    "borders": "BLR, CZE, DEU, LTU, RUS, SVK, UKR",
+    "borders": "Belarus, Czechia, Germany, Lithuania, Russia, Slovakia, Ukraine",
     "capital": "Warsaw",
     "landmark": "Wawel Castle",
     "hint": "Starts with 'P' — 6 letters"
@@ -2740,7 +2740,7 @@
     "flag": "🇯🇴",
     "continent": "Asia",
     "pop": "~12 million",
-    "borders": "IRQ, ISR, PSE, SAU, SYR",
+    "borders": "Iraq, Israel, Palestine, Saudi Arabia, Syria",
     "capital": "Amman",
     "landmark": "Petra",
     "hint": "Starts with 'J' — 6 letters"

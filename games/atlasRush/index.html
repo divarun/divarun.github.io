@@ -1,111 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AtlasRush 🌍</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AtlasRush — Game Lab</title>
+  <meta name="description" content="Guess the mystery country in as few hints as possible.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
 <header>
-  <div class="logo">Atlas<span>Rush</span></div>
-  <div style="display:flex;align-items:center;gap:12px;">
-    <div class="streak-pill"><span class="flame">🔥</span> <span id="streak-count">0</span> streak</div>
-    <a href="../index.html" style="font-size:13px;color:var(--muted);text-decoration:none;transition:color 0.15s;" onmouseover="this.style.color='var(--text)'" onmouseout="this.style.color='var(--muted)'">← All Games</a>
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="../index.html" class="back-link" aria-label="Back to all games">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        All Games
+      </a>
+      <div class="logo">Atlas<em>Rush</em></div>
+    </div>
+    <div class="streak-pill" aria-label="Current streak" role="status">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+      <span id="streak-count">0</span> streak
+    </div>
   </div>
 </header>
 
-<div class="game-wrap">
-  <!-- Tabs -->
-  <div class="tabs">
-    <button class="tab-btn active" onclick="switchTab('play')">Play</button>
-    <button class="tab-btn" onclick="switchTab('how')">How to Play</button>
-    <button class="tab-btn" onclick="switchTab('scores')">Best Scores</button>
-  </div>
+<main id="main-content">
+  <div class="game-wrap">
 
-  <!-- PLAY TAB -->
-  <div class="tab-pane active" id="tab-play">
-    <div class="score-bar">
-      <div>
-        <div class="score-label">Score</div>
-        <div class="score-val" id="score-display">1000</div>
+    <div class="tabs" role="tablist" aria-label="Game sections">
+      <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-play" onclick="switchTab('play')">Play</button>
+      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-how" onclick="switchTab('how')">How to Play</button>
+      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-scores" onclick="switchTab('scores')">Best Scores</button>
+    </div>
+
+    <!-- PLAY TAB -->
+    <div class="tab-pane active" id="tab-play" role="tabpanel">
+
+      <div class="score-bar">
+        <div class="score-group">
+          <div class="score-label">Score</div>
+          <div class="score-val" id="score-display" aria-live="polite" aria-atomic="true">1000</div>
+        </div>
+        <div class="clue-counter" aria-live="polite">
+          Clue <strong id="clue-num">1</strong> of <strong id="clue-total">7</strong>
+        </div>
       </div>
-      <div class="clue-counter">Clue <strong id="clue-num">1</strong> of <strong id="clue-total">7</strong></div>
-    </div>
 
-    <div class="progress-row" id="progress-row"></div>
+      <div class="progress-row" id="progress-row" aria-label="Clue progress" role="img"></div>
 
-    <!-- Revealed clues -->
-    <div class="clues-stack" id="clues-stack"></div>
+      <div class="clues-stack" id="clues-stack" aria-live="polite" aria-label="Revealed clues"></div>
 
-    <!-- Locked upcoming clues -->
-    <div class="locked-row" id="locked-row"></div>
+      <div class="locked-row" id="locked-row" aria-label="Remaining clues"></div>
 
-    <!-- Input -->
-    <div class="input-area">
-      <input type="text" id="guess-input" placeholder="Type a country name..." autocomplete="off" autocorrect="off" spellcheck="false" />
-      <button class="btn" id="guess-btn" onclick="submitGuess()">Guess</button>
-    </div>
-    <div class="suggestions" id="suggestions"></div>
-    <div class="feedback" id="feedback"></div>
-
-    <!-- Hint row -->
-    <div class="hint-row">
-      <span class="hint-label">Next clue:</span>
-      <button class="btn-hint" id="reveal-btn" onclick="revealNextClue()">
-        <span id="reveal-icon">🔓</span> Reveal <span class="cost-badge" id="reveal-cost">−150 pts</span>
-      </button>
-      <button class="btn-hint" style="margin-left:auto" onclick="skipCountry()">Skip ↷</button>
-    </div>
-
-    <!-- Result card -->
-    <div class="result-card" id="result-card">
-      <span class="result-flag" id="res-flag"></span>
-      <div class="result-country" id="res-country"></div>
-      <div class="result-subtitle" id="res-subtitle"></div>
-      <div class="result-stats">
-        <div class="stat-box"><div class="stat-n" id="rs-score">—</div><div class="stat-lbl">Score</div></div>
-        <div class="stat-box"><div class="stat-n" id="rs-clues">—</div><div class="stat-lbl">Clues</div></div>
-        <div class="stat-box"><div class="stat-n" id="rs-streak">—</div><div class="stat-lbl">Streak</div></div>
+      <div class="input-area">
+        <label for="guess-input" class="sr-only">Enter your country guess</label>
+        <input type="text" id="guess-input" placeholder="Type a country name…" autocomplete="off" autocorrect="off" spellcheck="false" aria-describedby="feedback" />
+        <button class="btn-primary" id="guess-btn" onclick="submitGuess()">Guess</button>
       </div>
-      <div class="share-block" id="share-block"></div>
-      <button class="btn-share" onclick="copyShare()">Copy & Share Result 🌍</button>
-      <div class="copied-msg" id="copied-msg"></div>
-      <div class="next-row" style="margin-top:14px;">
-        <button class="btn-ghost" onclick="nextRound()">Next Country →</button>
+      <div class="suggestions" id="suggestions" role="listbox" aria-label="Country suggestions"></div>
+      <div class="feedback" id="feedback" aria-live="assertive" role="alert"></div>
+
+      <div class="hint-row">
+        <span class="hint-label" aria-hidden="true">Next clue</span>
+        <button class="btn-ghost" id="reveal-btn" onclick="revealNextClue()" aria-label="Reveal next clue">
+          Reveal <span class="cost-badge" id="reveal-cost">−150 pts</span>
+        </button>
+        <button class="btn-ghost btn-skip" onclick="skipCountry()" aria-label="Skip this country">Skip</button>
+      </div>
+
+      <!-- Result card -->
+      <div class="result-card" id="result-card" aria-live="polite" role="region" aria-label="Round result">
+        <div class="result-flag" id="res-flag"></div>
+        <div class="result-country" id="res-country"></div>
+        <div class="result-subtitle" id="res-subtitle"></div>
+        <div class="result-stats">
+          <div class="stat-box">
+            <div class="stat-n" id="rs-score">—</div>
+            <div class="stat-lbl">Score</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-n" id="rs-clues">—</div>
+            <div class="stat-lbl">Clues</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-n" id="rs-streak">—</div>
+            <div class="stat-lbl">Streak</div>
+          </div>
+        </div>
+        <div class="share-block" id="share-block" aria-label="Shareable result"></div>
+        <button class="btn-primary btn-share" onclick="copyShare()">Copy &amp; Share Result</button>
+        <div class="copied-msg" id="copied-msg" aria-live="polite"></div>
+        <div class="next-row">
+          <button class="btn-ghost" onclick="nextRound()">Next Country →</button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- HOW TO PLAY TAB -->
-  <div class="tab-pane" id="tab-how">
-    <ul class="how-list">
-      <li class="how-item"><div class="how-num">1</div><div class="how-text">A mystery country is chosen. You start with <strong>1 clue</strong> — the continent.</div></li>
-      <li class="how-item"><div class="how-num">2</div><div class="how-text">Type your guess and hit <strong>Guess</strong>. A country suggestions list appears as you type.</div></li>
-      <li class="how-item"><div class="how-num">3</div><div class="how-text">Wrong? <strong>Reveal the next clue</strong> for −150 pts, or guess again. More clues = lower score.</div></li>
-      <li class="how-item"><div class="how-num">4</div><div class="how-text">You have <strong>7 clues</strong>: Continent → Population → Flag → Borders → Capital → Landmark → Letter hint.</div></li>
-      <li class="how-item"><div class="how-num">5</div><div class="how-text">Guess on clue 1 = <strong>1000 pts</strong>. Each clue costs 150 pts. Each wrong guess costs 50 pts.</div></li>
-      <li class="how-item"><div class="how-num">6</div><div class="how-text">Build a <strong>streak</strong> by getting multiple countries right in a row. Share your emoji score grid!</div></li>
-    </ul>
-  </div>
-
-  <!-- SCORES TAB -->
-  <div class="tab-pane" id="tab-scores">
-    <div class="scores-list" id="scores-list">
-      <div style="color:var(--muted); font-size:14px; text-align:center; padding:24px 0;">No scores yet — play a round!</div>
+    <!-- HOW TO PLAY TAB -->
+    <div class="tab-pane" id="tab-how" role="tabpanel">
+      <ol class="how-list">
+        <li class="how-item">
+          <div class="how-num" aria-hidden="true">1</div>
+          <div class="how-text">A mystery country is chosen. You start with <strong>1 clue</strong> — the continent.</div>
+        </li>
+        <li class="how-item">
+          <div class="how-num" aria-hidden="true">2</div>
+          <div class="how-text">Type your guess and hit <strong>Guess</strong>. A suggestions list appears as you type.</div>
+        </li>
+        <li class="how-item">
+          <div class="how-num" aria-hidden="true">3</div>
+          <div class="how-text">Wrong? <strong>Reveal the next clue</strong> for −150 pts, or guess again. More clues = lower score.</div>
+        </li>
+        <li class="how-item">
+          <div class="how-num" aria-hidden="true">4</div>
+          <div class="how-text">You have <strong>7 clues</strong>: Continent → Population → Flag → Borders → Capital → Landmark → Letter hint.</div>
+        </li>
+        <li class="how-item">
+          <div class="how-num" aria-hidden="true">5</div>
+          <div class="how-text">Guess on clue 1 = <strong>1000 pts</strong>. Each clue costs 150 pts. Each wrong guess costs 50 pts.</div>
+        </li>
+        <li class="how-item">
+          <div class="how-num" aria-hidden="true">6</div>
+          <div class="how-text">Build a <strong>streak</strong> by getting multiple countries right in a row. Share your emoji score grid!</div>
+        </li>
+      </ol>
     </div>
+
+    <!-- SCORES TAB -->
+    <div class="tab-pane" id="tab-scores" role="tabpanel">
+      <div class="scores-list" id="scores-list">
+        <div class="scores-empty">No scores yet — play a round!</div>
+      </div>
+    </div>
+
   </div>
-</div>
+</main>
 
 <footer>
-  <div class="footer-left">
-    © <span id="year"></span> Divya Arunachalam
-    &nbsp;·&nbsp;
-    <a href="https://github.com/divarun" target="_blank">GitHub</a>
+  <div class="footer-inner">
+    <span class="footer-copy">© <span id="year"></span> Divya Arunachalam</span>
+    <span class="footer-divider" aria-hidden="true">·</span>
+    <a href="https://github.com/divarun" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+    <span class="footer-note">No tracking, no ads.</span>
   </div>
-  <div class="footer-right">Built for fun. No tracking, no ads.</div>
 </footer>
 
 <script src="game.js"></script>

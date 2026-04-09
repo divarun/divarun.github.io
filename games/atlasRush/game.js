@@ -107,10 +107,11 @@ let COUNTRIES = []; // placeholder
     function renderLocked() {
       const row = document.getElementById('locked-row');
       row.innerHTML = '';
+      const lockSVG = `<svg class="lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>`;
       for (let i = state.revealed; i < CLUE_KEYS.length; i++) {
         const pill = document.createElement('div');
         pill.className = 'locked-pill';
-        pill.innerHTML = `<span class="lock">🔒</span>${CLUE_LABELS[i]}`;
+        pill.innerHTML = `${lockSVG}${CLUE_LABELS[i]}`;
         row.appendChild(pill);
       }
     }
@@ -262,7 +263,7 @@ let COUNTRIES = []; // placeholder
     function renderScores() {
       const list = document.getElementById('scores-list');
       if (state.bestScores.length === 0) {
-        list.innerHTML = '<div style="color:var(--muted);font-size:14px;text-align:center;padding:24px 0;">No scores yet — play a round!</div>';
+        list.innerHTML = '<div class="scores-empty">No scores yet — play a round!</div>';
         return;
       }
       list.innerHTML = state.bestScores.map((s,i) => `
@@ -300,9 +301,6 @@ function initAutocomplete() {
     box.innerHTML = matches.map(name => {
       const country = COUNTRIES.find(c => c.name === name);
       return `<div class="sug-item" onclick="selectSuggestion('${name}')">
-                <span class="sug-flag">
-                  <img src="https://flagcdn.com/w40/${country.code}.png" style="width:20px;border-radius:3px;">
-                </span>
                 ${name}
               </div>`;
     }).join('');
@@ -320,26 +318,6 @@ function initAutocomplete() {
 
 
 
-    document.getElementById('guess-input').addEventListener('input', function() {
-      const val = this.value.trim().toLowerCase();
-      if (!val || val.length < 1) { hideSuggestions(); return; }
-      const matches = allCountries.filter(n => n.toLowerCase().startsWith(val)).slice(0, 6);
-      if (matches.length === 0) { hideSuggestions(); return; }
-
-      const box = document.getElementById('suggestions');
-      box.innerHTML = matches.map(n => {
-        const flag = COUNTRIES.find(c => c.name === n)?.flag || '🌐';
-        return `<div class="sug-item" onclick="selectSuggestion('${n}')"><span class="sug-flag">
-    <img src="https://flagcdn.com/w40/${COUNTRIES.find(c=>c.name===n).code}.png" style="width:20px;border-radius:3px;">
-  </span>${n}</div>`;
-      }).join('');
-      box.className = 'suggestions show';
-    });
-
-    document.getElementById('guess-input').addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') submitGuess();
-    });
-
     function selectSuggestion(name) {
       document.getElementById('guess-input').value = name;
       hideSuggestions();
@@ -350,15 +328,13 @@ function initAutocomplete() {
       document.getElementById('suggestions').className = 'suggestions';
     }
 
-    document.addEventListener('click', function(e) {
-      if (!e.target.closest('#guess-input') && !e.target.closest('#suggestions')) hideSuggestions();
-    });
-
     // ─── TABS ───
     function switchTab(id) {
+      const ids = ['play','how','scores'];
       document.querySelectorAll('.tab-btn').forEach((b,i) => {
-        const ids = ['play','how','scores'];
-        b.classList.toggle('active', ids[i] === id);
+        const active = ids[i] === id;
+        b.classList.toggle('active', active);
+        b.setAttribute('aria-selected', active);
       });
       document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
       document.getElementById('tab-'+id).classList.add('active');

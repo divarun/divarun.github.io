@@ -1,290 +1,146 @@
 {
   "easy": [
-    [
-      "ACE",
-      "ACE",
-      "3 letters",
-      "Ace: to excel at something; also a playing card or tennis serve."
-    ],
-    [
-      "ETA",
-      "EAT",
-      "3 letters",
-      "Eat: to consume food; to corrode or wear away."
-    ],
-    [
-      "OPT",
-      "TOP",
-      "3 letters",
-      "Top: the highest point; to surpass or exceed."
-    ],
-    [
-      "RAN",
-      "RAN",
-      "3 letters",
-      "Ran: past tense of run; moved swiftly on foot."
-    ],
-    [
-      "ACT",
-      "CAT",
-      "3 letters",
-      "Cat: a small domesticated carnivorous mammal."
-    ],
-    [
-      "APT",
-      "TAP",
-      "3 letters",
-      "Tap: to strike lightly; a device controlling flow."
-    ],
-    [
-      "TARS",
-      "RATS",
-      "4 letters",
-      "Rats: small rodents; also slang for betrayers."
-    ],
-    [
-      "PEST",
-      "STEP",
-      "4 letters",
-      "Step: a movement of the foot; a stage in a process."
-    ],
-    [
-      "FLOW",
-      "WOLF",
-      "4 letters",
-      "Wolf: a wild carnivorous mammal; to eat greedily."
-    ],
-    [
-      "BALE",
-      "ABLE",
-      "4 letters",
-      "Able: having the power or skill to do something."
-    ],
-    [
-      "STEW",
-      "WEST",
-      "4 letters",
-      "West: the direction of the setting sun."
-    ],
-    [
-      "EKAL",
-      "LAKE",
-      "4 letters",
-      "Lake: a large body of water surrounded by land."
-    ],
-    [
-      "ERAC",
-      "CARE",
-      "4 letters",
-      "Care: concern for someone; to look after."
-    ],
-    [
-      "GNIK",
-      "KING",
-      "4 letters",
-      "King: a male monarch; the most powerful chess piece."
-    ],
-    [
-      "PLUM",
-      "LUMP",
-      "4 letters",
-      "Lump: a compact mass; to group together."
-    ],
-    [
-      "MIST",
-      "MIST",
-      "4 letters",
-      "Mist: thin fog; a fine spray of liquid."
-    ]
+    ["ACE","ACE","3 letters","Ace: to excel at something; also a playing card or tennis serve."],
+    ["ETA","EAT","3 letters","Eat: to consume food; to corrode or wear away."],
+    ["OPT","TOP","3 letters","Top: the highest point; to surpass or exceed."],
+    ["RAN","RAN","3 letters","Ran: past tense of run; moved swiftly on foot."],
+    ["ACT","CAT","3 letters","Cat: a small domesticated carnivorous mammal."],
+    ["APT","TAP","3 letters","Tap: to strike lightly; a device controlling flow."],
+    ["OAR","OAR","3 letters","Oar: a pole used to row a boat."],
+    ["ELM","ELM","3 letters","Elm: a tall deciduous tree with serrated leaves."],
+    ["MAD","DAM","3 letters","Dam: a barrier built across a river; to block."],
+    ["TEN","NET","3 letters","Net: a woven mesh; a score in tennis."],
+    ["GOD","DOG","3 letters","Dog: a domesticated carnivore kept as a pet."],
+    ["TUB","BUT","3 letters","But: except; however; a conjunction of contrast."],
+    ["PAS","SAP","3 letters","Sap: the fluid of a plant; to drain energy."],
+    ["NAP","PAN","3 letters","Pan: a flat cooking vessel; to criticize harshly."],
+    ["ARC","CAR","3 letters","Car: a wheeled motor vehicle for transport."],
+    ["OWN","NOW","3 letters","Now: at the present time; immediately."],
+    ["TARS","RATS","4 letters","Rats: small rodents; also slang for betrayers."],
+    ["PEST","STEP","4 letters","Step: a movement of the foot; a stage in a process."],
+    ["FLOW","WOLF","4 letters","Wolf: a wild carnivorous mammal; to eat greedily."],
+    ["BALE","ABLE","4 letters","Able: having the power or skill to do something."],
+    ["STEW","WEST","4 letters","West: the direction of the setting sun."],
+    ["EKAL","LAKE","4 letters","Lake: a large body of water surrounded by land."],
+    ["ERAC","CARE","4 letters","Care: concern for someone; to look after."],
+    ["GNIK","KING","4 letters","King: a male monarch; the most powerful chess piece."],
+    ["PLUM","LUMP","4 letters","Lump: a compact mass; to group together."],
+    ["MIST","MIST","4 letters","Mist: thin fog; a fine spray of liquid."],
+    ["TAPS","PAST","4 letters","Past: gone by in time; a previous period."],
+    ["LOOP","POOL","4 letters","Pool: a small body of water; a shared resource."],
+    ["MITE","TIME","4 letters","Time: the progression of events; to measure duration."],
+    ["SPIT","TIPS","4 letters","Tips: the pointed ends; helpful pieces of advice."],
+    ["LOOF","FOOL","4 letters","Fool: a person lacking sense; to trick someone."],
+    ["ELBA","BALE","4 letters","Bale: a large bound bundle of hay or cloth."],
+    ["PANS","SNAP","4 letters","Snap: to break sharply; a quick fastening device."],
+    ["MAST","TAMS","4 letters","Tams: beret-like caps originating in Scotland."],
+    ["DUEL","DUEL","4 letters","Duel: a formal combat between two people."],
+    ["ODRE","RODE","4 letters","Rode: past tense of ride; traveled on horseback."]
   ],
   "medium": [
-    [
-      "RCOKA",
-      "CROAK",
-      "5 letters",
-      "Croak: the sound a frog makes; to die (slang)."
-    ],
-    [
-      "TORSE",
-      "STORE",
-      "5 letters",
-      "Store: a place to buy goods; to keep for future use."
-    ],
-    [
-      "SEACH",
-      "CHASE",
-      "5 letters",
-      "Chase: to pursue; an act of running after someone."
-    ],
-    [
-      "TICKE",
-      "THICK",
-      "5 letters",
-      "Thick: having a large distance between surfaces; dense."
-    ],
-    [
-      "ELPAC",
-      "PLACE",
-      "5 letters",
-      "Place: a particular area; to put something somewhere."
-    ],
-    [
-      "RNGAE",
-      "RANGE",
-      "5 letters",
-      "Range: the area covered; a series between limits."
-    ],
-    [
-      "THIGR",
-      "RIGHT",
-      "5 letters",
-      "Right: correct; the direction opposite to left."
-    ],
-    [
-      "OCLCK",
-      "CLOCK",
-      "5 letters",
-      "Clock: a device that measures time."
-    ],
-    [
-      "RSEPA",
-      "SPARE",
-      "5 letters",
-      "Spare: to refrain from harming; extra, not used."
-    ],
-    [
-      "ATRHS",
-      "SHARP",
-      "5 letters",
-      "Sharp: having a fine edge; mentally quick."
-    ],
-    [
-      "BOLCD",
-      "BLOCK",
-      "5 letters",
-      "Block: a solid piece; to obstruct or impede."
-    ],
-    [
-      "LAUTS",
-      "AULTS",
-      "5 letters",
-      "Faults: flaws or errors; a crack in rock strata."
-    ],
-    [
-      "AEVWR",
-      "WAFER",
-      "5 letters",
-      "Wafer: a thin crisp biscuit; a thin disk used in technology."
-    ],
-    [
-      "RENIG",
-      "REIGN",
-      "5 letters",
-      "Reign: the period of a monarch's rule; to hold power."
-    ],
-    [
-      "CIRTK",
-      "TRICK",
-      "5 letters",
-      "Trick: a clever act; to deceive someone."
-    ],
-    [
-      "SAMET",
-      "MATES",
-      "5 letters",
-      "Mates: companions or friends; checkmates in chess."
-    ]
+    ["RCOKA","CROAK","5 letters","Croak: the sound a frog makes; to die (slang)."],
+    ["TORSE","STORE","5 letters","Store: a place to buy goods; to keep for future use."],
+    ["SEACH","CHASE","5 letters","Chase: to pursue; an act of running after someone."],
+    ["TICKE","THICK","5 letters","Thick: having a large distance between surfaces; dense."],
+    ["ELPAC","PLACE","5 letters","Place: a particular area; to put something somewhere."],
+    ["RNGAE","RANGE","5 letters","Range: the area covered; a series between limits."],
+    ["THIGR","RIGHT","5 letters","Right: correct; the direction opposite to left."],
+    ["OCLCK","CLOCK","5 letters","Clock: a device that measures time."],
+    ["RSEPA","SPARE","5 letters","Spare: to refrain from harming; extra, not used."],
+    ["CIRTK","TRICK","5 letters","Trick: a clever act; to deceive someone."],
+    ["SAMET","MATES","5 letters","Mates: companions or friends; checkmates in chess."],
+    ["ATRHS","SHARP","5 letters","Sharp: having a fine edge; mentally quick."],
+    ["RENIG","REIGN","5 letters","Reign: the period of a monarch's rule; to hold power."],
+    ["BNACH","BENCH","5 letters","Bench: a long seat; a judge's seat in court."],
+    ["ALETB","TABLE","5 letters","Table: a flat surface on legs; to postpone a motion."],
+    ["IHCPT","PITCH","5 letters","Pitch: the degree of highness of sound; a playing field."],
+    ["TLBIA","TIBAL","5 letters","Trial: a formal legal examination; a test of quality."],
+    ["ODUNR","ROUND","5 letters","Round: circular in shape; a sequence or series."],
+    ["GAULH","LAUGH","5 letters","Laugh: to make sounds expressing amusement."],
+    ["ATLEF","FLETA","5 letters","Fleat: to skin or flay; a variant form of fleece."],
+    ["SEELP","SLEEP","5 letters","Sleep: a natural resting state; to be dormant."],
+    ["TOLSF","LOFTS","5 letters","Lofts: upper floors or attic spaces; to hit high."],
+    ["DRWIE","WEIRD","5 letters","Weird: strange or unusual; uncanny."],
+    ["PLIMT","TIMPL","5 letters","Limit: a point beyond which something cannot proceed."],
+    ["SNADL","LANDS","5 letters","Lands: areas of ground; to arrive by aircraft or boat."],
+    ["RCAEL","CLEAR","5 letters","Clear: free from obstruction; transparent."],
+    ["TELDM","MELT","5 letters","Melts: becomes liquid due to heat; softens emotionally."],
+    ["SDWIN","WINDS","5 letters","Winds: moving air; to turn or coil around something."],
+    ["RUONB","BURNS","5 letters","Burns: injuries from fire; a Scottish stream."],
+    ["EORST","STORE","5 letters","Tores: large convex moldings in architecture."],
+    ["GAREL","GLARE","5 letters","Glare: a fierce or angry stare; harsh bright light."],
+    ["CTAHM","MATCH","5 letters","Match: a contest; a thin stick for lighting fire."]
   ],
   "hard": [
-    [
-      "SATLEP",
-      "PLATES",
-      "6 letters",
-      "Plates: flat dishes; tectonic slabs of Earth's crust."
-    ],
-    [
-      "NGLOAR",
-      "GROAN",
-      "6 letters",
-      "Groan: a deep sound of pain or unhappiness."
-    ],
-    [
-      "RETINA",
-      "RETAIN",
-      "6 letters",
-      "Retain: to keep possession of; to remember."
-    ],
-    [
-      "GREETD",
-      "GREET",
-      "6 letters",
-      "Greet: to welcome or acknowledge someone's arrival."
-    ],
-    [
-      "TRESAM",
-      "MASTER",
-      "6 letters",
-      "Master: an expert; to acquire complete skill in."
-    ],
-    [
-      "LOTBAS",
-      "BLOATS",
-      "6 letters",
-      "Bloats: swells with liquid or gas; inflates abnormally."
-    ],
-    [
-      "ELPRUZ",
-      "PUZZLE",
-      "6 letters",
-      "Puzzle: a problem for creative thinking; to confuse."
-    ],
-    [
-      "SEARGF",
-      "GRAPES",
-      "6 letters",
-      "Grapes: small juicy fruits used to make wine."
-    ],
-    [
-      "MARKES",
-      "MAKERS",
-      "6 letters",
-      "Makers: people who create or manufacture things."
-    ],
-    [
-      "TARIFS",
-      "CRAFTS",
-      "6 letters",
-      "Crafts: skilled handwork; to make with skill."
-    ],
-    [
-      "PALTNS",
-      "PLANTS",
-      "6 letters",
-      "Plants: living organisms that photosynthesize; factories."
-    ],
-    [
-      "STEAMP",
-      "STAMPS",
-      "6 letters",
-      "Stamps: marks made by pressing; postage labels."
-    ],
-    [
-      "TINREP",
-      "SPRINT",
-      "6 letters",
-      "Sprint: to run at full speed; a short fast race."
-    ],
-    [
-      "RELGAB",
-      "GARBLE",
-      "6 letters",
-      "Garble: to mix up a message until it is confused."
-    ],
-    [
-      "SNOTRE",
-      "SNORTS",
-      "6 letters",
-      "Snorts: makes a sharp sound through the nose."
-    ]
+    ["SATLEP","PLATES","6 letters","Plates: flat dishes; tectonic slabs of Earth's crust."],
+    ["RETINA","RETAIN","6 letters","Retain: to keep possession of; to remember."],
+    ["TRESAM","MASTER","6 letters","Master: an expert; to acquire complete skill in."],
+    ["ELPRUZ","PUZZLE","6 letters","Puzzle: a problem for creative thinking; to confuse."],
+    ["PALTNS","PLANTS","6 letters","Plants: living organisms that photosynthesize; factories."],
+    ["STEAMP","STAMPS","6 letters","Stamps: marks made by pressing; postage labels."],
+    ["RELGAB","GARBLE","6 letters","Garble: to mix up a message until it is confused."],
+    ["MARKES","MAKERS","6 letters","Makers: people who create or manufacture things."],
+    ["LOTBAS","BLOATS","6 letters","Bloats: swells with liquid or gas; inflates abnormally."],
+    ["TARIFS","CRAFTS","6 letters","Crafts: skilled handwork; to make with skill."],
+    ["SNOTRE","SNORTS","6 letters","Snorts: makes a sharp sound through the nose."],
+    ["TLEANP","PLANET","6 letters","Planet: a celestial body orbiting a star."],
+    ["TLEABS","TABLES","6 letters","Tables: flat surfaces on legs; lists of data."],
+    ["ORCATN","CARTON","6 letters","Carton: a lightweight box made of cardboard."],
+    ["GDREAN","GARDEN","6 letters","Garden: a plot for growing plants; to tend plants."],
+    ["TNAHKU","HAUNT","6 letters","Haunta: places frequently visited; to repeatedly trouble."],
+    ["RLEADF","FLARED","6 letters","Flared: spread outward; burned with sudden brightness."],
+    ["SERTOF","FOREST","6 letters","Forest: a large area covered chiefly with trees."],
+    ["LCOSER","CLOSER","6 letters","Closer: nearer in distance; more intimate."],
+    ["NATLES","SLANTE","6 letters","Slated: scheduled; covered with slate tiles."],
+    ["DRTEAM","DREAMT","6 letters","Dreamt: past tense of dream; experienced visions in sleep."],
+    ["TPILSE","STIPLE","6 letters","Stipel: a small leaflike part at base of a leaflet."],
+    ["ALGEBT","BATTLE","6 letters","Battle: a fight between armies; to struggle vigorously."],
+    ["RCATEL","CLARET","6 letters","Claret: a type of dry red Bordeaux wine."],
+    ["TONDRA","RONDAT","6 letters","Rondeau: a short poem of fixed form with a refrain."],
+    ["NEGTIV","GIVING","6 letters","Giving: the act of donating; generous in nature."],
+    ["RESPTC","CREPTS","6 letters","Crepts: moved slowly and quietly."],
+    ["NISTEA","INSANE","6 letters","Insane: mentally ill; extremely foolish."],
+    ["RECSOF","FORCES","6 letters","Forces: physical powers; military units; to compel."],
+    ["TALBSE","STABLE","6 letters","Stable: firm; a building for horses; not changing."],
+    ["NRAGEL","ANGLER","6 letters","Angler: a person who fishes with a hook and line."],
+    ["LDAERG","GARLED","6 letters","Gnarled: knobbly and twisted, especially with age."]
+  ],
+  "expert": [
+    ["ORCEPMT","COMPUTE","7 letters","Compute: to calculate or process mathematically."],
+    ["ADNRGET","GRANTED","7 letters","Granted: given officially; acknowledged as true."],
+    ["LSEPTIC","ECLIPSE","7 letters","Eclipse: the obscuring of light by another body."],
+    ["TANEGOL","TANGELO","7 letters","Tangelo: a citrus fruit — a cross between tangerine and pomelo."],
+    ["PLTAFOR","FLATROP","7 letters","Flatrop: a vessel with a flat upper deck."],
+    ["STEGMNA","MAGNETS","7 letters","Magnets: objects that attract iron; things with powerful appeal."],
+    ["RTOHBLC","BLOTCHY","7 letters","Blotchy: covered with irregular patches of color."],
+    ["TRMAELD","TRAMLED","7 letters","Trampled: walked heavily over; crushed underfoot."],
+    ["PCIRTUE","PICTURE","7 letters","Picture: a painting, drawing, or photograph; to visualize."],
+    ["ADGERNT","GRANTED","7 letters","Gnarled: twisted and knobbly; worn with age."],
+    ["TCNAOLP","CANT OLP","7 letters","Topical: relating to current events; applied to a body part."],
+    ["NLEYCAB","BALCONY","7 letters","Balcony: a platform projecting from a building's wall."],
+    ["EIMRPTU","IMPUTER","7 letters","Compute: to reckon or calculate a result."],
+    ["NTOCAPS","CATNOPS","7 letters","Catnaps: short sleeps; to sleep briefly."],
+    ["ADSTEPR","RASPED","7 letters","Raspers: things that scrape or grate roughly."],
+    ["ARLSTEP","PLASTER","7 letters","Plaster: a paste hardening when dry; to cover a surface."],
+    ["LSNTAEP","PLANETS","7 letters","Planets: large spherical bodies orbiting a star."],
+    ["ANRTWSE","WASTERS","7 letters","Wasters: people who waste resources; spoiled pieces."],
+    ["EPCRUTS","ERUPCTS","7 letters","Eructs: belches; emits from within suddenly."],
+    ["SROCTEM","COMSTER","7 letters","Comets: icy space bodies with bright tails near the sun."],
+    ["EGRIMNT","TERMING","7 letters","Terming: naming or calling something; setting a term."],
+    ["PCATSLE","CAPSLET","7 letters","Caplets: small tablet-shaped capsules of medicine."],
+    ["RTPSAIN","PATRISM","7 letters","Patrism: devotion to patriarchal authority systems."],
+    ["LDRAEPT","PLATERD","7 letters","Plastered: covered with plaster; very drunk (informal)."],
+    ["GEANLST","TANGLES","7 letters","Tangles: twisted knots; to become entangled."],
+    ["NTRACED","TRANCED","7 letters","Tranced: put into a state of trance."],
+    ["CLESRUT","CLUSTER","7 letters","Cluster: a group of similar things close together."],
+    ["ESPRNTC","CENTERS","7 letters","Centers: middle points; main institutions of activity."],
+    ["ALDSPERT","SPATLED","8 letters","Spatula: a broad flat bladed utensil for mixing."],
+    ["TERNPICS","SPRINTED","8 letters","Sprinted: ran at full speed over a short distance."],
+    ["LACTERMS","CLAMTERS","8 letters","Clambers: climbs awkwardly using hands and feet."],
+    ["APCKLEST","STACKPLE","8 letters","Stackpile: an accumulated pile of stored goods."],
+    ["NSTERCAP","PRANCEST","8 letters","Prancest: moved by springing forward on hind legs."],
+    ["GRELSTAMP","STAMPGREL","9 letters","Stampede: a sudden rush of frightened animals or people."],
+    ["LNORSCAPE","CORNPLASE","9 letters","Cornplace: a market or trading location for grain."],
+    ["TRAPSCEND","CARPENTER","9 letters","Carpenter: a person who makes and repairs wooden objects."]
   ]
 }
