@@ -148,7 +148,7 @@
     "landmark": "Koutammakou – The Land of the Batammariba",
     "hint": "Starts with 'T' — 4 letters",
     "difficulty": "easy",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/500px-Flag_of_Togo.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Togo_Taberma_house_02.jpg/960px-Togo_Taberma_house_02.jpg"
   },
   {
     "name": "Finland",
@@ -161,7 +161,7 @@
     "landmark": "Suomenlinna Sea Fortress",
     "hint": "Starts with 'F' — 7 letters",
     "difficulty": "easy",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/500px-Flag_of_Finland.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Suomenlinna_aerial.JPG/960px-Suomenlinna_aerial.JPG"
   },
   {
     "name": "Malawi",
@@ -213,7 +213,7 @@
     "landmark": "Gorée Island",
     "hint": "Starts with 'S' — 7 letters",
     "difficulty": "easy",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/500px-Flag_of_Senegal.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Ile-de-goree.jpg/960px-Ile-de-goree.jpg"
   },
   {
     "name": "Uganda",
@@ -265,7 +265,7 @@
     "landmark": "Mont Orgueil Castle",
     "hint": "Starts with 'J' — 6 letters",
     "difficulty": "hard",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Flag_of_Jersey.svg/500px-Flag_of_Jersey.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/L%C3%A9_Vi%C3%A8r_Ch%C3%A2t%C3%A9_Septembre_2009.jpg/500px-L%C3%A9_Vi%C3%A8r_Ch%C3%A2t%C3%A9_Septembre_2009.jpg"
   },
   {
     "name": "Tuvalu",
@@ -278,7 +278,7 @@
     "landmark": "Funafuti Atoll",
     "hint": "Starts with 'T' — 6 letters",
     "difficulty": "hard",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/500px-Flag_of_Tuvalu.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Fetu_Ao_Lima_%28Morning_Star_Church%29%2C_Congregational_Christian_Church_of_Tuvalu.jpg/960px-Fetu_Ao_Lima_%28Morning_Star_Church%29%2C_Congregational_Christian_Church_of_Tuvalu.jpg"
   },
   {
     "name": "Japan",
@@ -454,7 +454,7 @@
     "landmark": "Visoki Dečani Monastery",
     "hint": "Starts with 'K' — 6 letters",
     "difficulty": "medium",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/500px-Flag_of_Kosovo.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Manastir_Visoki_De%C4%8Dani_%28%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_%D0%92%D0%B8%D1%81%D0%BE%D0%BA%D0%B8_%D0%94%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%29_-_by_Pudelek..jpg/960px-Manastir_Visoki_De%C4%8Dani_%28%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_%D0%92%D0%B8%D1%81%D0%BE%D0%BA%D0%B8_%D0%94%D0%B5%D1%87%D0%B0%D0%BD%D0%B8%29_-_by_Pudelek..jpg"
   },
   {
     "name": "Morocco",
@@ -506,7 +506,7 @@
     "landmark": "Sant Joan de Caselles Church",
     "hint": "Starts with 'A' — 7 letters",
     "difficulty": "hard",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/500px-Flag_of_Andorra.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Esgl%C3%A9sia_de_Sant_Joan_de_Caselles_-_10.jpg/960px-Esgl%C3%A9sia_de_Sant_Joan_de_Caselles_-_10.jpg"
   },
   {
     "name": "Palau",
@@ -545,7 +545,7 @@
     "landmark": "Grace Bay Beach",
     "hint": "Two words — starts with 'Turks'",
     "difficulty": "hard",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg/500px-Flag_of_the_Turks_and_Caicos_Islands.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Turtle_Cove_Providenciales_Beach.jpg/960px-Turtle_Cove_Providenciales_Beach.jpg"
   },
   {
     "name": "Saudi Arabia",
@@ -755,7 +755,7 @@
     "landmark": "Big Ben (Mawson Peak)",
     "hint": "Two words — starts with 'Heard'",
     "difficulty": "hard",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/500px-Flag_of_Australia_%28converted%29.svg.png",
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Heard_Island_%28cropped%29.jpg/960px-Heard_Island_%28cropped%29.jpg",
     "capital": "None"
   },
   {
@@ -1242,7 +1242,7 @@
     "landmark": "La Soufrière",
     "hint": "Starts with 'G' — 10 letters",
     "difficulty": "hard",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/500px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Soufriere.jpg/960px-Soufriere.jpg"
   },
   {
     "name": "Dominica",
@@ -1268,7 +1268,7 @@
     "landmark": "Honiara Memorial",
     "hint": "Two words — starts with 'Solomon'",
     "difficulty": "medium",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Visale%2C_Solomon_Islands.JPG/500px-Visale%2C_Solomon_Islands.JPG"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/0/05/Guadalcanal_American_Memorial.jpg"
   },
   {
     "name": "Saint Pierre and Miquelon",
@@ -1346,7 +1346,7 @@
     "landmark": "Atafu Atoll",
     "hint": "Starts with 'T' — 7 letters",
     "difficulty": "hard",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Tokelau.svg/500px-Flag_of_Tokelau.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Atafu.jpg/960px-Atafu.jpg"
   },
   {
     "name": "Montenegro",
@@ -1359,7 +1359,7 @@
     "landmark": "Durmitor National Park",
     "hint": "Starts with 'M' — 10 letters",
     "difficulty": "medium",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/500px-Flag_of_Montenegro.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Durmitor.jpg/960px-Durmitor.jpg"
   },
   {
     "name": "Åland Islands",
@@ -1424,7 +1424,7 @@
     "landmark": "Seven Mile Beach",
     "hint": "Two words — starts with 'Cayman'",
     "difficulty": "hard",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_the_Cayman_Islands.svg/500px-Flag_of_the_Cayman_Islands.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Seven_Mile_Beach_cayman_sun.jpg/500px-Seven_Mile_Beach_cayman_sun.jpg"
   },
   {
     "name": "Kazakhstan",
@@ -1560,7 +1560,7 @@
     "landmark": "Saipan Island Beaches",
     "hint": "Two words — starts with 'Northern'",
     "difficulty": "hard",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/500px-Flag_of_the_Northern_Mariana_Islands.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/ManagahaIsland.jpg/960px-ManagahaIsland.jpg"
   },
   {
     "name": "Ukraine",
@@ -1599,7 +1599,7 @@
     "landmark": "Iskanderkul Lake",
     "hint": "Starts with 'T' — 10 letters",
     "difficulty": "easy",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tajikistan_Map_TI-map.gif/500px-Tajikistan_Map_TI-map.gif"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Iskander-kul%2C_Tajikistan.JPG/960px-Iskander-kul%2C_Tajikistan.JPG"
   },
   {
     "name": "Malaysia",
@@ -1814,7 +1814,7 @@
     "alts": [
       "viet nam"
     ],
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/500px-Flag_of_Vietnam.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ha_Long_Bay_in_2019.jpg/960px-Ha_Long_Bay_in_2019.jpg"
   },
   {
     "name": "Bangladesh",
@@ -1905,7 +1905,7 @@
     "landmark": "Soufrière Hills Volcano",
     "hint": "Starts with 'M' — 10 letters",
     "difficulty": "hard",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/500px-Flag_of_Montserrat.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Soufriere_Hills.jpg/960px-Soufriere_Hills.jpg"
   },
   {
     "name": "Anguilla",
@@ -2041,7 +2041,7 @@
     "landmark": "Malé Friday Mosque (Hukuru Miskiy)",
     "hint": "Starts with 'M' — 8 letters",
     "difficulty": "medium",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/500px-Flag_of_Maldives.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/6/66/Friday_mosque_minaret_Male1981.jpg"
   },
   {
     "name": "Ghana",
@@ -2111,7 +2111,7 @@
     "landmark": "Orheiul Vechi",
     "hint": "Starts with 'M' — 7 letters",
     "difficulty": "medium",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/500px-Flag_of_Moldova.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Stanca_deasupra_Rautului_Butuceni.jpg/960px-Stanca_deasupra_Rautului_Butuceni.jpg"
   },
   {
     "name": "Liberia",
@@ -2124,7 +2124,7 @@
     "landmark": "Providence Island",
     "hint": "Starts with 'L' — 7 letters",
     "difficulty": "easy",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Rhode_Island.svg/500px-Flag_of_Rhode_Island.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Providence_Island_monument.jpg/500px-Providence_Island_monument.jpg"
   },
   {
     "name": "Liechtenstein",
@@ -2612,7 +2612,7 @@
     "landmark": "Old City of Sana'a",
     "hint": "Starts with 'Y' — 5 letters",
     "difficulty": "easy",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/500px-Flag_of_Yemen.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/San%27a03_flickr.jpg/960px-San%27a03_flickr.jpg"
   },
   {
     "name": "Equatorial Guinea",
@@ -2625,7 +2625,7 @@
     "landmark": "Malabo Cathedral",
     "hint": "Two words — starts with 'Equatorial'",
     "difficulty": "medium",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/500px-Flag_of_Equatorial_Guinea.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Santa_Isabel_Malabo_20131224_140204.jpg/500px-Santa_Isabel_Malabo_20131224_140204.jpg"
   },
   {
     "name": "Svalbard and Jan Mayen",
@@ -2742,7 +2742,7 @@
     "landmark": "Lope National Park",
     "hint": "Starts with 'G' — 5 letters",
     "difficulty": "medium",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/500px-Flag_of_Gabon.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Elephants_in_Lop%C3%A9_National_Park.JPG/960px-Elephants_in_Lop%C3%A9_National_Park.JPG"
   },
   {
     "name": "Sint Maarten",
@@ -2768,7 +2768,7 @@
     "landmark": "Sigiriya Rock Fortress",
     "hint": "Two words — starts with 'Sri'",
     "difficulty": "easy",
-    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/500px-Flag_of_Sri_Lanka.svg.png"
+    "landmark_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Sigiriya_%28141688197%29.jpeg/960px-Sigiriya_%28141688197%29.jpeg"
   },
   {
     "name": "Albania",
